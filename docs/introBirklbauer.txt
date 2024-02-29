@@ -1,0 +1,90 @@
+The discovery of new drugs – or generally compounds that can be used for new drugs – is a
+both expensive and time consuming process. From the identification of the first promising
+molecules (leads) over to clinical trials and until market release it is estimated that this process
+takes about 14 years and costs 800 million US dollars\cite{Wouters2020}. Efforts
+to shorten this process and to minimize costs is an obvious and logical conclusion. For finding
+new leads two different approaches have been established in the past: High-throughput
+screening (HTS) and virtual screening (VS).\\
+
+In HTS a large number of molecules are tested for their impact on a specific target, usually a
+protein, by addressing whether the molecule biochemically reacts with the target or not. This is
+done on so called HTS assays and compounds showing positive results (hits) are then used for
+further research. It is important that these positive hits are further analysed and re-confirmed as
+actually being positive because in case of a false positive a lot of time and money could
+potentially be wasted. Contrary, false negative results could mean that a valuable drug candidate
+will not be further considered, although this tends to be only an issue if there are no positives
+found at all. It should be emphasized however that the goal of HTS is not to find all potential
+candidates in a library collection of compounds but enough to have as set for initial discovery
+efforts. HTS is a time-consuming process, requires specific infrastructure and has low success
+rates of below 5\%, yet it still has been the method of choice for the last 20 years (Kontoyianni,
+2017).
+One the other hand, while HTS is an experimental, in vitro approach the contrary is the case for
+VS which is a theoretical, in silico approach. In VS a digital library of chemically diverse
+compounds is screened for leads. Since VS is a computational method it is faster, more costefficient and less resource intensive than its counterpart HTS (Tang \& Marshall, 2011). VS can
+be further divided into two sub-categories, namely ligand-based virtual screening (LBVS) and
+structure-based virtual screening (SBVS). In LBVS strategies the structure-activity data from a
+set of known, active ligands is used to identify possible targets for experimental evaluation.
+Among the methods used in LBVS are similarity and substructure searching, quantitative
+structure-activity relationships and 3D shape matching. On the other hand, SBVS makes use of
+the 3D structure of the biological target. Consequentially the structure of the target has to be
+either known beforehand or analysed via X-ray crystallography, NMR spectroscopy or
+computationally via homology modelling. Then a set of ligands is fitted into the binding site of
+the target (docking) and a score – usually based on the predicted binding affinity – is used to
+rank the ligands and determine if they are active or not (Lavecchia \& Di Giovanni, 2013).
+SBVS can be further sub-divided by distinguishing approaches that use rigid docking versus
+approaches that use flexible docking (McInnes, 2007). In rigid-body docking the ligand is
+searched in a six-dimensional translational or rotational space to fit in the binding pocket of the
+target protein. The complex is then evaluated in terms of shape of the fitted ligand and the
+binding site, as well as the electrostatic, van der Waals and Coulombic interactions that may
+2
+take place. The docking score is usually then the sum of these terms. The accuracy for rigidbody docking approaches tends to be much greater for bound complexes than in unbound
+complexes. Even though the structural differences between bound and unbound molecules are
+small they affect the docking accuracy noticeably (Pagadala, Syed \& Tuszynski, 2017).
+Biological targets are in fact not rigid in nature but adjust dynamically. However,
+experimentally resolved structures of targets with bound or unbound ligands are isolated
+snapshots and do not reflect the flexibility that happens in nature (Kontoyianni, 2017).
+Consequentially new docking approaches were developed that allowed ligand or receptor
+flexibility. In the simple case the softening of van der Vaals potentials – also called “soft
+docking” – can allow small overlaps between the receptor and the ligand in the binding pocket.
+The downside is that this may lead to an increase in false positives as more diverse structures
+are allowed to bind (Lavecchia \& Di Giovanni, 2013). The more sophisticated and most
+common approach in standard virtual docking studies is having a flexible ligand while fitting
+into a rigid receptor. Generally four different strategies are in use when docking a flexible
+ligand: The application of Monte Carlo methods; combinatorial search; ligand buildup
+algorithms, where ligands are built directly in the binding site of the protein; and site-mapping
+and fragment assembly which extends the ligand buildup approach by connecting molecular
+fragments to mapped functional groups in the binding site (Pagadala, Syed \& Tuszynski, 2017).
+In nature, however, the receptor is also flexible and the binding site is altered according to the
+orientation of the ligand by movement of the side chains (Pagadala, Syed \& Tuszynski, 2017).
+Therefore flexible receptor docking also became of scientific interest and first programs as well
+as theoretical approaches that are in constant development exist (Lavecchia \& Di Giovanni,
+2013). One of these approaches is ensemble docking where a ligand is docked into multiple
+conformations of the same protein (McInnes, 2007). The structures for ensemble docking are
+usually taken from the Protein Data Bank (PDB), if available, or from molecular dynamics
+simulations or from normal mode analyses (Berman et al., 2000; Kontoyianni, 2017).
+In all SBVS approaches docking is followed up by scoring of the ligands. Even though
+predicting one or more potential binding poses is possible most of the times with available
+docking methods, identifying the correct binding pose and ranking the ligands are still
+challenging tasks which are tackled by scoring functions. Firstly, scoring functions aim to
+identify the energetically preferred pose out of a set of bound poses that were generated by the
+docking algorithm for a single ligand. Secondly, the scoring function is used to rank different
+docked ligands in order to discriminate between active and inactive compounds. Scoring
+functions are a major research topic in the docking community with many problems still to be
+overcome and procedures to be refined. To name an example, one of the difficulties of scoring
+functions stems from the fact that a lot of factors, like molecular interactions, are not easy to
+parameterize. Generally existing scoring functions can be divided into three broad groups:
+Force field-based scoring functions, knowledge-based scoring functions and empirical scoring
+functions. Additionally, some scoring functions also combine these approaches (Lavecchia \&
+Di Giovanni, 2013).
+3
+In force field-based scoring functions the binding free energy is estimated by the sum of the
+independent molecular mechanic force field potentials like Coulomb, van der Waals and
+hydrogen bonds. Furthermore, solvation and entropy contributions are also considered in some
+cases. On the other hand in empirical scoring functions interaction terms like hydrogen bonds
+and hydrophobic contacts are estimated by fitting the scoring function to the experimental
+binding affinity data of a training dataset of protein-ligand complexes. Subsequently the binding
+free energy for the docked ligands is calculated as the weighted sum of these terms. Thirdly,
+knowledge-based scoring functions are exclusively derived by statistically analysing the atompair frequencies of known 3D structures from protein-ligand complexes (Lavecchia \& Di
+Giovanni, 2013).
+Since this work makes use of an SBVS approach, current developments and state of the art in
+the field are described in the following section

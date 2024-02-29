@@ -2379,8 +2379,25 @@
     <bcf:datasource type="file" datatype="bibtex">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">WikiReliquienschrein2022</bcf:citekey>
-    <bcf:citekey order="2">WikiReliquienschrein2022</bcf:citekey>
+    <bcf:citekey order="1">Myers2001</bcf:citekey>
+    <bcf:citekey order="2">DiMasi2003</bcf:citekey>
+    <bcf:citekey order="3">Mayr2008</bcf:citekey>
+    <bcf:citekey order="4">Gimeno2019</bcf:citekey>
+    <bcf:citekey order="5">Lavecchia2013</bcf:citekey>
+    <bcf:citekey order="6">Gimeno2019</bcf:citekey>
+    <bcf:citekey order="7">Pagadala2017</bcf:citekey>
+    <bcf:citekey order="8">Li2019</bcf:citekey>
+    <bcf:citekey order="9">Birklbauer2021</bcf:citekey>
+    <bcf:citekey order="10">WikiReliquienschrein2022</bcf:citekey>
+    <bcf:citekey order="11">Myers2001</bcf:citekey>
+    <bcf:citekey order="12">DiMasi2003</bcf:citekey>
+    <bcf:citekey order="13">Mayr2008</bcf:citekey>
+    <bcf:citekey order="14">Gimeno2019</bcf:citekey>
+    <bcf:citekey order="15">Lavecchia2013</bcf:citekey>
+    <bcf:citekey order="16">Pagadala2017</bcf:citekey>
+    <bcf:citekey order="17">Li2019</bcf:citekey>
+    <bcf:citekey order="18">Birklbauer2021</bcf:citekey>
+    <bcf:citekey order="19">WikiReliquienschrein2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
