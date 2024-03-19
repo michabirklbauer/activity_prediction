@@ -1,9 +1,9 @@
-PWD /home/falli/bac/activity_prediction/docs/Thesis
+PWD /home/bac/activity_prediction/docs/Thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/falli/bac/activity_prediction/docs/Thesis/main.tex
+INPUT /home/bac/activity_prediction/docs/Thesis/main.tex
 OUTPUT main.log
 INPUT ./hgbthesis.cls
 INPUT ./hgbthesis.cls
@@ -1972,6 +1972,13 @@ INPUT ./chapters/introduction.tex
 INPUT chapters/introduction.tex
 INPUT ./chapters/introduction.tex
 INPUT chapters/introduction.tex
+INPUT ./chapters/introduction_sections/introductionsection.tex
+INPUT ./chapters/introduction_sections/introductionsection.tex
+INPUT ./chapters/introduction_sections/introductionsection.tex
+INPUT chapters/introduction_sections/introductionsection.tex
+INPUT ./chapters/introduction_sections/introductionsection.tex
+INPUT ./chapters/introduction_sections/introductionsection.tex
+INPUT chapters/introduction_sections/introductionsection.tex
 INPUT ./chapters/methods.tex
 INPUT ./chapters/methods.tex
 INPUT ./chapters/methods.tex
