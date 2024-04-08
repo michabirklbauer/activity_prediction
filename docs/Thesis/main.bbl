@@ -337,6 +337,59 @@
       \endverb
       \keyw{high-throughput screening,lead finding,drug discovery,miniaturization,automation}
     \endentry
+    \entry{Morris2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=a268d7ffe43e1135008a053772900304}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Connor},
+           giveni={C\bibinitperiod}}}%
+        {{hash=71c46e8e0985c9add26d5f3271da7e75}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=da29ba4f503acb3a01b85f70ee96ed2c}{%
+           family={Stark},
+           familyi={S\bibinitperiod},
+           given={Brenden},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a7b8673d2db2a5b9082d489d7eea9466}{%
+           family={Christopherson},
+           familyi={C\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=35475d957d644449c89f4c2286457606}{%
+           family={Della\bibnamedelima Corte},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{553039d752572651c4044c390364e521}
+      \strng{fullhash}{86d9d3b74981a3adf493207be0031017}
+      \strng{bibnamehash}{553039d752572651c4044c390364e521}
+      \strng{authorbibnamehash}{553039d752572651c4044c390364e521}
+      \strng{authornamehash}{553039d752572651c4044c390364e521}
+      \strng{authorfullhash}{86d9d3b74981a3adf493207be0031017}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Molecular docking tools are regularly used to computationally identify new molecules in virtual screening for drug discovery. However, docking tools suffer from inaccurate scoring functions with widely varying performance on different proteins. To enable more accurate ranking of active over inactive ligands in virtual screening, we created a machine learning consensus docking tool, MILCDock, that uses predictions from five traditional molecular docking tools to predict the probability a ligand binds to a protein. MILCDock was trained and tested on data from both the DUD-E and LIT-PCBA docking datasets and shows improved performance over traditional molecular docking tools and other consensus docking methods on the DUD-E dataset. LIT-PCBA targets proved to be difficult for all methods tested. We also find that DUD-E data, although biased, can be effective in training machine learning tools if care is taken to avoid DUD-E's biases during training.}
+      \field{journaltitle}{Journal of chemical information and modeling}
+      \field{month}{11}
+      \field{shorttitle}{{MILCDock}}
+      \field{title}{{MILCDock}: {Machine} {Learning} {Enhanced} {Consensus} {Docking} for {Virtual} {Screening} in {Drug} {Discovery}}
+      \field{volume}{62}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1021/acs.jcim.2c00705
+      \endverb
+      \verb{file}
+      \verb ResearchGate Link:https\://www.researchgate.net/publication/365205442_MILCDock_Machine_Learning_Enhanced_Consensus_Docking_for_Virtual_Screening_in_Drug_Discovery:
+      \endverb
+    \endentry
     \entry{Myers2001}{article}{}
       \name{author}{2}{}{%
         {{hash=63f525e0aae1e484a514832ab225f932}{%
