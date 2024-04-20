@@ -17,26 +17,33 @@
 \contentsline {subsection}{\numberline {2.1.1}Proteins}{4}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Interactions}{4}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Data partitioning}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Machine Learning approaches}{4}{section.2.3}%
-\contentsline {section}{\numberline {2.4}quality metrics}{4}{section.2.4}%
-\contentsline {section}{\numberline {2.5}hyperparameter search}{4}{section.2.5}%
-\contentsline {section}{\numberline {2.6}feature engineering}{4}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Results}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Performance per Protein-Complex}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Performance Overview -- Comparing ML-approaches}{5}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Discussion}{6}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusion}{6}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Improvements and outlook}{6}{section.4.2}%
-\contentsline {chapter}{\numberline {A}Technical Details}{7}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Supplementary Materials}{8}{appendix.B}%
-\contentsline {section}{\numberline {B.1}PDF Files}{8}{section.B.1}%
-\contentsline {paragraph}{Path: \nolinkurl {/}}{8}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Media Files}{8}{section.B.2}%
-\contentsline {paragraph}{Path: \nolinkurl {/media}}{8}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Online Sources (PDF Captures)}{8}{section.B.3}%
-\contentsline {paragraph}{Path: \nolinkurl {/online-sources}}{8}{section.B.3}%
-\contentsline {chapter}{\numberline {C}Questionnaire}{9}{appendix.C}%
-\contentsline {chapter}{\numberline {D}La\-TeX\xspace Source Code}{10}{appendix.D}%
-\contentsline {chapter}{References}{11}{appendix*.6}%
-\contentsline {section}{Literature}{11}{section*.7}%
-\contentsline {section}{Online sources}{12}{section*.8}%
+\contentsline {section}{\numberline {2.3}Machine-Learning approaches}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Quality metrics}{4}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Terminology}{4}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Visual metrics}{5}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Accuracy}{5}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}False positive Rate}{5}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Area under the curve}{5}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Yield of Actives}{5}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Enrichment Factor}{6}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Relative Enrichment Factor}{6}{subsection.2.4.8}%
+\contentsline {section}{\numberline {2.5}Feature engineering}{6}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Results}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Performance per Protein-Complex}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Performance Overview -- Comparing ML-approaches}{7}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Discussion}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusion}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Improvements and outlook}{8}{section.4.2}%
+\contentsline {chapter}{\numberline {A}Technical Details}{9}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Supplementary Materials}{10}{appendix.B}%
+\contentsline {section}{\numberline {B.1}PDF Files}{10}{section.B.1}%
+\contentsline {paragraph}{Path: \nolinkurl {/}}{10}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Media Files}{10}{section.B.2}%
+\contentsline {paragraph}{Path: \nolinkurl {/media}}{10}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Online Sources (PDF Captures)}{10}{section.B.3}%
+\contentsline {paragraph}{Path: \nolinkurl {/online-sources}}{10}{section.B.3}%
+\contentsline {chapter}{\numberline {C}Questionnaire}{11}{appendix.C}%
+\contentsline {chapter}{\numberline {D}La\-TeX\xspace Source Code}{12}{appendix.D}%
+\contentsline {chapter}{References}{13}{appendix*.6}%
+\contentsline {section}{Literature}{13}{section*.7}%
+\contentsline {section}{Online sources}{14}{section*.8}%

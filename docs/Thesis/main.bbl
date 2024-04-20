@@ -491,6 +491,176 @@
       \verb ResearchGate Link:https\://www.researchgate.net/publication/365205442_MILCDock_Machine_Learning_Enhanced_Consensus_Docking_for_Virtual_Screening_in_Drug_Discovery:
       \endverb
     \endentry
+    \entry{Lopes2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f7052306745752c94f30887be2dcac47}{%
+           family={Lopes},
+           familyi={L\bibinitperiod},
+           given={Julio\bibnamedelimb Cesar\bibnamedelima Dias},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ab1447f9b09456a1523a136cc18c1896}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Fábio\bibnamedelima Mendes},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={dos},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=c89a36cad8f027724c089554e0e7f14f}{%
+           family={Martins-José},
+           familyi={M\bibinithyphendelim J\bibinitperiod},
+           given={Andrelly},
+           giveni={A\bibinitperiod}}}%
+        {{hash=24f7974a3b6e4463c86cbcf71e21d948}{%
+           family={Augustyns},
+           familyi={A\bibinitperiod},
+           given={Koen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3fe43cf4684034554974c3e2f386899a}{%
+           family={De\bibnamedelima Winter},
+           familyi={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d44728042e540f56f5100bcd48238abc}
+      \strng{fullhash}{e40264f45bb9ab151da90f13aa524cc7}
+      \strng{bibnamehash}{d44728042e540f56f5100bcd48238abc}
+      \strng{authorbibnamehash}{d44728042e540f56f5100bcd48238abc}
+      \strng{authornamehash}{d44728042e540f56f5100bcd48238abc}
+      \strng{authorfullhash}{e40264f45bb9ab151da90f13aa524cc7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A new metric for the evaluation of model performance in the field of virtual screening and quantitative structure–activity relationship applications is described. This metric has been termed the power metric and is defined as the fraction of the true positive rate divided by the sum of the true positive and false positive rates, for a given cutoff threshold. The performance of this metric is compared with alternative metrics such as the enrichment factor, the relative enrichment factor, the receiver operating curve enrichment factor, the correct classification rate, Matthews correlation coefficient and Cohen’s kappa coefficient. The performance of this new metric is found to be quite robust with respect to variations in the applied cutoff threshold and ratio of the number of active compounds to the total number of compounds, and at the same time being sensitive to variations in model quality. It possesses the correct characteristics for its application in early-recognition virtual screening problems.}
+      \field{issn}{1758-2946}
+      \field{journaltitle}{Journal of Cheminformatics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shorttitle}{The power metric}
+      \field{title}{The power metric: a new statistically robust enrichment-type metric for virtual screening applications with early recovery capability}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{9}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s13321-016-0189-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Lopes2017 - The Power Metric_ a New Statistically Robust Enrichment Type Metric for Virtual Screening Applications with Early Recovery Capability.pdf:PDF:https\://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-016-0189-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s13321-016-0189-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s13321-016-0189-4
+      \endverb
+      \keyw{Power metric (PM),Virtual screening,Metric,Model performance,Enrichment factor,Area under the curve (AUC),Receiver operating curve enrichment factor (ROCE),Correct classification rate (CCR),Matthews correlation coefficient (MCC),Cohen’s kappa coefficient (CKC),Relative enrichment factor (REF)}
+    \endentry
+    \entry{Hossin2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=425b9eed30750545fe0da5bc878b2a39}{%
+           family={Hossin},
+           familyi={H\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c7111d574360df88d4c7cb25cea0f439}{%
+           family={M.N},
+           familyi={M\bibinitperiod},
+           given={Sulaiman},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e7d45c8843de3e68d6f3b75338f9992}
+      \strng{fullhash}{6e7d45c8843de3e68d6f3b75338f9992}
+      \strng{bibnamehash}{6e7d45c8843de3e68d6f3b75338f9992}
+      \strng{authorbibnamehash}{6e7d45c8843de3e68d6f3b75338f9992}
+      \strng{authornamehash}{6e7d45c8843de3e68d6f3b75338f9992}
+      \strng{authorfullhash}{6e7d45c8843de3e68d6f3b75338f9992}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Evaluation metric plays a critical role in achieving the optimal classifier during the classification training. Thus, a selection of suitable evaluation metric is an important key for discriminating and obtaining the optimal classifier. This paper systematically reviewed the related evaluation metrics that are specifically designed as a discriminator for optimizing generative classifier. Generally, many generative classifiers employ accuracy as a measure to discriminate the optimal solution during the classification training. However, the accuracy has several weaknesses which are less distinctiveness, less discriminability, less informativeness and bias to majority class data. This paper also briefly discusses other metrics that are specifically designed for discriminating the optimal solution. The shortcomings of these alternative metrics are also discussed. Finally, this paper suggests five important aspects that must be taken into consideration in constructing a new discriminator metric.}
+      \field{journaltitle}{International Journal of Data Mining \& Knowledge Management Process}
+      \field{month}{3}
+      \field{title}{A {Review} on {Evaluation} {Metrics} for {Data} {Classification} {Evaluations}}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{01\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.5121/ijdkp.2015.5201
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.researchgate.net/profile/Mohammad-Hossin/publication/275224157_A_Review_on_Evaluation_Metrics_for_Data_Classification_Evaluations/links/57b2c95008ae95f9d8f6154f/A-Review-on-Evaluation-Metrics-for-Data-Classification-Evaluations.pdf:application/pdf;ResearchGate Link:https\://www.researchgate.net/publication/275224157_A_Review_on_Evaluation_Metrics_for_Data_Classification_Evaluations:
+      \endverb
+    \endentry
+    \entry{Giordano2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f191c439a4afd409b0715bbc3a21a70b}{%
+           family={Giordano},
+           familyi={G\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+        {{hash=947140d849cb93fac89ca57d1c189943}{%
+           family={Biancaniello},
+           familyi={B\bibinitperiod},
+           given={Carmen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cca47c3ad091c8969f59945ecc449db8}{%
+           family={Argenio},
+           familyi={A\bibinitperiod},
+           given={Maria\bibnamedelima Antonia},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=55a77514101f47c1b7e71fcfc127c38d}{%
+           family={Facchiano},
+           familyi={F\bibinitperiod},
+           given={Angelo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{09e6034a29bab9a73548c87443e94c9c}
+      \strng{fullhash}{07c6609b3d047d861806848b749db8a4}
+      \strng{bibnamehash}{09e6034a29bab9a73548c87443e94c9c}
+      \strng{authorbibnamehash}{09e6034a29bab9a73548c87443e94c9c}
+      \strng{authornamehash}{09e6034a29bab9a73548c87443e94c9c}
+      \strng{authorfullhash}{07c6609b3d047d861806848b749db8a4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Computer-aided drug discovery techniques reduce the time and the costs needed to develop novel drugs. Their relevance becomes more and more evident with the needs due to health emergencies as well as to the diffusion of personalized medicine. Pharmacophore approaches represent one of the most interesting tools developed, by defining the molecular functional features needed for the binding of a molecule to a given receptor, and then directing the virtual screening of large collections of compounds for the selection of optimal candidates. Computational tools to create the pharmacophore model and to perform virtual screening are available and generated successful studies. This article describes the procedure of pharmacophore modelling followed by virtual screening, the most used software, possible limitations of the approach, and some applications reported in the literature.}
+      \field{issn}{1424-8247}
+      \field{journaltitle}{Pharmaceuticals}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Drug {Design} by {Pharmacophore} and {Virtual} {Screening} {Approach}}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{15}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{646}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ph15050646
+      \endverb
+      \verb{file}
+      \verb PubMed Central Link:Giordano2022 - Drug Design by Pharmacophore and Virtual Screening Approach.html:URL:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC9145410/;PubMed Central Full Text PDF:Giordano2022 - Drug Design by Pharmacophore and Virtual Screening Approach.pdf:PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC9145410/pdf/pharmaceuticals-15-00646.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9145410/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9145410/
+      \endverb
+    \endentry
     \entry{WikiReliquienschrein2022}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
