@@ -18,34 +18,50 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{Birklbauer2021}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=952ef77f6a16111852d2cb1ba808c210}{%
-           family={Birklbauer},
+  \datalist[entry]{none/global//global/global}
+    \entry{Myers2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=63f525e0aae1e484a514832ab225f932}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=88a5ef86ef28c730f2c65ededfd104c3}{%
+           family={Baker},
            familyi={B\bibinitperiod},
-           given={Micha\bibnamedelima Johannes},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           given={A.},
+           giveni={A\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {FH Hagenberg}%
+      \list{language}{1}{%
+        {eng}%
       }
-      \strng{namehash}{952ef77f6a16111852d2cb1ba808c210}
-      \strng{fullhash}{952ef77f6a16111852d2cb1ba808c210}
-      \strng{bibnamehash}{952ef77f6a16111852d2cb1ba808c210}
-      \strng{authorbibnamehash}{952ef77f6a16111852d2cb1ba808c210}
-      \strng{authornamehash}{952ef77f6a16111852d2cb1ba808c210}
-      \strng{authorfullhash}{952ef77f6a16111852d2cb1ba808c210}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \strng{namehash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
+      \strng{fullhash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
+      \strng{bibnamehash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
+      \strng{authorbibnamehash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
+      \strng{authornamehash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
+      \strng{authorfullhash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{31}
+      \field{issn}{1087-0156}
+      \field{journaltitle}{Nature Biotechnology}
       \field{month}{8}
-      \field{title}{Automatic identification of important interactionsand interaction-frequency-based scoring inprotein-ligand complexes}
-      \field{type}{mathesis}
-      \field{year}{2021}
+      \field{number}{8}
+      \field{title}{Drug discovery--an operating model for a new era}
+      \field{volume}{19}
+      \field{year}{2001}
       \field{dateera}{ce}
+      \field{pages}{727\bibrangedash 730}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/90765
+      \endverb
+      \verb{file}
+      \verb PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/11479559:text/html
+      \endverb
+      \keyw{Biotechnology,Chemistry,Drug Design,Drug Industry,Genome,Humans,Workforce}
     \endentry
     \entry{DiMasi2003}{article}{}
       \name{author}{3}{}{%
@@ -74,8 +90,8 @@
       \strng{authorbibnamehash}{54f0d89e6f5abb862f5a72b9be8577c6}
       \strng{authornamehash}{54f0d89e6f5abb862f5a72b9be8577c6}
       \strng{authorfullhash}{54f0d89e6f5abb862f5a72b9be8577c6}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The research and development costs of 68 randomly selected new drugs were obtained from a survey of 10 pharmaceutical firms. These data were used to estimate the average pre-tax cost of new drug development. The costs of compounds abandoned during testing were linked to the costs of compounds that obtained marketing approval. The estimated average out-of-pocket cost per new drug is 403 million US dollars (2000 dollars). Capitalizing out-of-pocket costs to the point of marketing approval at a real discount rate of 11\% yields a total pre-approval cost estimate of 802 million US dollars (2000 dollars). When compared to the results of an earlier study with a similar methodology, total capitalized costs were shown to have increased at an annual rate of 7.4\% above general price inflation.}
@@ -97,6 +113,58 @@
       \verb PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/12606142:text/html
       \endverb
       \keyw{Capital Expenditures,Costs and Cost Analysis,Data Collection,Drug Approval,Drug Evaluation,Drug Evaluation,Preclinical,Drug Industry,Drugs,Investigational,Humans,Inflation,Economic,Organizational Innovation,Research Support as Topic,United States}
+    \endentry
+    \entry{Mayr2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=da52bfcab2506700ea458d7e5d720bdc}{%
+           family={Mayr},
+           familyi={M\bibinitperiod},
+           given={Lorenz\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=47e61de4252a664e75216d7351daba82}{%
+           family={Fuerst},
+           familyi={F\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{419a9ba5f1746b20a79038395b50859d}
+      \strng{fullhash}{419a9ba5f1746b20a79038395b50859d}
+      \strng{bibnamehash}{419a9ba5f1746b20a79038395b50859d}
+      \strng{authorbibnamehash}{419a9ba5f1746b20a79038395b50859d}
+      \strng{authornamehash}{419a9ba5f1746b20a79038395b50859d}
+      \strng{authorfullhash}{419a9ba5f1746b20a79038395b50859d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{High-throughput screening (HTS) is a well-established process in lead discovery for pharma and biotech companies and is now also being set up for basic and applied research in academia and some research hospitals. Since its first advent in the early to mid-1990s, the field of HTS has seen not only a continuous change in technology and processes but also an adaptation to various needs in lead discovery. HTS has now evolved into a quite mature discipline of modern drug discovery. Whereas in previous years, much emphasis has been put toward a steady increase in capacity (“quantitative increase”) via various strategies in the fields of automation and miniaturization, the past years have seen a steady shift toward higher content and quality (“quality increase”) for these biological test systems. Today, many experts in the field see HTS at the crossroads with the need to decide either toward further increase in throughput or more focus toward relevance of biological data. In this article, the authors describe the development of HTS over the past decade and point out their own ideas for future directions of HTS in biomedical research. They predict that the trend toward further miniaturization will slow down with the implementation of 384-well, 1536-well, and 384 low-volume-well plates. The authors predict that, ultimately, each hit-finding strategy will be much more project related, tailor-made, and better integrated into the broader drug discovery efforts.}
+      \field{issn}{2472-5552}
+      \field{journaltitle}{SLAS Discovery}
+      \field{month}{7}
+      \field{number}{6}
+      \field{title}{The {Future} of {High}-{Throughput} {Screening}}
+      \field{urlday}{29}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{13}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{443\bibrangedash 448}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1177/1087057108319644
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S2472555222082260/pdf?md5=2a40ac08b6e393e047e6064efdd88669&pid=1-s2.0-S2472555222082260-main.pdf&isDTMRedir=Y:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2472555222082260
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2472555222082260
+      \endverb
+      \keyw{high-throughput screening,lead finding,drug discovery,miniaturization,automation}
     \endentry
     \entry{Gimeno2019}{article}{}
       \name{author}{8}{}{%
@@ -147,8 +215,8 @@
       \strng{authorbibnamehash}{8fb59a059d54833e191697e5ed578b7d}
       \strng{authornamehash}{8fb59a059d54833e191697e5ed578b7d}
       \strng{authorfullhash}{350d0c0eed26e46142f758638e37ee39}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Virtual screening consists of using computational tools to predict potentially bioactive compounds from files containing large libraries of small molecules. Virtual screening is becoming increasingly popular in the field of drug discovery as in silico techniques are continuously being developed, improved, and made available. As most of these techniques are easy to use, both private and public organizations apply virtual screening methodologies to save resources in the laboratory. However, it is often the case that the techniques implemented in virtual screening workflows are restricted to those that the research team knows. Moreover, although the software is often easy to use, each methodology has a series of drawbacks that should be avoided so that false results or artifacts are not produced. Here, we review the most common methodologies used in virtual screening workflows in order to both introduce the inexperienced researcher to new methodologies and advise the experienced researcher on how to prevent common mistakes and the improper usage of virtual screening methodologies.}
@@ -202,8 +270,8 @@
       \strng{authorbibnamehash}{625414d1d2c9322b2ed3f00021c10391}
       \strng{authornamehash}{625414d1d2c9322b2ed3f00021c10391}
       \strng{authorfullhash}{625414d1d2c9322b2ed3f00021c10391}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Virtual screening (VS) is a powerful technique for identifying hit molecules as starting points for medicinal chemistry. The number of methods and softwares which use the ligand and target-based VS approaches is increasing at a rapid pace. What, however, are the real advantages and disadvantages of the VS technology and how applicable is it to drug discovery projects? This review provides a comprehensive appraisal of several VS approaches currently available. In the first part of this work, an overview of the recent progress and advances in both ligand-based VS (LBVS) and structure-based VS (SBVS) strategies highlighting current problems and limitations will be provided. Special emphasis will be given to in silico chemogenomics approaches which utilize annotated ligand-target as well as protein-ligand interaction databases and which could predict or reveal promiscuous binding and polypharmacology, the knowledge of which would help medicinal chemists to design more potent clinical candidates with fewer side effects. In the second part, recent case studies (all published in the last two years) will be discussed where the VS technology has been applied successfully. A critical analysis of these case studies provides a good platform in order to estimate the applicability of various VS strategies in the new lead identification and optimization.}
@@ -224,6 +292,63 @@
       \verb PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/23651302:text/html
       \endverb
       \keyw{Drug Discovery,Drug Evaluation,Preclinical,Genomics,Humans,Ligands,Proteins}
+    \endentry
+    \entry{Pagadala2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dd4440f2bab6d16607968a5c8b3b9ed0}{%
+           family={Pagadala},
+           familyi={P\bibinitperiod},
+           given={Nataraj\bibnamedelima S.},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=04879904707fbb018c883b17bde70c60}{%
+           family={Syed},
+           familyi={S\bibinitperiod},
+           given={Khajamohiddin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=889031564f9efe7e44866dcbd63096ab}{%
+           family={Tuszynski},
+           familyi={T\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a64712a50b590a26e187bbb09f17767}
+      \strng{fullhash}{1a64712a50b590a26e187bbb09f17767}
+      \strng{bibnamehash}{1a64712a50b590a26e187bbb09f17767}
+      \strng{authorbibnamehash}{1a64712a50b590a26e187bbb09f17767}
+      \strng{authornamehash}{1a64712a50b590a26e187bbb09f17767}
+      \strng{authorfullhash}{1a64712a50b590a26e187bbb09f17767}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Molecular docking methodology explores the behavior of small molecules in the binding site of a target protein. As more protein structures are determined experimentally using X-ray crystallography or nuclear magnetic resonance (NMR) spectroscopy, molecular docking is increasingly used as a tool in drug discovery. Docking against homology-modeled targets also becomes possible for proteins whose structures are not known. With the docking strategies, the druggability of the compounds and their specificity against a particular target can be calculated for further lead optimization processes. Molecular docking programs perform a search algorithm in which the conformation of the ligand is evaluated recursively until the convergence to the minimum energy is reached. Finally, an affinity scoring function, ΔG [U total in kcal/mol], is employed to rank the candidate poses as the sum of the electrostatic and van der Waals energies. The driving forces for these specific interactions in biological systems aim toward complementarities between the shape and electrostatics of the binding site surfaces and the ligand or substrate.}
+      \field{issn}{1867-2450}
+      \field{journaltitle}{Biophysical Reviews}
+      \field{month}{1}
+      \field{number}{2}
+      \field{shorttitle}{Software for molecular docking}
+      \field{title}{Software for molecular docking: a review}
+      \field{urlday}{29}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{9}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{91\bibrangedash 102}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s12551-016-0247-1
+      \endverb
+      \verb{file}
+      \verb PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC5425816/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC5425816/pdf/12551_2016_Article_247.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5425816/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5425816/
+      \endverb
     \endentry
     \entry{Li2019}{article}{}
       \name{author}{3}{}{%
@@ -252,8 +377,8 @@
       \strng{authorbibnamehash}{cca21cc6e0352f0024833f6d5879f9e2}
       \strng{authornamehash}{cca21cc6e0352f0024833f6d5879f9e2}
       \strng{authorfullhash}{cca21cc6e0352f0024833f6d5879f9e2}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Currently, molecular docking is becoming a key tool in drug discovery and molecular modeling applications. The reliability of molecular docking depends on the accuracy of the adopted scoring function, which can guide and determine the ligand poses when thousands of possible poses of ligand are generated. The scoring function can be used to determine the binding mode and site of a ligand, predict binding affinity and identify the potential drug leads for a given protein target. Despite intensive research over the years, accurate and rapid prediction of protein–ligand interactions is still a challenge in molecular docking. For this reason, this study reviews four basic types of scoring functions, physics-based, empirical, knowledge-based, and machine learning-based scoring functions, based on an up-to-date classification scheme. We not only discuss the foundations of the four types scoring functions, suitable application areas and shortcomings, but also discuss challenges and potential future study directions.}
@@ -285,57 +410,33 @@
       \endverb
       \keyw{Molecular docking,Scoring function,Ligand pose,Binding affinity,Protein–ligand interaction}
     \endentry
-    \entry{Mayr2008}{article}{}
-      \name{author}{2}{}{%
-        {{hash=da52bfcab2506700ea458d7e5d720bdc}{%
-           family={Mayr},
-           familyi={M\bibinitperiod},
-           given={Lorenz\bibnamedelima M.},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=47e61de4252a664e75216d7351daba82}{%
-           family={Fuerst},
-           familyi={F\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
+    \entry{Birklbauer2021}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=952ef77f6a16111852d2cb1ba808c210}{%
+           family={Birklbauer},
+           familyi={B\bibinitperiod},
+           given={Micha\bibnamedelima Johannes},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \strng{namehash}{419a9ba5f1746b20a79038395b50859d}
-      \strng{fullhash}{419a9ba5f1746b20a79038395b50859d}
-      \strng{bibnamehash}{419a9ba5f1746b20a79038395b50859d}
-      \strng{authorbibnamehash}{419a9ba5f1746b20a79038395b50859d}
-      \strng{authornamehash}{419a9ba5f1746b20a79038395b50859d}
-      \strng{authorfullhash}{419a9ba5f1746b20a79038395b50859d}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \list{institution}{1}{%
+        {FH Hagenberg}%
+      }
+      \strng{namehash}{952ef77f6a16111852d2cb1ba808c210}
+      \strng{fullhash}{952ef77f6a16111852d2cb1ba808c210}
+      \strng{bibnamehash}{952ef77f6a16111852d2cb1ba808c210}
+      \strng{authorbibnamehash}{952ef77f6a16111852d2cb1ba808c210}
+      \strng{authornamehash}{952ef77f6a16111852d2cb1ba808c210}
+      \strng{authorfullhash}{952ef77f6a16111852d2cb1ba808c210}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{High-throughput screening (HTS) is a well-established process in lead discovery for pharma and biotech companies and is now also being set up for basic and applied research in academia and some research hospitals. Since its first advent in the early to mid-1990s, the field of HTS has seen not only a continuous change in technology and processes but also an adaptation to various needs in lead discovery. HTS has now evolved into a quite mature discipline of modern drug discovery. Whereas in previous years, much emphasis has been put toward a steady increase in capacity (“quantitative increase”) via various strategies in the fields of automation and miniaturization, the past years have seen a steady shift toward higher content and quality (“quality increase”) for these biological test systems. Today, many experts in the field see HTS at the crossroads with the need to decide either toward further increase in throughput or more focus toward relevance of biological data. In this article, the authors describe the development of HTS over the past decade and point out their own ideas for future directions of HTS in biomedical research. They predict that the trend toward further miniaturization will slow down with the implementation of 384-well, 1536-well, and 384 low-volume-well plates. The authors predict that, ultimately, each hit-finding strategy will be much more project related, tailor-made, and better integrated into the broader drug discovery efforts.}
-      \field{issn}{2472-5552}
-      \field{journaltitle}{SLAS Discovery}
-      \field{month}{7}
-      \field{number}{6}
-      \field{title}{The {Future} of {High}-{Throughput} {Screening}}
-      \field{urlday}{29}
-      \field{urlmonth}{2}
-      \field{urlyear}{2024}
-      \field{volume}{13}
-      \field{year}{2008}
+      \field{day}{31}
+      \field{month}{8}
+      \field{title}{Automatic identification of important interactionsand interaction-frequency-based scoring inprotein-ligand complexes}
+      \field{type}{mathesis}
+      \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{443\bibrangedash 448}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1177/1087057108319644
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S2472555222082260/pdf?md5=2a40ac08b6e393e047e6064efdd88669&pid=1-s2.0-S2472555222082260-main.pdf&isDTMRedir=Y:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S2472555222082260
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S2472555222082260
-      \endverb
-      \keyw{high-throughput screening,lead finding,drug discovery,miniaturization,automation}
     \endentry
     \entry{Morris2022}{article}{}
       \name{author}{5}{}{%
@@ -371,8 +472,8 @@
       \strng{authorbibnamehash}{553039d752572651c4044c390364e521}
       \strng{authornamehash}{553039d752572651c4044c390364e521}
       \strng{authorfullhash}{86d9d3b74981a3adf493207be0031017}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Molecular docking tools are regularly used to computationally identify new molecules in virtual screening for drug discovery. However, docking tools suffer from inaccurate scoring functions with widely varying performance on different proteins. To enable more accurate ranking of active over inactive ligands in virtual screening, we created a machine learning consensus docking tool, MILCDock, that uses predictions from five traditional molecular docking tools to predict the probability a ligand binds to a protein. MILCDock was trained and tested on data from both the DUD-E and LIT-PCBA docking datasets and shows improved performance over traditional molecular docking tools and other consensus docking methods on the DUD-E dataset. LIT-PCBA targets proved to be difficult for all methods tested. We also find that DUD-E data, although biased, can be effective in training machine learning tools if care is taken to avoid DUD-E's biases during training.}
@@ -390,110 +491,9 @@
       \verb ResearchGate Link:https\://www.researchgate.net/publication/365205442_MILCDock_Machine_Learning_Enhanced_Consensus_Docking_for_Virtual_Screening_in_Drug_Discovery:
       \endverb
     \endentry
-    \entry{Myers2001}{article}{}
-      \name{author}{2}{}{%
-        {{hash=63f525e0aae1e484a514832ab225f932}{%
-           family={Myers},
-           familyi={M\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=88a5ef86ef28c730f2c65ededfd104c3}{%
-           family={Baker},
-           familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \strng{namehash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
-      \strng{fullhash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
-      \strng{bibnamehash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
-      \strng{authorbibnamehash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
-      \strng{authornamehash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
-      \strng{authorfullhash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1087-0156}
-      \field{journaltitle}{Nature Biotechnology}
-      \field{month}{8}
-      \field{number}{8}
-      \field{title}{Drug discovery--an operating model for a new era}
-      \field{volume}{19}
-      \field{year}{2001}
-      \field{dateera}{ce}
-      \field{pages}{727\bibrangedash 730}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1038/90765
-      \endverb
-      \verb{file}
-      \verb PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/11479559:text/html
-      \endverb
-      \keyw{Biotechnology,Chemistry,Drug Design,Drug Industry,Genome,Humans,Workforce}
-    \endentry
-    \entry{Pagadala2017}{article}{}
-      \name{author}{3}{}{%
-        {{hash=dd4440f2bab6d16607968a5c8b3b9ed0}{%
-           family={Pagadala},
-           familyi={P\bibinitperiod},
-           given={Nataraj\bibnamedelima S.},
-           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=04879904707fbb018c883b17bde70c60}{%
-           family={Syed},
-           familyi={S\bibinitperiod},
-           given={Khajamohiddin},
-           giveni={K\bibinitperiod}}}%
-        {{hash=889031564f9efe7e44866dcbd63096ab}{%
-           family={Tuszynski},
-           familyi={T\bibinitperiod},
-           given={Jack},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{1a64712a50b590a26e187bbb09f17767}
-      \strng{fullhash}{1a64712a50b590a26e187bbb09f17767}
-      \strng{bibnamehash}{1a64712a50b590a26e187bbb09f17767}
-      \strng{authorbibnamehash}{1a64712a50b590a26e187bbb09f17767}
-      \strng{authornamehash}{1a64712a50b590a26e187bbb09f17767}
-      \strng{authorfullhash}{1a64712a50b590a26e187bbb09f17767}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Molecular docking methodology explores the behavior of small molecules in the binding site of a target protein. As more protein structures are determined experimentally using X-ray crystallography or nuclear magnetic resonance (NMR) spectroscopy, molecular docking is increasingly used as a tool in drug discovery. Docking against homology-modeled targets also becomes possible for proteins whose structures are not known. With the docking strategies, the druggability of the compounds and their specificity against a particular target can be calculated for further lead optimization processes. Molecular docking programs perform a search algorithm in which the conformation of the ligand is evaluated recursively until the convergence to the minimum energy is reached. Finally, an affinity scoring function, ΔG [U total in kcal/mol], is employed to rank the candidate poses as the sum of the electrostatic and van der Waals energies. The driving forces for these specific interactions in biological systems aim toward complementarities between the shape and electrostatics of the binding site surfaces and the ligand or substrate.}
-      \field{issn}{1867-2450}
-      \field{journaltitle}{Biophysical Reviews}
-      \field{month}{1}
-      \field{number}{2}
-      \field{shorttitle}{Software for molecular docking}
-      \field{title}{Software for molecular docking: a review}
-      \field{urlday}{29}
-      \field{urlmonth}{2}
-      \field{urlyear}{2024}
-      \field{volume}{9}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{91\bibrangedash 102}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1007/s12551-016-0247-1
-      \endverb
-      \verb{file}
-      \verb PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC5425816/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC5425816/pdf/12551_2016_Article_247.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5425816/
-      \endverb
-      \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5425816/
-      \endverb
-    \endentry
     \entry{WikiReliquienschrein2022}{online}{}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{day}{29}
       \field{langid}{ngerman}
