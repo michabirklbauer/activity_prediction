@@ -18,13 +18,13 @@
 \contentsline {subsection}{\numberline {2.1.2}Interactions}{4}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Data partitioning}{4}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Machine-Learning approaches}{4}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Quality metrics}{4}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Terminology}{4}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.4}Quality metrics}{5}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Terminology}{5}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Visual metrics}{5}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Accuracy}{5}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}False positive Rate}{5}{subsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.4.5}Area under the curve}{5}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}Yield of Actives}{5}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.6}Yield of Actives}{6}{subsection.2.4.6}%
 \contentsline {subsection}{\numberline {2.4.7}Enrichment Factor}{6}{subsection.2.4.7}%
 \contentsline {subsection}{\numberline {2.4.8}Relative Enrichment Factor}{6}{subsection.2.4.8}%
 \contentsline {section}{\numberline {2.5}Feature engineering}{6}{section.2.5}%

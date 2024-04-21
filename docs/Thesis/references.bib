@@ -265,4 +265,39 @@
   pmid         = {35631472},
 }
 
+@Article{Molinaro2005,
+  author       = {Molinaro, Annette M. and Simon, Richard and Pfeiffer, Ruth M.},
+  date         = {2005-05},
+  journaltitle = {Bioinformatics},
+  title        = {{Prediction error estimation: a comparison of resampling methods}},
+  doi          = {10.1093/bioinformatics/bti499},
+  eprint       = {https://academic.oup.com/bioinformatics/article-pdf/21/15/3301/50340684/bioinformatics\_21\_15\_3301.pdf},
+  issn         = {1367-4803},
+  number       = {15},
+  pages        = {3301-3307},
+  url          = {https://doi.org/10.1093/bioinformatics/bti499},
+  volume       = {21},
+  abstract     = {{Motivation: In genomic studies, thousands of features are collected on relatively few samples. One of the goals of these studies is to build classifiers to predict the outcome of future observations. There are three inherent steps to this process: feature selection, model selection and prediction assessment. With a focus on prediction assessment, we compare several methods for estimating the ‘true’ prediction error of a prediction model in the presence of feature selection.Results: For small studies where features are selected from thousands of candidates, the resubstitution and simple split-sample estimates are seriously biased. In these small samples, leave-one-out cross-validation (LOOCV), 10-fold cross-validation (CV) and the .632+ bootstrap have the smallest bias for diagonal discriminant analysis, nearest neighbor and classification trees. LOOCV and 10-fold CV have the smallest bias for linear discriminant analysis. Additionally, LOOCV, 5- and 10-fold CV, and the .632+ bootstrap have the lowest mean square error. The .632+ bootstrap is quite biased in small sample sizes with strong signal-to-noise ratios. Differences in performance among resampling methods are reduced as the number of specimens available increase.Contact:  annette.molinaro@yale.eduSupplementary Information: A complete compilation of results and R code for simulations and analyses are available in Molinaro et al. (2005) (http://linus.nci.nih.gov/brb/TechReport.htm).}},
+}
+
+ 
+@Article{Xu2018,
+  author       = {Xu, Yun and Goodacre, Royston},
+  date         = {2018-07},
+  journaltitle = {Journal of Analysis and Testing},
+  title        = {On {Splitting} {Training} and {Validation} {Set}: {A} {Comparative} {Study} of {Cross}-{Validation}, {Bootstrap} and {Systematic} {Sampling} for {Estimating} the {Generalization} {Performance} of {Supervised} {Learning}},
+  doi          = {10.1007/s41664-018-0068-2},
+  issn         = {2509-4696},
+  language     = {en},
+  number       = {3},
+  pages        = {249--262},
+  url          = {https://doi.org/10.1007/s41664-018-0068-2},
+  urldate      = {2024-04-21},
+  volume       = {2},
+  abstract     = {Model validation is the most important part of building a supervised model. For building a model with good generalization performance one must have a sensible data splitting strategy, and this is crucial for model validation. In this study, we conducted a comparative study on various reported data splitting methods. The MixSim model was employed to generate nine simulated datasets with different probabilities of mis-classification and variable sample sizes. Then partial least squares for discriminant analysis and support vector machines for classification were applied to these datasets. Data splitting methods tested included variants of cross-validation, bootstrapping, bootstrapped Latin partition, Kennard-Stone algorithm (K-S) and sample set partitioning based on joint X–Y distances algorithm (SPXY). These methods were employed to split the data into training and validation sets. The estimated generalization performances from the validation sets were then compared with the ones obtained from the blind test sets which were generated from the same distribution but were unseen by the training/validation procedure used in model construction. The results showed that the size of the data is the deciding factor for the qualities of the generalization performance estimated from the validation set. We found that there was a significant gap between the performance estimated from the validation set and the one from the test set for the all the data splitting methods employed on small datasets. Such disparity decreased when more samples were available for training/validation, and this is because the models were then moving towards approximations of the central limit theory for the simulated datasets used. We also found that having too many or too few samples in the training set had a negative effect on the estimated model performance, suggesting that it is necessary to have a good balance between the sizes of training set and validation set to have a reliable estimation of model performance. We also found that systematic sampling method such as K-S and SPXY generally had very poor estimation of the model performance, most likely due to the fact that they are designed to take the most representative samples first and thus left a rather poorly representative sample set for model performance estimation.},
+  file         = {Full Text PDF:https\://link.springer.com/content/pdf/10.1007%2Fs41664-018-0068-2.pdf:application/pdf},
+  keywords     = {Cross-validation, Bootstrapping, Bootstrapped Latin partition, Kennard-Stone algorithm, SPXY, Model selection, Model validation, Partial least squares for discriminant analysis, Support vector machines},
+  shorttitle   = {On {Splitting} {Training} and {Validation} {Set}},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

@@ -491,6 +491,114 @@
       \verb ResearchGate Link:https\://www.researchgate.net/publication/365205442_MILCDock_Machine_Learning_Enhanced_Consensus_Docking_for_Virtual_Screening_in_Drug_Discovery:
       \endverb
     \endentry
+    \entry{Xu2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=13816d0161ffdd71cc20a9a689d65795}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=eb9d3445b003f02f1a5cb3ed77d6b7eb}{%
+           family={Goodacre},
+           familyi={G\bibinitperiod},
+           given={Royston},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4c54e609c18f1706c0d0316a9b0e4a78}
+      \strng{fullhash}{4c54e609c18f1706c0d0316a9b0e4a78}
+      \strng{bibnamehash}{4c54e609c18f1706c0d0316a9b0e4a78}
+      \strng{authorbibnamehash}{4c54e609c18f1706c0d0316a9b0e4a78}
+      \strng{authornamehash}{4c54e609c18f1706c0d0316a9b0e4a78}
+      \strng{authorfullhash}{4c54e609c18f1706c0d0316a9b0e4a78}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Model validation is the most important part of building a supervised model. For building a model with good generalization performance one must have a sensible data splitting strategy, and this is crucial for model validation. In this study, we conducted a comparative study on various reported data splitting methods. The MixSim model was employed to generate nine simulated datasets with different probabilities of mis-classification and variable sample sizes. Then partial least squares for discriminant analysis and support vector machines for classification were applied to these datasets. Data splitting methods tested included variants of cross-validation, bootstrapping, bootstrapped Latin partition, Kennard-Stone algorithm (K-S) and sample set partitioning based on joint X–Y distances algorithm (SPXY). These methods were employed to split the data into training and validation sets. The estimated generalization performances from the validation sets were then compared with the ones obtained from the blind test sets which were generated from the same distribution but were unseen by the training/validation procedure used in model construction. The results showed that the size of the data is the deciding factor for the qualities of the generalization performance estimated from the validation set. We found that there was a significant gap between the performance estimated from the validation set and the one from the test set for the all the data splitting methods employed on small datasets. Such disparity decreased when more samples were available for training/validation, and this is because the models were then moving towards approximations of the central limit theory for the simulated datasets used. We also found that having too many or too few samples in the training set had a negative effect on the estimated model performance, suggesting that it is necessary to have a good balance between the sizes of training set and validation set to have a reliable estimation of model performance. We also found that systematic sampling method such as K-S and SPXY generally had very poor estimation of the model performance, most likely due to the fact that they are designed to take the most representative samples first and thus left a rather poorly representative sample set for model performance estimation.}
+      \field{issn}{2509-4696}
+      \field{journaltitle}{Journal of Analysis and Testing}
+      \field{month}{7}
+      \field{number}{3}
+      \field{shorttitle}{On {Splitting} {Training} and {Validation} {Set}}
+      \field{title}{On {Splitting} {Training} and {Validation} {Set}: {A} {Comparative} {Study} of {Cross}-{Validation}, {Bootstrap} and {Systematic} {Sampling} for {Estimating} the {Generalization} {Performance} of {Supervised} {Learning}}
+      \field{urlday}{21}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{2}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{249\bibrangedash 262}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s41664-018-0068-2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://link.springer.com/content/pdf/10.1007%2Fs41664-018-0068-2.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s41664-018-0068-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s41664-018-0068-2
+      \endverb
+      \keyw{Cross-validation,Bootstrapping,Bootstrapped Latin partition,Kennard-Stone algorithm,SPXY,Model selection,Model validation,Partial least squares for discriminant analysis,Support vector machines}
+    \endentry
+    \entry{Molinaro2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cb53f3a1fbe514d62fbec59ccb40c668}{%
+           family={Molinaro},
+           familyi={M\bibinitperiod},
+           given={Annette\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6888e07ac8440b3bea794b7843c4229c}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b01b6c49913b767aaf6db557c4f101c2}{%
+           family={Pfeiffer},
+           familyi={P\bibinitperiod},
+           given={Ruth\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e00c9c9054a41eef18611e4fa20c0f17}
+      \strng{fullhash}{e00c9c9054a41eef18611e4fa20c0f17}
+      \strng{bibnamehash}{e00c9c9054a41eef18611e4fa20c0f17}
+      \strng{authorbibnamehash}{e00c9c9054a41eef18611e4fa20c0f17}
+      \strng{authornamehash}{e00c9c9054a41eef18611e4fa20c0f17}
+      \strng{authorfullhash}{e00c9c9054a41eef18611e4fa20c0f17}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Motivation: In genomic studies, thousands of features are collected on relatively few samples. One of the goals of these studies is to build classifiers to predict the outcome of future observations. There are three inherent steps to this process: feature selection, model selection and prediction assessment. With a focus on prediction assessment, we compare several methods for estimating the ‘true’ prediction error of a prediction model in the presence of feature selection.Results: For small studies where features are selected from thousands of candidates, the resubstitution and simple split-sample estimates are seriously biased. In these small samples, leave-one-out cross-validation (LOOCV), 10-fold cross-validation (CV) and the .632+ bootstrap have the smallest bias for diagonal discriminant analysis, nearest neighbor and classification trees. LOOCV and 10-fold CV have the smallest bias for linear discriminant analysis. Additionally, LOOCV, 5- and 10-fold CV, and the .632+ bootstrap have the lowest mean square error. The .632+ bootstrap is quite biased in small sample sizes with strong signal-to-noise ratios. Differences in performance among resampling methods are reduced as the number of specimens available increase.Contact:  annette.molinaro@yale.eduSupplementary Information: A complete compilation of results and R code for simulations and analyses are available in Molinaro et al. (2005) (http://linus.nci.nih.gov/brb/TechReport.htm).}}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{5}
+      \field{number}{15}
+      \field{title}{{Prediction error estimation: a comparison of resampling methods}}
+      \field{volume}{21}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{pages}{3301\bibrangedash 3307}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/bti499
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/bioinformatics/article-pdf/21/15/3301/50340684/bioinformatics\_21\_15\_3301.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/bioinformatics/bti499
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/bioinformatics/bti499
+      \endverb
+    \endentry
     \entry{Lopes2017}{article}{}
       \name{author}{5}{}{%
         {{hash=f7052306745752c94f30887be2dcac47}{%
@@ -662,8 +770,8 @@
       \endverb
     \endentry
     \entry{WikiReliquienschrein2022}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{day}{29}
       \field{langid}{ngerman}

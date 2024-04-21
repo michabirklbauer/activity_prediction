@@ -14,7 +14,7 @@ To calculate the metrics that are mentioned within this chapter a few base numbe
 For better visualization of the four base metrics mentioned in \href{terminology}{2.4.1}
 this thesis displays the resulting data in a confusion matrix. This metric displays distribution of the results over the four base metrics.
 
-In Addition to that, the ROC will also be displayed for the results.
+In addition to that, the ROC(receiver operating characteristic) curve will also be displayed for the results.
 The ROC curve is a collection of points in a two-dimensional 
 space, where their location is defined by the FPR \href{fpr}{2.4.4} on the x-axis and the TPR($\frac{\#TP}{\#TP+\#FN}$) on the y-axis. 
 Each point on this line depicts the ratio of FPR to TPR at a certain cutoff. \cite[]{Lopes2017}
@@ -34,7 +34,7 @@ False positive rate (FPR) describes the incorrect as active identified compounds
 \cite[]{Lopes2017}
 \subsection{Area under the curve}
 Area under the curve (AUC) is a metric which stems from the ROC curve. 
-The area under this curve is calculated using the \href{https://scikit-learn.org/stable/index.html}{scikit-learn
+The area under the ROC curve is calculated using the \href{https://scikit-learn.org/stable/index.html}{scikit-learn
 } package. 
 \subsection{Yield of Actives}
 Yield of actives (Ya) describes the correct as active identified compounds in relation to all as active labeled compounds and is defined as follows:
