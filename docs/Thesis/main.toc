@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {2.4.1}Terminology}{6}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Visual metrics}{6}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Accuracy}{6}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}False positive Rate}{6}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.4}False positive Rate}{7}{subsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.4.5}Area under the curve}{7}{subsection.2.4.5}%
 \contentsline {subsection}{\numberline {2.4.6}Yield of Actives}{7}{subsection.2.4.6}%
 \contentsline {subsection}{\numberline {2.4.7}Enrichment Factor}{7}{subsection.2.4.7}%

@@ -870,8 +870,8 @@
       \strng{authorbibnamehash}{e00c9c9054a41eef18611e4fa20c0f17}
       \strng{authornamehash}{e00c9c9054a41eef18611e4fa20c0f17}
       \strng{authorfullhash}{e00c9c9054a41eef18611e4fa20c0f17}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{Motivation: In genomic studies, thousands of features are collected on relatively few samples. One of the goals of these studies is to build classifiers to predict the outcome of future observations. There are three inherent steps to this process: feature selection, model selection and prediction assessment. With a focus on prediction assessment, we compare several methods for estimating the ‘true’ prediction error of a prediction model in the presence of feature selection.Results: For small studies where features are selected from thousands of candidates, the resubstitution and simple split-sample estimates are seriously biased. In these small samples, leave-one-out cross-validation (LOOCV), 10-fold cross-validation (CV) and the .632+ bootstrap have the smallest bias for diagonal discriminant analysis, nearest neighbor and classification trees. LOOCV and 10-fold CV have the smallest bias for linear discriminant analysis. Additionally, LOOCV, 5- and 10-fold CV, and the .632+ bootstrap have the lowest mean square error. The .632+ bootstrap is quite biased in small sample sizes with strong signal-to-noise ratios. Differences in performance among resampling methods are reduced as the number of specimens available increase.Contact:  annette.molinaro@yale.eduSupplementary Information: A complete compilation of results and R code for simulations and analyses are available in Molinaro et al. (2005) (http://linus.nci.nih.gov/brb/TechReport.htm).}}
