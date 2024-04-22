@@ -491,6 +491,305 @@
       \verb ResearchGate Link:https\://www.researchgate.net/publication/365205442_MILCDock_Machine_Learning_Enhanced_Consensus_Docking_for_Virtual_Screening_in_Drug_Discovery:
       \endverb
     \endentry
+    \entry{Tripathi2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f2a4bbdcb622b7e87598f0cb96999069}{%
+           family={Tripathi},
+           familyi={T\bibinitperiod},
+           given={Anurag},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c175e5431d0cfc897e9e4090282965d7}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={U.\bibnamedelimi C.},
+           giveni={U\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
+      \strng{fullhash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
+      \strng{bibnamehash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
+      \strng{authorbibnamehash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
+      \strng{authornamehash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
+      \strng{authorfullhash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Acetylcholinesterase (AChE) terminates the neurotransmission at cholinergic synapses by splitting the neurotransmitter acetylcholine. The nature and didtribution of the enzyme has extensively been studied in many invertebrates and vertebrates including human, histochemically and biochemically. The enzyme demonstrates a high degree of variability in distribution with its notable presense in nonneuronal tissues also, which provides pertinent theme to investigate its nonclassical role. Recently a lot of information has come out regarding its dynamic structure, gene expression, its role in neuronal morphogenesis and synaptogenesis. The significance of AChE stems from the fact that it is the target of drugs designed to treat myasthenia gravis, glaucoma, alzheimer's disease etc. Keeping in view, above mentioned facts a thorough review has been made in the present article regarding its biochemistry, structural dynamics, wide distribution, isoforms and its implications in neurodegenerative disorders. doi: 10.5214/ans.0972.7531.2008.150403   Competing interests: None.     Source of Funding: None Received Date: 08 Sept 2008      Revised Date: 13 Oct 2008      Accepted Date: 22 Oct 2008}
+      \field{issn}{0972-7531}
+      \field{journaltitle}{Annals of Neurosciences}
+      \field{month}{2}
+      \field{number}{4}
+      \field{shorttitle}{Acetylcholinesterase}
+      \field{title}{Acetylcholinesterase :{A} {Versatile} {Enzyme} of {Nervous} {System}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{15}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{106\bibrangedash 111}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.5214/95
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:http\://annalsofneurosciences.org/journal/index.php/annal/article/view/95/199:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://annalsofneurosciences.org/journal/index.php/annal/article/view/95
+      \endverb
+      \verb{url}
+      \verb http://annalsofneurosciences.org/journal/index.php/annal/article/view/95
+      \endverb
+    \endentry
+    \entry{Rouzer2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2fb6498a4a4e8ec6867fb0abbea7adfb}{%
+           family={Rouzer},
+           familyi={R\bibinitperiod},
+           given={Carol\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=85927820cb1a14a36d924d86609b5e05}{%
+           family={Marnett},
+           familyi={M\bibinitperiod},
+           given={Lawrence\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2afac71589f30e7c80a0942749322ce}
+      \strng{fullhash}{e2afac71589f30e7c80a0942749322ce}
+      \strng{bibnamehash}{e2afac71589f30e7c80a0942749322ce}
+      \strng{authorbibnamehash}{e2afac71589f30e7c80a0942749322ce}
+      \strng{authornamehash}{e2afac71589f30e7c80a0942749322ce}
+      \strng{authorfullhash}{e2afac71589f30e7c80a0942749322ce}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Cyclooxygenase (COX; prostaglandin G/H synthase, EC 1.14.99.1) catalyzes the first two steps in the biosynthesis of prostaglandins (PGs). The two COX isoforms COX-1 and COX-2 are the targets of the widely used nonsteroidal anti-inflammatory drugs, indicating a role for these enzymes in pain, fever, inflammation, and tumorigenesis. The ubiquitous constitutive expression of COX-1 and inducible expression of COX-2 have led to the widely held belief that COX-1 produces homeostatic PGs, while PGs produced by COX-2 are primarily pathophysiological. However, recent discoveries call this paradigm into question and reveal as yet underappreciated functions for both enzymes. This review focuses on some of these new insights.}
+      \field{issn}{0022-2275}
+      \field{journaltitle}{Journal of Lipid Research}
+      \field{month}{4}
+      \field{number}{Suppl}
+      \field{shorttitle}{Cyclooxygenases}
+      \field{title}{Cyclooxygenases: structural and functional insights}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{50}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{S29\bibrangedash S34}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1194/jlr.R800042-JLR200
+      \endverb
+      \verb{file}
+      \verb PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC2674713/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC2674713/pdf/JLR50SUPPS29.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2674713/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2674713/
+      \endverb
+    \endentry
+    \entry{Yu2010}{article}{}
+      \name{author}{8}{}{%
+        {{hash=76d292b84f1343f5718aac65a8a0414a}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Denise\bibnamedelimb M.\bibnamedelimi T.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=f4e71fb33aa5425772b39b863431ff34}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Tsun-Wen},
+           giveni={T\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=1769b5cc3f8e9eea0e4a090bbef0c815}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={Sumaiya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=40c3ab180b0e60036a729436744788c6}{%
+           family={Nadvi},
+           familyi={N\bibinitperiod},
+           given={Naveed\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2795341e04e9865c68e4770a466332a0}{%
+           family={Osborne},
+           familyi={O\bibinitperiod},
+           given={Brenna},
+           giveni={B\bibinitperiod}}}%
+        {{hash=66ee1a1291b3ee3c0d463970f9c98704}{%
+           family={Church},
+           familyi={C\bibinitperiod},
+           given={W.\bibnamedelimi Bret},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d849c709840b21f5d4728d4d2a7fce80}{%
+           family={McCaughan},
+           familyi={M\bibinitperiod},
+           given={Geoffrey\bibnamedelima W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=f498015a0e0b6a8dccbb52fc31659ad0}{%
+           family={Gorrell},
+           familyi={G\bibinitperiod},
+           given={Mark\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{113bd487cce0157b5fce2d2b67741886}
+      \strng{fullhash}{e406cdb2e82efbcc0898d151bc6e53eb}
+      \strng{bibnamehash}{113bd487cce0157b5fce2d2b67741886}
+      \strng{authorbibnamehash}{113bd487cce0157b5fce2d2b67741886}
+      \strng{authornamehash}{113bd487cce0157b5fce2d2b67741886}
+      \strng{authorfullhash}{e406cdb2e82efbcc0898d151bc6e53eb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Of the 600+ known proteases identified to date in mammals, a significant percentage is involved or implicated in pathogenic and cancer processes. The dipeptidyl peptidase IV (DPIV) gene family, comprising four enzyme members [DPIV (EC 3.4.14.5), fibroblast activation protein, DP8 and DP9] and two nonenzyme members [DP6 (DPL1) and DP10 (DPL2)], are interesting in this regard because of their multiple diverse functions, varying patterns of distribution/localization and subtle, but significant, differences in structure/substrate recognition. In addition, their engagement in cell biological processes involves both enzymatic and nonenzymatic capabilities. This article examines, in detail, our current understanding of the biological involvement of this unique enzyme family and their overall potential as therapeutic targets.}
+      \field{issn}{1742-4658}
+      \field{journaltitle}{The FEBS Journal}
+      \field{number}{5}
+      \field{title}{The dipeptidyl peptidase {IV} family in cancer and cell biology}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{277}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1126\bibrangedash 1144}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1111/j.1742-4658.2009.07526.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1742-4658.2009.07526.x:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1742-4658.2009.07526.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1742-4658.2009.07526.x
+      \endverb
+      \keyw{cancer,dipeptidyl peptidase,distribution,enzyme,extracellular matrix,immune function,liver fibrosis,structure}
+    \endentry
+    \entry{Ramsay2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cf0238806cfeaae072d359ee23de4a67}{%
+           family={Ramsay},
+           familyi={R\bibinitperiod},
+           given={Rona\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf0238806cfeaae072d359ee23de4a67}
+      \strng{fullhash}{cf0238806cfeaae072d359ee23de4a67}
+      \strng{bibnamehash}{cf0238806cfeaae072d359ee23de4a67}
+      \strng{authorbibnamehash}{cf0238806cfeaae072d359ee23de4a67}
+      \strng{authornamehash}{cf0238806cfeaae072d359ee23de4a67}
+      \strng{authorfullhash}{cf0238806cfeaae072d359ee23de4a67}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Monoamine oxidases (MAO) influence the monoamine levels in brain by virtue of their role in neurotransmitter breakdown. MAO B is the predominant form in glial cells and in platelets. MAO B structure, function and kinetics are described as a background for the effect of alterations in its activity on behavior. The need to inhibit MAO B to combat decreased brain amines continues to drive the search for new drugs. Reversible and irreversible inhibitors are now designed using data-mining, computational screening, docking and molecular dynamics. Multi-target ligands designed to combat the elevated activity of MAO B in Alzheimer's and Parkinson's Diseases incorporate MAO inhibition (usually irreversible) as well as iron chelation, antioxidant or neuroprotective properties. The main focus of drug design is the catalytic activity of MAO, but the imidazoline I2 site in the entrance cavity of MAO B is also a pharmacological target. Endogenous regulation of MAO B expression is discussed briefly in light of new studies measuring mRNA, protein, or activity in healthy and degenerative samples, including the effect of DNA methylation on the expression. Overall, this review focuses on examples of recent research on the molecular aspects of the expression, activity, and inhibition of MAO B.}
+      \field{issn}{0278-5846}
+      \field{journaltitle}{Progress in Neuro-Psychopharmacology and Biological Psychiatry}
+      \field{month}{8}
+      \field{title}{Molecular aspects of monoamine oxidase {B}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{69}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{81\bibrangedash 89}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.pnpbp.2016.02.005
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/abs/pii/S0278584616300197/pdfft?isDTMRedir=true&download=true:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0278584616300197
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0278584616300197
+      \endverb
+      \keyw{Monoamine oxidase B,Kinetics,Drug design,Neurotransmitter levels,Platelet}
+    \endentry
+    \entry{Schmelzer2005}{article}{}
+      \name{author}{6}{}{%
+        {{hash=52a8ac0e6d54eb7ce4bc4233db8c05eb}{%
+           family={Schmelzer},
+           familyi={S\bibinitperiod},
+           given={Kara\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8dc61dba770f83926b14a6caa20802b9}{%
+           family={Kubala},
+           familyi={K\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=dad9d623d33481653bf89c32e4db2d03}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a67936ba14f4144b1632c4346455d79f}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={In-Hae},
+           giveni={I\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=e1a2b53afc97b810994001c11338499c}{%
+           family={Eiserich},
+           familyi={E\bibinitperiod},
+           given={Jason\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1808d617f5f41aed9d5fd7240e251960}{%
+           family={Hammock},
+           familyi={H\bibinitperiod},
+           given={Bruce\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{2bc52456db2d9956c9f997bf49961bab}
+      \strng{fullhash}{358d8fabd6e06f5b858c4c81dadd3be4}
+      \strng{bibnamehash}{2bc52456db2d9956c9f997bf49961bab}
+      \strng{authorbibnamehash}{2bc52456db2d9956c9f997bf49961bab}
+      \strng{authornamehash}{2bc52456db2d9956c9f997bf49961bab}
+      \strng{authorfullhash}{358d8fabd6e06f5b858c4c81dadd3be4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As of 2004, {>}73 million people were prescribed antiinflammatory medication. Despite the extensive number of current products, many people still suffer from their diseases or the pharmacological properties (side effects) of the medications. Therefore, developing therapeutic strategies to treat inflammation remains an important endeavor. Here, we demonstrate that the soluble epoxide hydrolase (sEH) is a key pharmacologic target for treating acute systemic inflammation. Lipopolysaccharide-induced mortality, systemic hypotension, and histologically evaluated tissue injury were substantially diminished by administration of urea-based, small-molecule inhibitors of sEH to C57BL/6 mice. Moreover, sEH inhibitors decreased plasma levels of proinflammatory cytokines and nitric oxide metabolites while promoting the formation of lipoxins, thus supporting inflammatory resolution. These data suggest that sEH inhibitors have therapeutic efficacy in the treatment and management of acute inflammatory diseases.}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{month}{7}
+      \field{number}{28}
+      \field{title}{Soluble epoxide hydrolase is a therapeutic target for acute inflammation}
+      \field{volume}{102}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{pages}{9772\bibrangedash 9777}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.0503279102
+      \endverb
+      \verb{file}
+      \verb PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/15994227:text/html
+      \endverb
+      \keyw{Adamantane,Animals,Arachidonic Acids,Blood Pressure,Chromatography,High Pressure Liquid,Cytokines,Dose-Response Relationship,Drug,Epoxide Hydrolases,Immunoblotting,Inflammation,Lipopolysaccharides,Lipoxins,Male,Mass Spectrometry,Mice,Mice,Inbred C57BL,Prostaglandin-Endoperoxide Synthases,Urea}
+    \endentry
     \entry{Xu2018}{article}{}
       \name{author}{2}{}{%
         {{hash=13816d0161ffdd71cc20a9a689d65795}{%
@@ -635,8 +934,8 @@
       \strng{authorbibnamehash}{d44728042e540f56f5100bcd48238abc}
       \strng{authornamehash}{d44728042e540f56f5100bcd48238abc}
       \strng{authorfullhash}{e40264f45bb9ab151da90f13aa524cc7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{A new metric for the evaluation of model performance in the field of virtual screening and quantitative structure–activity relationship applications is described. This metric has been termed the power metric and is defined as the fraction of the true positive rate divided by the sum of the true positive and false positive rates, for a given cutoff threshold. The performance of this metric is compared with alternative metrics such as the enrichment factor, the relative enrichment factor, the receiver operating curve enrichment factor, the correct classification rate, Matthews correlation coefficient and Cohen’s kappa coefficient. The performance of this new metric is found to be quite robust with respect to variations in the applied cutoff threshold and ratio of the number of active compounds to the total number of compounds, and at the same time being sensitive to variations in model quality. It possesses the correct characteristics for its application in early-recognition virtual screening problems.}
@@ -688,8 +987,8 @@
       \strng{authorbibnamehash}{6e7d45c8843de3e68d6f3b75338f9992}
       \strng{authornamehash}{6e7d45c8843de3e68d6f3b75338f9992}
       \strng{authorfullhash}{6e7d45c8843de3e68d6f3b75338f9992}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Evaluation metric plays a critical role in achieving the optimal classifier during the classification training. Thus, a selection of suitable evaluation metric is an important key for discriminating and obtaining the optimal classifier. This paper systematically reviewed the related evaluation metrics that are specifically designed as a discriminator for optimizing generative classifier. Generally, many generative classifiers employ accuracy as a measure to discriminate the optimal solution during the classification training. However, the accuracy has several weaknesses which are less distinctiveness, less discriminability, less informativeness and bias to majority class data. This paper also briefly discusses other metrics that are specifically designed for discriminating the optimal solution. The shortcomings of these alternative metrics are also discussed. Finally, this paper suggests five important aspects that must be taken into consideration in constructing a new discriminator metric.}
@@ -737,8 +1036,8 @@
       \strng{authorbibnamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authornamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authorfullhash}{07c6609b3d047d861806848b749db8a4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Computer-aided drug discovery techniques reduce the time and the costs needed to develop novel drugs. Their relevance becomes more and more evident with the needs due to health emergencies as well as to the diffusion of personalized medicine. Pharmacophore approaches represent one of the most interesting tools developed, by defining the molecular functional features needed for the binding of a molecule to a given receptor, and then directing the virtual screening of large collections of compounds for the selection of optimal candidates. Computational tools to create the pharmacophore model and to perform virtual screening are available and generated successful studies. This article describes the procedure of pharmacophore modelling followed by virtual screening, the most used software, possible limitations of the approach, and some applications reported in the literature.}

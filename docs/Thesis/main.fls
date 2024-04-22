@@ -1,9 +1,9 @@
-PWD /home/falli/bac/activity_prediction/docs/Thesis
+PWD /home/bac/activity_prediction/docs/Thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/falli/bac/activity_prediction/docs/Thesis/main.tex
+INPUT /home/bac/activity_prediction/docs/Thesis/main.tex
 OUTPUT main.log
 INPUT ./hgbthesis.cls
 INPUT ./hgbthesis.cls
@@ -1931,6 +1931,11 @@ INPUT main.toc
 INPUT main.toc
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr10.tfm
 OUTPUT main.toc
 INPUT ./front/preface.tex
 INPUT ./front/preface.tex
@@ -2007,6 +2012,7 @@ INPUT ./chapters/method_sections/data_description.tex
 INPUT chapters/method_sections/data_description.tex
 INPUT ./chapters/method_sections/data_description.tex
 INPUT chapters/method_sections/data_description.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmss12.tfm
 INPUT ./chapters/method_sections/data_partitioning.tex
 INPUT chapters/method_sections/data_partitioning.tex
 INPUT ./chapters/method_sections/data_partitioning.tex
