@@ -1,5 +1,5 @@
 The following chapter is dedicated to explaining the data used for this thesis.
-This includes detailed descriptions of the protein-ligand complexes as well as their interaction types.
+This includes detailed descriptions of the protein complexes as well as their interaction types.
 
 \subsection{Proteins}
 The following five proteins have been used to conclude this thesis:
@@ -36,18 +36,62 @@ associated with a myriad of neurological problems\cite[]{Ramsay2016}.
 Soluble epoxide hydrolase (sEH) is part of an inflammatory pathway similar to COX.
 It has been shown that inhibition of sEH reduces inflammation. In contrast to COX it does not 
 completely disable the synthesis of pro-inflammatory compounds but rather balance their levels\cite[]{Schmelzer2005}.
-\subsection{Interactions → ask Micha regarding grade of detail}
+\subsection{Interactions → !WIP! ask Micha regarding grade of detail}
 The following interactions have been chosen for this thesis:
-\begin{itemize}
-    \item hydrogen bonds
-    \item water bridges
-    \item salt bridges
-    \item halogen bonds
-    \item hydrophobic interactions
-    \item pi-stacking
-    \item pi-cation
-\end{itemize}
-\cite[]{Birklbauer2021}
+
+\begin{table}[h!]
+    \centering
+\begin{tabular}{ | m{10em} | m{30em}| } 
+    \hline
+    \textbf{interaction} &\textbf{description\cite[]{Birklbauer2021}}
+    \\
+    \hline
+    hydrogen bonds& A hydrogen bond is defined as the interaction between a 
+    hydrogen atom, connected to a more electronegative atom, and another atom or molecule. \\
+    \hline
+    water bridges   &A water bridge occurs when the ligand and the protein
+    both bind to a water molecule through hydrogen bonds.\\
+    \hline
+    salt bridges&  Salt bridges are ion pairs which stick together due to
+    large difference in charge and the resulting electrostatic interaction. \\
+    \hline
+    halogen bonds&  Halogen bonds are defined as the interactions between the electrophilic region
+    around a halogen atom and a nucleophilic region.\\
+    \hline
+    hydrophobic interactions& Aggregates formed as a result
+    of a hydrophobic interaction between hydrocarbons in an 
+    aqueous medium are called hydrophobic interactions.\\
+    \hline
+    pi-stacking   & Interactions between neighboring aromatic 
+    rings are called pi-stacking. Due to the pi-electron density the ring is partially positively charged around 
+    the periphery and negatively charged above both aromatic faces. As a result electrostatic forces build between aromatic rings,
+     and they are attracted to one another.\\
+    \hline
+    pi-cation& Cations and pi-stacks who bind through electrostatic 
+    forces at pi-stacks face are called pi-cation interactions.\\
+    \hline
+   \end{tabular}
+   \caption{interaction types}
+\end{table}
+    
+
+
 \subsection{Data origin and structure}
-The provided data is the result of the thesis \cite[]{Birklbauer2021} by Micha Birklbauer.
- 
+The provided data is a byproduct of the thesis \cite[]{Birklbauer2021} by Micha Birklbauer.
+The interaction data was produced using the \textit{PLIP Algorithm} \cite[]{Salentin2015} 
+on the aforementioned proteins.
+
+The PLIP Algorithm consists of four major stages: 
+\begin{description}
+    \item[Structural Preparation] -- \textbf{SP} 
+    \newline During the preparation step the input structure is hydrogenated and the ligands(including their binding sites) are extracted. 
+    \item[Functional Characterization] -- \textbf{FC}
+    \newline Using the structure of the complex a myriad of functional groups are detected. This includes binding site atoms, hydrophobic atoms and aromatic rings just to name a few.
+    \item[Rule Based Matching] -- \textbf{RBM}
+    \newline In the third step the algorithm investigates all interactions between the ligand and the protein, which can be attributed to geometric constraints. Hydrogen bonds are detected here.
+    \item[Filtering of Interactions] -- \textbf{FoI}
+    \newline This is a cleanup step where redundant or overlapping interactions get removed from the dataset. 
+\end{description}
+\newblock
+The result of the PLIP Algorithm is a lineup of every interaction for each binding site and ligand\cite[]{Salentin2015}.
+This data has been used as a basis for the machine learning approaches discussed in this thesis.

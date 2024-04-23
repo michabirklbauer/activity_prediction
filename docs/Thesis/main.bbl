@@ -790,6 +790,73 @@
       \endverb
       \keyw{Adamantane,Animals,Arachidonic Acids,Blood Pressure,Chromatography,High Pressure Liquid,Cytokines,Dose-Response Relationship,Drug,Epoxide Hydrolases,Immunoblotting,Inflammation,Lipopolysaccharides,Lipoxins,Male,Mass Spectrometry,Mice,Mice,Inbred C57BL,Prostaglandin-Endoperoxide Synthases,Urea}
     \endentry
+    \entry{Salentin2015}{article}{}
+      \name{author}{5}{}{%
+        {{hash=370e69b0cd903065751d5f15b6867ef0}{%
+           family={Salentin},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a8371d0386357c9dd8170fc2fa86f179}{%
+           family={Schreiber},
+           familyi={S\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=301b1052468218428b8b8fc0760c6911}{%
+           family={Haupt},
+           familyi={H\bibinitperiod},
+           given={V.\bibnamedelimi Joachim},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a6a7bb21019d111e732f52cb0e750e63}{%
+           family={Adasme},
+           familyi={A\bibinitperiod},
+           given={Melissa\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=1b566efc9000396372edc91189b7a7a3}{%
+           family={Schroeder},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{fullhash}{dfb6d72c58863860e2703f3fc86d4292}
+      \strng{bibnamehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{authorbibnamehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{authornamehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{authorfullhash}{dfb6d72c58863860e2703f3fc86d4292}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The characterization of interactions in protein–ligand complexes is essential for research in structural bioinformatics, drug discovery and biology. However, comprehensive tools are not freely available to the research community. Here, we present the protein–ligand interaction profiler (PLIP), a novel web service for fully automated detection and visualization of relevant non-covalent protein–ligand contacts in 3D structures, freely available at projects.biotec.tu-dresden.de/plip-web. The input is either a Protein Data Bank structure, a protein or ligand name, or a custom protein–ligand complex (e.g. from docking). In contrast to other tools, the rule-based PLIP algorithm does not require any structure preparation. It returns a list of detected interactions on single atom level, covering seven interaction types (hydrogen bonds, hydrophobic contacts, pi-stacking, pi-cation interactions, salt bridges, water bridges and halogen bonds). PLIP stands out by offering publication-ready images, PyMOL session files to generate custom images and parsable result files to facilitate successive data processing. The full python source code is available for download on the website. PLIP's command-line mode allows for high-throughput interaction profiling.}
+      \field{issn}{0305-1048}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{7}
+      \field{number}{Web Server issue}
+      \field{shorttitle}{{PLIP}}
+      \field{title}{{PLIP}: fully automated protein–ligand interaction profiler}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{43}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{W443\bibrangedash W447}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkv315
+      \endverb
+      \verb{file}
+      \verb PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/pdf/gkv315.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
+      \endverb
+    \endentry
     \entry{Xu2018}{article}{}
       \name{author}{2}{}{%
         {{hash=13816d0161ffdd71cc20a9a689d65795}{%
@@ -812,8 +879,8 @@
       \strng{authorbibnamehash}{4c54e609c18f1706c0d0316a9b0e4a78}
       \strng{authornamehash}{4c54e609c18f1706c0d0316a9b0e4a78}
       \strng{authorfullhash}{4c54e609c18f1706c0d0316a9b0e4a78}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Model validation is the most important part of building a supervised model. For building a model with good generalization performance one must have a sensible data splitting strategy, and this is crucial for model validation. In this study, we conducted a comparative study on various reported data splitting methods. The MixSim model was employed to generate nine simulated datasets with different probabilities of mis-classification and variable sample sizes. Then partial least squares for discriminant analysis and support vector machines for classification were applied to these datasets. Data splitting methods tested included variants of cross-validation, bootstrapping, bootstrapped Latin partition, Kennard-Stone algorithm (K-S) and sample set partitioning based on joint X–Y distances algorithm (SPXY). These methods were employed to split the data into training and validation sets. The estimated generalization performances from the validation sets were then compared with the ones obtained from the blind test sets which were generated from the same distribution but were unseen by the training/validation procedure used in model construction. The results showed that the size of the data is the deciding factor for the qualities of the generalization performance estimated from the validation set. We found that there was a significant gap between the performance estimated from the validation set and the one from the test set for the all the data splitting methods employed on small datasets. Such disparity decreased when more samples were available for training/validation, and this is because the models were then moving towards approximations of the central limit theory for the simulated datasets used. We also found that having too many or too few samples in the training set had a negative effect on the estimated model performance, suggesting that it is necessary to have a good balance between the sizes of training set and validation set to have a reliable estimation of model performance. We also found that systematic sampling method such as K-S and SPXY generally had very poor estimation of the model performance, most likely due to the fact that they are designed to take the most representative samples first and thus left a rather poorly representative sample set for model performance estimation.}
@@ -1069,8 +1136,8 @@
       \endverb
     \endentry
     \entry{WikiReliquienschrein2022}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{day}{29}
       \field{langid}{ngerman}
