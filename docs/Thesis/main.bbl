@@ -248,51 +248,6 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6470506/
       \endverb
     \endentry
-    \entry{Lavecchia2013}{article}{}
-      \name{author}{2}{}{%
-        {{hash=e648aa7cbb15692ce91f81582d639499}{%
-           family={Lavecchia},
-           familyi={L\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=845bbd98ecf5c3674d69ef3003e98d11}{%
-           family={Di\bibnamedelima Giovanni},
-           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \strng{namehash}{625414d1d2c9322b2ed3f00021c10391}
-      \strng{fullhash}{625414d1d2c9322b2ed3f00021c10391}
-      \strng{bibnamehash}{625414d1d2c9322b2ed3f00021c10391}
-      \strng{authorbibnamehash}{625414d1d2c9322b2ed3f00021c10391}
-      \strng{authornamehash}{625414d1d2c9322b2ed3f00021c10391}
-      \strng{authorfullhash}{625414d1d2c9322b2ed3f00021c10391}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Virtual screening (VS) is a powerful technique for identifying hit molecules as starting points for medicinal chemistry. The number of methods and softwares which use the ligand and target-based VS approaches is increasing at a rapid pace. What, however, are the real advantages and disadvantages of the VS technology and how applicable is it to drug discovery projects? This review provides a comprehensive appraisal of several VS approaches currently available. In the first part of this work, an overview of the recent progress and advances in both ligand-based VS (LBVS) and structure-based VS (SBVS) strategies highlighting current problems and limitations will be provided. Special emphasis will be given to in silico chemogenomics approaches which utilize annotated ligand-target as well as protein-ligand interaction databases and which could predict or reveal promiscuous binding and polypharmacology, the knowledge of which would help medicinal chemists to design more potent clinical candidates with fewer side effects. In the second part, recent case studies (all published in the last two years) will be discussed where the VS technology has been applied successfully. A critical analysis of these case studies provides a good platform in order to estimate the applicability of various VS strategies in the new lead identification and optimization.}
-      \field{issn}{1875-533X}
-      \field{journaltitle}{Current Medicinal Chemistry}
-      \field{number}{23}
-      \field{shorttitle}{Virtual screening strategies in drug discovery}
-      \field{title}{Virtual screening strategies in drug discovery: a critical review}
-      \field{volume}{20}
-      \field{year}{2013}
-      \field{dateera}{ce}
-      \field{pages}{2839\bibrangedash 2860}
-      \range{pages}{22}
-      \verb{doi}
-      \verb 10.2174/09298673113209990001
-      \endverb
-      \verb{file}
-      \verb PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/23651302:text/html
-      \endverb
-      \keyw{Drug Discovery,Drug Evaluation,Preclinical,Genomics,Humans,Ligands,Proteins}
-    \endentry
     \entry{Pagadala2017}{article}{}
       \name{author}{3}{}{%
         {{hash=dd4440f2bab6d16607968a5c8b3b9ed0}{%
@@ -317,8 +272,8 @@
       \strng{authorbibnamehash}{1a64712a50b590a26e187bbb09f17767}
       \strng{authornamehash}{1a64712a50b590a26e187bbb09f17767}
       \strng{authorfullhash}{1a64712a50b590a26e187bbb09f17767}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Molecular docking methodology explores the behavior of small molecules in the binding site of a target protein. As more protein structures are determined experimentally using X-ray crystallography or nuclear magnetic resonance (NMR) spectroscopy, molecular docking is increasingly used as a tool in drug discovery. Docking against homology-modeled targets also becomes possible for proteins whose structures are not known. With the docking strategies, the druggability of the compounds and their specificity against a particular target can be calculated for further lead optimization processes. Molecular docking programs perform a search algorithm in which the conformation of the ligand is evaluated recursively until the convergence to the minimum energy is reached. Finally, an affinity scoring function, ΔG [U total in kcal/mol], is employed to rank the candidate poses as the sum of the electrostatic and van der Waals energies. The driving forces for these specific interactions in biological systems aim toward complementarities between the shape and electrostatics of the binding site surfaces and the ligand or substrate.}
@@ -350,6 +305,51 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5425816/
       \endverb
     \endentry
+    \entry{Lavecchia2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e648aa7cbb15692ce91f81582d639499}{%
+           family={Lavecchia},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=845bbd98ecf5c3674d69ef3003e98d11}{%
+           family={Di\bibnamedelima Giovanni},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{625414d1d2c9322b2ed3f00021c10391}
+      \strng{fullhash}{625414d1d2c9322b2ed3f00021c10391}
+      \strng{bibnamehash}{625414d1d2c9322b2ed3f00021c10391}
+      \strng{authorbibnamehash}{625414d1d2c9322b2ed3f00021c10391}
+      \strng{authornamehash}{625414d1d2c9322b2ed3f00021c10391}
+      \strng{authorfullhash}{625414d1d2c9322b2ed3f00021c10391}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Virtual screening (VS) is a powerful technique for identifying hit molecules as starting points for medicinal chemistry. The number of methods and softwares which use the ligand and target-based VS approaches is increasing at a rapid pace. What, however, are the real advantages and disadvantages of the VS technology and how applicable is it to drug discovery projects? This review provides a comprehensive appraisal of several VS approaches currently available. In the first part of this work, an overview of the recent progress and advances in both ligand-based VS (LBVS) and structure-based VS (SBVS) strategies highlighting current problems and limitations will be provided. Special emphasis will be given to in silico chemogenomics approaches which utilize annotated ligand-target as well as protein-ligand interaction databases and which could predict or reveal promiscuous binding and polypharmacology, the knowledge of which would help medicinal chemists to design more potent clinical candidates with fewer side effects. In the second part, recent case studies (all published in the last two years) will be discussed where the VS technology has been applied successfully. A critical analysis of these case studies provides a good platform in order to estimate the applicability of various VS strategies in the new lead identification and optimization.}
+      \field{issn}{1875-533X}
+      \field{journaltitle}{Current Medicinal Chemistry}
+      \field{number}{23}
+      \field{shorttitle}{Virtual screening strategies in drug discovery}
+      \field{title}{Virtual screening strategies in drug discovery: a critical review}
+      \field{volume}{20}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{2839\bibrangedash 2860}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.2174/09298673113209990001
+      \endverb
+      \verb{file}
+      \verb PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/23651302:text/html
+      \endverb
+      \keyw{Drug Discovery,Drug Evaluation,Preclinical,Genomics,Humans,Ligands,Proteins}
+    \endentry
     \entry{Li2019}{article}{}
       \name{author}{3}{}{%
         {{hash=1639dadb1da2bffb2d77f43c6d3247b6}{%
@@ -377,8 +377,8 @@
       \strng{authorbibnamehash}{cca21cc6e0352f0024833f6d5879f9e2}
       \strng{authornamehash}{cca21cc6e0352f0024833f6d5879f9e2}
       \strng{authorfullhash}{cca21cc6e0352f0024833f6d5879f9e2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Currently, molecular docking is becoming a key tool in drug discovery and molecular modeling applications. The reliability of molecular docking depends on the accuracy of the adopted scoring function, which can guide and determine the ligand poses when thousands of possible poses of ligand are generated. The scoring function can be used to determine the binding mode and site of a ligand, predict binding affinity and identify the potential drug leads for a given protein target. Despite intensive research over the years, accurate and rapid prediction of protein–ligand interactions is still a challenge in molecular docking. For this reason, this study reviews four basic types of scoring functions, physics-based, empirical, knowledge-based, and machine learning-based scoring functions, based on an up-to-date classification scheme. We not only discuss the foundations of the four types scoring functions, suitable application areas and shortcomings, but also discuss challenges and potential future study directions.}
@@ -437,6 +437,138 @@
       \field{type}{mathesis}
       \field{year}{2021}
       \field{dateera}{ce}
+    \endentry
+    \entry{Mysinger2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3e8d8f8dee91d7bece1721f99374f3cb}{%
+           family={Mysinger},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c600c5eb05c1ea5e11e7c9fb2b2d86a7}{%
+           family={Carchia},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=88db176c547e9820bd1f9f18333fac66}{%
+           family={Irwin},
+           familyi={I\bibinitperiod},
+           given={John.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=373b12e86f66b6cea22cf7f9c0c34d5c}{%
+           family={Shoichet},
+           familyi={S\bibinitperiod},
+           given={Brian\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{e7210a6e22dfe4ec02edfdcdc666543e}
+      \strng{fullhash}{b5732333df1a3815580e91dc3fa850f5}
+      \strng{bibnamehash}{e7210a6e22dfe4ec02edfdcdc666543e}
+      \strng{authorbibnamehash}{e7210a6e22dfe4ec02edfdcdc666543e}
+      \strng{authornamehash}{e7210a6e22dfe4ec02edfdcdc666543e}
+      \strng{authorfullhash}{b5732333df1a3815580e91dc3fa850f5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A key metric to assess molecular docking remains ligand enrichment against challenging decoys. Whereas the directory of useful decoys (DUD) has been widely used, clear areas for optimization have emerged. Here we describe an improved benchmarking set that includes more diverse targets such as GPCRs and ion channels, totaling 102 proteins with 22886 clustered ligands drawn from ChEMBL, each with 50 property-matched decoys drawn from ZINC. To ensure chemotype diversity, we cluster each target’s ligands by their Bemis–Murcko atomic frameworks. We add net charge to the matched physicochemical properties and include only the most dissimilar decoys, by topology, from the ligands. An online automated tool (http://decoys.docking.org) generates these improved matched decoys for user-supplied ligands. We test this data set by docking all 102 targets, using the results to improve the balance between ligand desolvation and electrostatics in DOCK 3.6. The complete DUD-E benchmarking set is freely available at http://dude.docking.org.}
+      \field{issn}{0022-2623}
+      \field{journaltitle}{Journal of Medicinal Chemistry}
+      \field{month}{7}
+      \field{number}{14}
+      \field{shorttitle}{Directory of {Useful} {Decoys}, {Enhanced} ({DUD}-{E})}
+      \field{title}{Directory of {Useful} {Decoys}, {Enhanced} ({DUD}-{E}): {Better} {Ligands} and {Decoys} for {Better} {Benchmarking}}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{55}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{6582\bibrangedash 6594}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1021/jm300687e
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/jm300687e:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/jm300687e
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/jm300687e
+      \endverb
+    \endentry
+    \entry{Salentin2015}{article}{}
+      \name{author}{5}{}{%
+        {{hash=370e69b0cd903065751d5f15b6867ef0}{%
+           family={Salentin},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a8371d0386357c9dd8170fc2fa86f179}{%
+           family={Schreiber},
+           familyi={S\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=301b1052468218428b8b8fc0760c6911}{%
+           family={Haupt},
+           familyi={H\bibinitperiod},
+           given={V.\bibnamedelimi Joachim},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a6a7bb21019d111e732f52cb0e750e63}{%
+           family={Adasme},
+           familyi={A\bibinitperiod},
+           given={Melissa\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=1b566efc9000396372edc91189b7a7a3}{%
+           family={Schroeder},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{fullhash}{dfb6d72c58863860e2703f3fc86d4292}
+      \strng{bibnamehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{authorbibnamehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{authornamehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{authorfullhash}{dfb6d72c58863860e2703f3fc86d4292}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The characterization of interactions in protein–ligand complexes is essential for research in structural bioinformatics, drug discovery and biology. However, comprehensive tools are not freely available to the research community. Here, we present the protein–ligand interaction profiler (PLIP), a novel web service for fully automated detection and visualization of relevant non-covalent protein–ligand contacts in 3D structures, freely available at projects.biotec.tu-dresden.de/plip-web. The input is either a Protein Data Bank structure, a protein or ligand name, or a custom protein–ligand complex (e.g. from docking). In contrast to other tools, the rule-based PLIP algorithm does not require any structure preparation. It returns a list of detected interactions on single atom level, covering seven interaction types (hydrogen bonds, hydrophobic contacts, pi-stacking, pi-cation interactions, salt bridges, water bridges and halogen bonds). PLIP stands out by offering publication-ready images, PyMOL session files to generate custom images and parsable result files to facilitate successive data processing. The full python source code is available for download on the website. PLIP's command-line mode allows for high-throughput interaction profiling.}
+      \field{issn}{0305-1048}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{7}
+      \field{number}{Web Server issue}
+      \field{shorttitle}{{PLIP}}
+      \field{title}{{PLIP}: fully automated protein–ligand interaction profiler}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{43}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{W443\bibrangedash W447}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkv315
+      \endverb
+      \verb{file}
+      \verb PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/pdf/gkv315.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
+      \endverb
     \endentry
     \entry{Morris2022}{article}{}
       \name{author}{5}{}{%
@@ -767,8 +899,8 @@
       \strng{authorbibnamehash}{2bc52456db2d9956c9f997bf49961bab}
       \strng{authornamehash}{2bc52456db2d9956c9f997bf49961bab}
       \strng{authorfullhash}{358d8fabd6e06f5b858c4c81dadd3be4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As of 2004, {>}73 million people were prescribed antiinflammatory medication. Despite the extensive number of current products, many people still suffer from their diseases or the pharmacological properties (side effects) of the medications. Therefore, developing therapeutic strategies to treat inflammation remains an important endeavor. Here, we demonstrate that the soluble epoxide hydrolase (sEH) is a key pharmacologic target for treating acute systemic inflammation. Lipopolysaccharide-induced mortality, systemic hypotension, and histologically evaluated tissue injury were substantially diminished by administration of urea-based, small-molecule inhibitors of sEH to C57BL/6 mice. Moreover, sEH inhibitors decreased plasma levels of proinflammatory cytokines and nitric oxide metabolites while promoting the formation of lipoxins, thus supporting inflammatory resolution. These data suggest that sEH inhibitors have therapeutic efficacy in the treatment and management of acute inflammatory diseases.}
@@ -789,73 +921,6 @@
       \verb PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/15994227:text/html
       \endverb
       \keyw{Adamantane,Animals,Arachidonic Acids,Blood Pressure,Chromatography,High Pressure Liquid,Cytokines,Dose-Response Relationship,Drug,Epoxide Hydrolases,Immunoblotting,Inflammation,Lipopolysaccharides,Lipoxins,Male,Mass Spectrometry,Mice,Mice,Inbred C57BL,Prostaglandin-Endoperoxide Synthases,Urea}
-    \endentry
-    \entry{Salentin2015}{article}{}
-      \name{author}{5}{}{%
-        {{hash=370e69b0cd903065751d5f15b6867ef0}{%
-           family={Salentin},
-           familyi={S\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a8371d0386357c9dd8170fc2fa86f179}{%
-           family={Schreiber},
-           familyi={S\bibinitperiod},
-           given={Sven},
-           giveni={S\bibinitperiod}}}%
-        {{hash=301b1052468218428b8b8fc0760c6911}{%
-           family={Haupt},
-           familyi={H\bibinitperiod},
-           given={V.\bibnamedelimi Joachim},
-           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=a6a7bb21019d111e732f52cb0e750e63}{%
-           family={Adasme},
-           familyi={A\bibinitperiod},
-           given={Melissa\bibnamedelima F.},
-           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=1b566efc9000396372edc91189b7a7a3}{%
-           family={Schroeder},
-           familyi={S\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{2dae1b19e634ad52eb12260a97cf7802}
-      \strng{fullhash}{dfb6d72c58863860e2703f3fc86d4292}
-      \strng{bibnamehash}{2dae1b19e634ad52eb12260a97cf7802}
-      \strng{authorbibnamehash}{2dae1b19e634ad52eb12260a97cf7802}
-      \strng{authornamehash}{2dae1b19e634ad52eb12260a97cf7802}
-      \strng{authorfullhash}{dfb6d72c58863860e2703f3fc86d4292}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The characterization of interactions in protein–ligand complexes is essential for research in structural bioinformatics, drug discovery and biology. However, comprehensive tools are not freely available to the research community. Here, we present the protein–ligand interaction profiler (PLIP), a novel web service for fully automated detection and visualization of relevant non-covalent protein–ligand contacts in 3D structures, freely available at projects.biotec.tu-dresden.de/plip-web. The input is either a Protein Data Bank structure, a protein or ligand name, or a custom protein–ligand complex (e.g. from docking). In contrast to other tools, the rule-based PLIP algorithm does not require any structure preparation. It returns a list of detected interactions on single atom level, covering seven interaction types (hydrogen bonds, hydrophobic contacts, pi-stacking, pi-cation interactions, salt bridges, water bridges and halogen bonds). PLIP stands out by offering publication-ready images, PyMOL session files to generate custom images and parsable result files to facilitate successive data processing. The full python source code is available for download on the website. PLIP's command-line mode allows for high-throughput interaction profiling.}
-      \field{issn}{0305-1048}
-      \field{journaltitle}{Nucleic Acids Research}
-      \field{month}{7}
-      \field{number}{Web Server issue}
-      \field{shorttitle}{{PLIP}}
-      \field{title}{{PLIP}: fully automated protein–ligand interaction profiler}
-      \field{urlday}{23}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{43}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{W443\bibrangedash W447}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1093/nar/gkv315
-      \endverb
-      \verb{file}
-      \verb PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/pdf/gkv315.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
-      \endverb
-      \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
-      \endverb
     \endentry
     \entry{Xu2018}{article}{}
       \name{author}{2}{}{%
@@ -1103,8 +1168,8 @@
       \strng{authorbibnamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authornamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authorfullhash}{07c6609b3d047d861806848b749db8a4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Computer-aided drug discovery techniques reduce the time and the costs needed to develop novel drugs. Their relevance becomes more and more evident with the needs due to health emergencies as well as to the diffusion of personalized medicine. Pharmacophore approaches represent one of the most interesting tools developed, by defining the molecular functional features needed for the binding of a molecule to a given receptor, and then directing the virtual screening of large collections of compounds for the selection of optimal candidates. Computational tools to create the pharmacophore model and to perform virtual screening are available and generated successful studies. This article describes the procedure of pharmacophore modelling followed by virtual screening, the most used software, possible limitations of the approach, and some applications reported in the literature.}
