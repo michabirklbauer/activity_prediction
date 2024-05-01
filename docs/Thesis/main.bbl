@@ -570,6 +570,530 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
       \endverb
     \endentry
+    \entry{Manavalan2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=997024fe07ab0213c79b8fb7b3fd3e6b}{%
+           family={Manavalan},
+           familyi={M\bibinitperiod},
+           given={Balachandran},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5b2f0d528aea9e816f7016945db7adf6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jooyoung},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{c8849883c32ef313e049ac7c022f875a}
+      \strng{fullhash}{c8849883c32ef313e049ac7c022f875a}
+      \strng{bibnamehash}{c8849883c32ef313e049ac7c022f875a}
+      \strng{authorbibnamehash}{c8849883c32ef313e049ac7c022f875a}
+      \strng{authornamehash}{c8849883c32ef313e049ac7c022f875a}
+      \strng{authorfullhash}{c8849883c32ef313e049ac7c022f875a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{MOTIVATION: The accurate ranking of predicted structural models and selecting the best model from a given candidate pool remain as open problems in the field of structural bioinformatics. The quality assessment (QA) methods used to address these problems can be grouped into two categories: consensus methods and single-model methods. Consensus methods in general perform better and attain higher correlation between predicted and true quality measures. However, these methods frequently fail to generate proper quality scores for native-like structures which are distinct from the rest of the pool. Conversely, single-model methods do not suffer from this drawback and are better suited for real-life applications where many models from various sources may not be readily available. RESULTS: In this study, we developed a support-vector-machine-based single-model global quality assessment (SVMQA) method. For a given protein model, the SVMQA method predicts TM-score and GDT\_TS score based on a feature vector containing statistical potential energy terms and consistency-based terms between the actual structural features (extracted from the three-dimensional coordinates) and predicted values (from primary sequence). We trained SVMQA using CASP8, CASP9 and CASP10 targets and determined the machine parameters by 10-fold cross-validation. We evaluated the performance of our SVMQA method on various benchmarking datasets. Results show that SVMQA outperformed the existing best single-model QA methods both in ranking provided protein models and in selecting the best model from the pool. According to the CASP12 assessment, SVMQA was the best method in selecting good-quality models from decoys in terms of GDTloss. AVAILABILITY AND IMPLEMENTATION: SVMQA method can be freely downloaded from http://lee.kias.re.kr/SVMQA/SVMQA\_eval.tar.gz. CONTACT: jlee@kias.re.kr. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.}
+      \field{issn}{1367-4811}
+      \field{journaltitle}{Bioinformatics (Oxford, England)}
+      \field{month}{8}
+      \field{number}{16}
+      \field{shorttitle}{{SVMQA}}
+      \field{title}{{SVMQA}: support-vector-machine-based protein single-model quality assessment}
+      \field{volume}{33}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{2496\bibrangedash 2503}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btx222
+      \endverb
+      \verb{file}
+      \verb PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/28419290:text/html
+      \endverb
+      \keyw{Caspase 10,Caspase 8,Caspase 9,Computational Biology,Models,Molecular,Protein Conformation,Quality Control,Support Vector Machine}
+    \endentry
+    \entry{Eid2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=afa5f317267cdaea322d6e234a00ea40}{%
+           family={Eid},
+           familyi={E\bibinitperiod},
+           given={Fatma-Elzahraa},
+           giveni={F\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=334bf7851e03659485c55d8aed0f37a9}{%
+           family={ElHefnawi},
+           familyi={E\bibinitperiod},
+           given={Mahmoud},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8de056114d6c9e067b7009224519e4b5}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={Lenwood\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{351070bf1ec06b4c48ea22ca661d3801}
+      \strng{fullhash}{351070bf1ec06b4c48ea22ca661d3801}
+      \strng{bibnamehash}{351070bf1ec06b4c48ea22ca661d3801}
+      \strng{authorbibnamehash}{351070bf1ec06b4c48ea22ca661d3801}
+      \strng{authornamehash}{351070bf1ec06b4c48ea22ca661d3801}
+      \strng{authorfullhash}{351070bf1ec06b4c48ea22ca661d3801}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Motivation Can we predict protein–protein interactions (PPIs) of a novel virus with its host? Three major problems arise: the lack of known PPIs for that virus to learn from, the cost of learning about its proteins and the sequence dissimilarity among viral families that makes most methods inapplicable or inefficient. We develop DeNovo, a sequence-based negative sampling and machine learning framework that learns from PPIs of different viruses to predict for a novel one, exploiting the shared host proteins. We tested DeNovo on PPIs from different domains to assess generalization.Results: By solving the challenge of generating less noisy negative interactions, DeNovo achieved accuracy up to 81 and 86\% when predicting PPIs of viral proteins that have no and distant sequence similarity to the ones used for training, receptively. This result is comparable to the best achieved in single virus-host and intra-species PPI prediction cases. Thus, we can now predict PPIs for virtually any virus infecting human. DeNovo generalizes well; it achieved near optimal accuracy when tested on bacteria–human interactions.Availability and implementation: Code, data and additional supplementary materials needed to reproduce this study are available at: https://bioinformatics.cs.vt.edu/{\textasciitilde}alzahraa/denovo.Contact:  alzahraa@vt.eduSupplementary information: Supplementary data are available at Bioinformatics online.}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{4}
+      \field{number}{8}
+      \field{shorttitle}{{DeNovo}}
+      \field{title}{{DeNovo}: virus-host sequence-based protein–protein interaction prediction}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{32}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1144\bibrangedash 1150}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btv737
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://academic.oup.com/bioinformatics/article-pdf/32/8/1144/49018450/bioinformatics_32_8_1144.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/bioinformatics/btv737
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/bioinformatics/btv737
+      \endverb
+    \endentry
+    \entry{Li2015}{article}{}
+      \name{author}{12}{}{%
+        {{hash=cd1e4e648b0074e1d1f4427d70297b0a}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7b7cc7c5004d7878a1ec477a8a5fd833}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Hyunjin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1c2178f4c2805931e7d803801a113431}{%
+           family={Gulbekyan},
+           familyi={G\bibinitperiod},
+           given={Georgy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2d3e1b3195ec824b1d06e09d2ced076c}{%
+           family={Pustovalova},
+           familyi={P\bibinitperiod},
+           given={Olga},
+           giveni={O\bibinitperiod}}}%
+        {{hash=5d2c53a1b110ac30e05793c769db4c9c}{%
+           family={Nikolsky},
+           familyi={N\bibinitperiod},
+           given={Yuri},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f6e626ee17723204267bab94253828b0}{%
+           family={Hope},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4a1e16150544f6646eb4dae034fbcd34}{%
+           family={Bessarabova},
+           familyi={B\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5c2e6dbd3163699a61024f2720634582}{%
+           family={Schu},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=949f021806518de20abe0acdbd60ab6f}{%
+           family={Kolpakova-Hart},
+           familyi={K\bibinithyphendelim H\bibinitperiod},
+           given={Elona},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3c565d4e9f8041839e3dcecc2036eb17}{%
+           family={Merberg},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9f1acdecb8b2b271be5cd783e5aa8327}{%
+           family={Dorner},
+           familyi={D\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=938a5b0ded2840ceba9274d8375959e8}{%
+           family={Trepicchio},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima L.},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{98f5304d89d0c43f01575879a08af711}
+      \strng{fullhash}{b95352cb82a3a4fdd21967170aa0208f}
+      \strng{bibnamehash}{98f5304d89d0c43f01575879a08af711}
+      \strng{authorbibnamehash}{98f5304d89d0c43f01575879a08af711}
+      \strng{authornamehash}{98f5304d89d0c43f01575879a08af711}
+      \strng{authorfullhash}{b95352cb82a3a4fdd21967170aa0208f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Development of drug responsive biomarkers from pre-clinical data is a critical step in drug discovery, as it enables patient stratification in clinical trial design. Such translational biomarkers can be validated in early clinical trial phases and utilized as a patient inclusion parameter in later stage trials. Here we present a study on building accurate and selective drug sensitivity models for Erlotinib or Sorafenib from pre-clinical in vitro data, followed by validation of individual models on corresponding treatment arms from patient data generated in the BATTLE clinical trial. A Partial Least Squares Regression (PLSR) based modeling framework was designed and implemented, using a special splitting strategy and canonical pathways to capture robust information for model building. Erlotinib and Sorafenib predictive models could be used to identify a sub-group of patients that respond better to the corresponding treatment, and these models are specific to the corresponding drugs. The model derived signature genes reflect each drug’s known mechanism of action. Also, the models predict each drug’s potential cancer indications consistent with clinical trial results from a selection of globally normalized GEO expression datasets.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLoS ONE}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Development of a {Drug}-{Response} {Modeling} {Framework} to {Identify} {Cell} {Line} {Derived} {Translational} {Biomarkers} {That} {Can} {Predict} {Treatment} {Outcome} to {Erlotinib} or {Sorafenib}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{10}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e0130700}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0130700
+      \endverb
+      \verb{file}
+      \verb PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4480971/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4480971/pdf/pone.0130700.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4480971/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4480971/
+      \endverb
+    \endentry
+    \entry{Johansson2019}{article}{}
+      \name{author}{10}{}{%
+        {{hash=9f3df312050a5bd3b79832bc1b8afe3f}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=84fb578e9f4d1b5d144725ac2f398690}{%
+           family={Thakkar},
+           familyi={T\bibinitperiod},
+           given={Amol},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c2b03a62a4f0e1fdea8c804f931726aa}{%
+           family={Kogej},
+           familyi={K\bibinitperiod},
+           given={Thierry},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0a686f8b267bda83680dce6bd7c8ade6}{%
+           family={Bjerrum},
+           familyi={B\bibinitperiod},
+           given={Esben},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c3bf1bb180294b91adfcbf9631a4d4df}{%
+           family={Genheden},
+           familyi={G\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f755700cc4bdfa3c9166662a60510221}{%
+           family={Bastys},
+           familyi={B\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c117e1ff92f6b5b3452f60124c02c71f}{%
+           family={Kannas},
+           familyi={K\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d74d85032e16a79d8084a5d6848fb6ec}{%
+           family={Schliep},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=52c3e5a8c2ccdc7c6f2b529db69f6872}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hongming},
+           giveni={H\bibinitperiod}}}%
+        {{hash=07fc5197917d83cd3df96202400b36bc}{%
+           family={Engkvist},
+           familyi={E\bibinitperiod},
+           given={Ola},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{aba30c49ea884d4b07a93e88870d0464}
+      \strng{fullhash}{9ef542cc044c41df28e054bd534639e2}
+      \strng{bibnamehash}{aba30c49ea884d4b07a93e88870d0464}
+      \strng{authorbibnamehash}{aba30c49ea884d4b07a93e88870d0464}
+      \strng{authornamehash}{aba30c49ea884d4b07a93e88870d0464}
+      \strng{authorfullhash}{9ef542cc044c41df28e054bd534639e2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Application of AI technologies in synthesis prediction has developed very rapidly in recent years. We attempt here to give a comprehensive summary on the latest advancement on retro-synthesis planning, forward synthesis prediction as well as quantum chemistry-based reaction prediction models. Besides an introduction on the AI/ML models for addressing various synthesis related problems, the sources of the reaction datasets used in model building is also covered. In addition to the predictive models, the robotics based high throughput experimentation technology will be another crucial factor for conducting synthesis in an automated fashion. Some state-of-the-art of high throughput experimentation practices carried out in the pharmaceutical industry are highlighted in this chapter to give the reader a sense of how future chemistry will be conducted to make compounds faster and cheaper.}
+      \field{issn}{1740-6749}
+      \field{journaltitle}{Drug Discovery Today: Technologies}
+      \field{month}{12}
+      \field{series}{Artificial {Intelligence}}
+      \field{title}{{AI}-assisted synthesis prediction}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{32-33}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{65\bibrangedash 72}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.ddtec.2020.06.002
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/abs/pii/S1740674920300020/pdfft?isDTMRedir=true&download=true:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1740674920300020
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1740674920300020
+      \endverb
+    \endentry
+    \entry{Chen2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=52c3e5a8c2ccdc7c6f2b529db69f6872}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hongming},
+           giveni={H\bibinitperiod}}}%
+        {{hash=07fc5197917d83cd3df96202400b36bc}{%
+           family={Engkvist},
+           familyi={E\bibinitperiod},
+           given={Ola},
+           giveni={O\bibinitperiod}}}%
+        {{hash=10823b6d64e8068836ff795955b9efb9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yinhai},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=02d28c1cf3482d4e2af59f31a7ab3e88}{%
+           family={Olivecrona},
+           familyi={O\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e52e987849436cae55c3929da2203ba4}{%
+           family={Blaschke},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{e4f25836eaad29cdc732400e21391d12}
+      \strng{fullhash}{b16f6fa5cc2bc36048cad66366427a86}
+      \strng{bibnamehash}{e4f25836eaad29cdc732400e21391d12}
+      \strng{authorbibnamehash}{e4f25836eaad29cdc732400e21391d12}
+      \strng{authornamehash}{e4f25836eaad29cdc732400e21391d12}
+      \strng{authorfullhash}{b16f6fa5cc2bc36048cad66366427a86}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the past decade, deep learning has achieved remarkable success in various artificial intelligence research areas. Evolved from the previous research on artificial neural networks, this technology has shown superior performance to other machine learning algorithms in areas such as image and voice recognition, natural language processing, among others. The first wave of applications of deep learning in pharmaceutical research has emerged in recent years, and its utility has gone beyond bioactivity predictions and has shown promise in addressing diverse problems in drug discovery. Examples will be discussed covering bioactivity prediction, de novo molecular design, synthesis prediction and biological image analysis.}
+      \field{issn}{1878-5832}
+      \field{journaltitle}{Drug Discovery Today}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{The rise of deep learning in drug discovery}
+      \field{volume}{23}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{1241\bibrangedash 1250}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.drudis.2018.01.039
+      \endverb
+      \verb{file}
+      \verb PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/29366762:text/html
+      \endverb
+      \keyw{Datasets as Topic,Diagnostic Imaging,Drug Discovery,Machine Learning,Neural Networks,Computer}
+    \endentry
+    \entry{Zeng}{article}{}
+      \name{author}{15}{}{%
+        {{hash=a7534c5f51973ec6c521fab21e85b88a}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Xiangxiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d31b61096363557c61adf4c62bf1a369}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Siyi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b14cb69ef02795ebee55daa8ba5bf317}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Weiqiang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=4dc7fcba2fbf284bf5bdc0109439e268}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zehui},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=5d2994c0168811c3036aaa4ce5a267b7}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=944ef9cbbbf657ef10d8bd5ea84fef34}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yadi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=614fa90cdf7303a9101f87db289fe1b2}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Jiansong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=364a96b5528776fd1815bf60b4b5ee19}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8c10233b077ceb1f0ca10e862ab68089}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Huimin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a324b020654c448aeebf3a6a8ec0a419}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=fad718758a2a2debdc1ebc5812f59fda}{%
+           family={Trapp},
+           familyi={T\bibinitperiod},
+           given={Bruce\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=5df4f003753b6d9cfad61f047a6dab01}{%
+           family={Nussinov},
+           familyi={N\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9748765a63503ed127fc3cfb1e78e919}{%
+           family={Eng},
+           familyi={E\bibinitperiod},
+           given={Charis},
+           giveni={C\bibinitperiod}}}%
+        {{hash=06fd74ff3c02dbfb3396463ad1d8c9a0}{%
+           family={Loscalzo},
+           familyi={L\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=636f2560698c407be38f2caac7eac916}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Feixiong},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{20138c6caf09db1ed379ebd6aff6ca17}
+      \strng{fullhash}{1e12acd58f0a6c7a3e38b4b8cf434949}
+      \strng{bibnamehash}{20138c6caf09db1ed379ebd6aff6ca17}
+      \strng{authorbibnamehash}{20138c6caf09db1ed379ebd6aff6ca17}
+      \strng{authornamehash}{20138c6caf09db1ed379ebd6aff6ca17}
+      \strng{authorfullhash}{1e12acd58f0a6c7a3e38b4b8cf434949}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Without foreknowledge of the complete drug target information, development of promising and affordable approaches for effective treatment of human diseases is challenging. Here, we develop deepDTnet, a deep learning methodology for new target identification and drug repurposing in a heterogeneous drug–gene–disease network embedding 15 types of chemical, genomic, phenotypic, and cellular network profiles. Trained on 732 U.S. Food and Drug Administration-approved small molecule drugs, deepDTnet shows high accuracy (the area under the receiver operating characteristic curve = 0.963) in identifying novel molecular targets for known drugs, outperforming previously published state-of-the-art methodologies. We then experimentally validate that deepDTnet-predicted topotecan (an approved topoisomerase inhibitor) is a new, direct inhibitor (IC50 = 0.43 μM) of human retinoic-acid-receptor-related orphan receptor-gamma t (ROR-γt). Furthermore, by specifically targeting ROR-γt, topotecan reveals a potential therapeutic effect in a mouse model of multiple sclerosis. In summary, deepDTnet offers a powerful network-based deep learning methodology for target identification to accelerate drug repurposing and minimize the translational gap in drug development., Target identification and drug repurposing could benefit from network-based, rational deep learning prediction, and explore the relationship between drugs and targets in the heterogeneous drug–gene–disease network.}
+      \field{issn}{2041-6520}
+      \field{journaltitle}{Chemical Science}
+      \field{number}{7}
+      \field{title}{Target identification among known drugs by deep learning from heterogeneous networks}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{urldateera}{ce}
+      \field{pages}{1775\bibrangedash 1797}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1039/c9sc04336e
+      \endverb
+      \verb{file}
+      \verb PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC8150105/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC8150105/pdf/SC-011-C9SC04336E.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8150105/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8150105/
+      \endverb
+    \endentry
+    \entry{Kraus2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b2543cb9748e6b901311cdb4014d49e3}{%
+           family={Kraus},
+           familyi={K\bibinitperiod},
+           given={Oren\bibnamedelima Z.},
+           giveni={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=750bb29ebaf655e36626e464041edb6d}{%
+           family={Ba},
+           familyi={B\bibinitperiod},
+           given={Jimmy\bibnamedelima Lei},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=11002922cf690abf8522c8fbb1eb5b92}{%
+           family={Frey},
+           familyi={F\bibinitperiod},
+           given={Brendan\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{488b85cd546b5c0705a6dc6323f73536}
+      \strng{fullhash}{488b85cd546b5c0705a6dc6323f73536}
+      \strng{bibnamehash}{488b85cd546b5c0705a6dc6323f73536}
+      \strng{authorbibnamehash}{488b85cd546b5c0705a6dc6323f73536}
+      \strng{authornamehash}{488b85cd546b5c0705a6dc6323f73536}
+      \strng{authorfullhash}{488b85cd546b5c0705a6dc6323f73536}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Motivation : High-content screening (HCS) technologies have enabled large scale imaging experiments for studying cell biology and for drug screening. These systems produce hundreds of thousands of microscopy images per day and their utility depends on automated image analysis. Recently, deep learning approaches that learn feature representations directly from pixel intensity values have dominated object recognition challenges. These tasks typically have a single centered object per image and existing models are not directly applicable to microscopy datasets. Here we develop an approach that combines deep convolutional neural networks (CNNs) with multiple instance learning (MIL) in order to classify and segment microscopy images using only whole image level annotations. Results : We introduce a new neural network architecture that uses MIL to simultaneously classify and segment microscopy images with populations of cells. We base our approach on the similarity between the aggregation function used in MIL and pooling layers used in CNNs. To facilitate aggregating across large numbers of instances in CNN feature maps we present the Noisy-AND pooling function, a new MIL operator that is robust to outliers. Combining CNNs with MIL enables training CNNs using whole microscopy images with image level labels. We show that training end-to-end MIL CNNs outperforms several previous methods on both mammalian and yeast datasets without requiring any segmentation steps. Availability and implementation : Torch7 implementation available upon request. Contact : oren.kraus@mail.utoronto.ca}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{6}
+      \field{number}{12}
+      \field{title}{Classifying and segmenting microscopy images with deep multiple instance learning}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{32}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{i52\bibrangedash i59}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btw252
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://academic.oup.com/bioinformatics/article-pdf/32/12/i52/49021130/bioinformatics_32_12_i52.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/bioinformatics/btw252
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/bioinformatics/btw252
+      \endverb
+    \endentry
     \entry{Morris2022}{article}{}
       \name{author}{5}{}{%
         {{hash=a268d7ffe43e1135008a053772900304}{%
@@ -604,8 +1128,8 @@
       \strng{authorbibnamehash}{553039d752572651c4044c390364e521}
       \strng{authornamehash}{553039d752572651c4044c390364e521}
       \strng{authorfullhash}{86d9d3b74981a3adf493207be0031017}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Molecular docking tools are regularly used to computationally identify new molecules in virtual screening for drug discovery. However, docking tools suffer from inaccurate scoring functions with widely varying performance on different proteins. To enable more accurate ranking of active over inactive ligands in virtual screening, we created a machine learning consensus docking tool, MILCDock, that uses predictions from five traditional molecular docking tools to predict the probability a ligand binds to a protein. MILCDock was trained and tested on data from both the DUD-E and LIT-PCBA docking datasets and shows improved performance over traditional molecular docking tools and other consensus docking methods on the DUD-E dataset. LIT-PCBA targets proved to be difficult for all methods tested. We also find that DUD-E data, although biased, can be effective in training machine learning tools if care is taken to avoid DUD-E's biases during training.}
@@ -642,8 +1166,8 @@
       \strng{authorbibnamehash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
       \strng{authornamehash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
       \strng{authorfullhash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Acetylcholinesterase (AChE) terminates the neurotransmission at cholinergic synapses by splitting the neurotransmitter acetylcholine. The nature and didtribution of the enzyme has extensively been studied in many invertebrates and vertebrates including human, histochemically and biochemically. The enzyme demonstrates a high degree of variability in distribution with its notable presense in nonneuronal tissues also, which provides pertinent theme to investigate its nonclassical role. Recently a lot of information has come out regarding its dynamic structure, gene expression, its role in neuronal morphogenesis and synaptogenesis. The significance of AChE stems from the fact that it is the target of drugs designed to treat myasthenia gravis, glaucoma, alzheimer's disease etc. Keeping in view, above mentioned facts a thorough review has been made in the present article regarding its biochemistry, structural dynamics, wide distribution, isoforms and its implications in neurodegenerative disorders. doi: 10.5214/ans.0972.7531.2008.150403   Competing interests: None.     Source of Funding: None Received Date: 08 Sept 2008      Revised Date: 13 Oct 2008      Accepted Date: 22 Oct 2008}
@@ -694,8 +1218,8 @@
       \strng{authorbibnamehash}{e2afac71589f30e7c80a0942749322ce}
       \strng{authornamehash}{e2afac71589f30e7c80a0942749322ce}
       \strng{authorfullhash}{e2afac71589f30e7c80a0942749322ce}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Cyclooxygenase (COX; prostaglandin G/H synthase, EC 1.14.99.1) catalyzes the first two steps in the biosynthesis of prostaglandins (PGs). The two COX isoforms COX-1 and COX-2 are the targets of the widely used nonsteroidal anti-inflammatory drugs, indicating a role for these enzymes in pain, fever, inflammation, and tumorigenesis. The ubiquitous constitutive expression of COX-1 and inducible expression of COX-2 have led to the widely held belief that COX-1 produces homeostatic PGs, while PGs produced by COX-2 are primarily pathophysiological. However, recent discoveries call this paradigm into question and reveal as yet underappreciated functions for both enzymes. This review focuses on some of these new insights.}
@@ -779,8 +1303,8 @@
       \strng{authorbibnamehash}{113bd487cce0157b5fce2d2b67741886}
       \strng{authornamehash}{113bd487cce0157b5fce2d2b67741886}
       \strng{authorfullhash}{e406cdb2e82efbcc0898d151bc6e53eb}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Of the 600+ known proteases identified to date in mammals, a significant percentage is involved or implicated in pathogenic and cancer processes. The dipeptidyl peptidase IV (DPIV) gene family, comprising four enzyme members [DPIV (EC 3.4.14.5), fibroblast activation protein, DP8 and DP9] and two nonenzyme members [DP6 (DPL1) and DP10 (DPL2)], are interesting in this regard because of their multiple diverse functions, varying patterns of distribution/localization and subtle, but significant, differences in structure/substrate recognition. In addition, their engagement in cell biological processes involves both enzymatic and nonenzymatic capabilities. This article examines, in detail, our current understanding of the biological involvement of this unique enzyme family and their overall potential as therapeutic targets.}
@@ -825,8 +1349,8 @@
       \strng{authorbibnamehash}{cf0238806cfeaae072d359ee23de4a67}
       \strng{authornamehash}{cf0238806cfeaae072d359ee23de4a67}
       \strng{authorfullhash}{cf0238806cfeaae072d359ee23de4a67}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Monoamine oxidases (MAO) influence the monoamine levels in brain by virtue of their role in neurotransmitter breakdown. MAO B is the predominant form in glial cells and in platelets. MAO B structure, function and kinetics are described as a background for the effect of alterations in its activity on behavior. The need to inhibit MAO B to combat decreased brain amines continues to drive the search for new drugs. Reversible and irreversible inhibitors are now designed using data-mining, computational screening, docking and molecular dynamics. Multi-target ligands designed to combat the elevated activity of MAO B in Alzheimer's and Parkinson's Diseases incorporate MAO inhibition (usually irreversible) as well as iron chelation, antioxidant or neuroprotective properties. The main focus of drug design is the catalytic activity of MAO, but the imidazoline I2 site in the entrance cavity of MAO B is also a pharmacological target. Endogenous regulation of MAO B expression is discussed briefly in light of new studies measuring mRNA, protein, or activity in healthy and degenerative samples, including the effect of DNA methylation on the expression. Overall, this review focuses on examples of recent research on the molecular aspects of the expression, activity, and inhibition of MAO B.}
@@ -944,8 +1468,8 @@
       \strng{authorbibnamehash}{4c54e609c18f1706c0d0316a9b0e4a78}
       \strng{authornamehash}{4c54e609c18f1706c0d0316a9b0e4a78}
       \strng{authorfullhash}{4c54e609c18f1706c0d0316a9b0e4a78}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Model validation is the most important part of building a supervised model. For building a model with good generalization performance one must have a sensible data splitting strategy, and this is crucial for model validation. In this study, we conducted a comparative study on various reported data splitting methods. The MixSim model was employed to generate nine simulated datasets with different probabilities of mis-classification and variable sample sizes. Then partial least squares for discriminant analysis and support vector machines for classification were applied to these datasets. Data splitting methods tested included variants of cross-validation, bootstrapping, bootstrapped Latin partition, Kennard-Stone algorithm (K-S) and sample set partitioning based on joint X–Y distances algorithm (SPXY). These methods were employed to split the data into training and validation sets. The estimated generalization performances from the validation sets were then compared with the ones obtained from the blind test sets which were generated from the same distribution but were unseen by the training/validation procedure used in model construction. The results showed that the size of the data is the deciding factor for the qualities of the generalization performance estimated from the validation set. We found that there was a significant gap between the performance estimated from the validation set and the one from the test set for the all the data splitting methods employed on small datasets. Such disparity decreased when more samples were available for training/validation, and this is because the models were then moving towards approximations of the central limit theory for the simulated datasets used. We also found that having too many or too few samples in the training set had a negative effect on the estimated model performance, suggesting that it is necessary to have a good balance between the sizes of training set and validation set to have a reliable estimation of model performance. We also found that systematic sampling method such as K-S and SPXY generally had very poor estimation of the model performance, most likely due to the fact that they are designed to take the most representative samples first and thus left a rather poorly representative sample set for model performance estimation.}
@@ -1002,8 +1526,8 @@
       \strng{authorbibnamehash}{e00c9c9054a41eef18611e4fa20c0f17}
       \strng{authornamehash}{e00c9c9054a41eef18611e4fa20c0f17}
       \strng{authorfullhash}{e00c9c9054a41eef18611e4fa20c0f17}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{Motivation: In genomic studies, thousands of features are collected on relatively few samples. One of the goals of these studies is to build classifiers to predict the outcome of future observations. There are three inherent steps to this process: feature selection, model selection and prediction assessment. With a focus on prediction assessment, we compare several methods for estimating the ‘true’ prediction error of a prediction model in the presence of feature selection.Results: For small studies where features are selected from thousands of candidates, the resubstitution and simple split-sample estimates are seriously biased. In these small samples, leave-one-out cross-validation (LOOCV), 10-fold cross-validation (CV) and the .632+ bootstrap have the smallest bias for diagonal discriminant analysis, nearest neighbor and classification trees. LOOCV and 10-fold CV have the smallest bias for linear discriminant analysis. Additionally, LOOCV, 5- and 10-fold CV, and the .632+ bootstrap have the lowest mean square error. The .632+ bootstrap is quite biased in small sample sizes with strong signal-to-noise ratios. Differences in performance among resampling methods are reduced as the number of specimens available increase.Contact:  annette.molinaro@yale.eduSupplementary Information: A complete compilation of results and R code for simulations and analyses are available in Molinaro et al. (2005) (http://linus.nci.nih.gov/brb/TechReport.htm).}}
@@ -1066,8 +1590,8 @@
       \strng{authorbibnamehash}{d44728042e540f56f5100bcd48238abc}
       \strng{authornamehash}{d44728042e540f56f5100bcd48238abc}
       \strng{authorfullhash}{e40264f45bb9ab151da90f13aa524cc7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{A new metric for the evaluation of model performance in the field of virtual screening and quantitative structure–activity relationship applications is described. This metric has been termed the power metric and is defined as the fraction of the true positive rate divided by the sum of the true positive and false positive rates, for a given cutoff threshold. The performance of this metric is compared with alternative metrics such as the enrichment factor, the relative enrichment factor, the receiver operating curve enrichment factor, the correct classification rate, Matthews correlation coefficient and Cohen’s kappa coefficient. The performance of this new metric is found to be quite robust with respect to variations in the applied cutoff threshold and ratio of the number of active compounds to the total number of compounds, and at the same time being sensitive to variations in model quality. It possesses the correct characteristics for its application in early-recognition virtual screening problems.}
@@ -1119,8 +1643,8 @@
       \strng{authorbibnamehash}{6e7d45c8843de3e68d6f3b75338f9992}
       \strng{authornamehash}{6e7d45c8843de3e68d6f3b75338f9992}
       \strng{authorfullhash}{6e7d45c8843de3e68d6f3b75338f9992}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Evaluation metric plays a critical role in achieving the optimal classifier during the classification training. Thus, a selection of suitable evaluation metric is an important key for discriminating and obtaining the optimal classifier. This paper systematically reviewed the related evaluation metrics that are specifically designed as a discriminator for optimizing generative classifier. Generally, many generative classifiers employ accuracy as a measure to discriminate the optimal solution during the classification training. However, the accuracy has several weaknesses which are less distinctiveness, less discriminability, less informativeness and bias to majority class data. This paper also briefly discusses other metrics that are specifically designed for discriminating the optimal solution. The shortcomings of these alternative metrics are also discussed. Finally, this paper suggests five important aspects that must be taken into consideration in constructing a new discriminator metric.}
@@ -1201,8 +1725,8 @@
       \endverb
     \endentry
     \entry{WikiReliquienschrein2022}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{day}{29}
       \field{langid}{ngerman}
