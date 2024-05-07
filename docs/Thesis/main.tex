@@ -17,10 +17,15 @@
 %%%-----------------------------------------------------------------------------
 
 \RequirePackage[utf8]{inputenc} % Remove when using lualatex or xelatex!
-
+\usepackage{array}
 \graphicspath{{images/}}  % Location of images and graphics
 \logofile{logo}          % Logo file: images/logo.pdf (no logo: \logofile{})
 \bibliography{references} % Biblatex bibliography file (references.bib)
+\usepackage[toc,acronym]{glossaries}
+\loadglsentries{glossaries.tex}
+
+\makenoidxglossaries
+
 
 %%%-----------------------------------------------------------------------------
 \begin{document}
@@ -54,11 +59,15 @@
 
 \include{front/preface} % A preface is optional
 \include{front/abstract}		
-\include{front/kurzfassung}			
+\include{front/kurzfassung}	
+
+\printnoidxglossary[type=\acronymtype]
+
 
 %%%-----------------------------------------------------------------------------
 \mainmatter                                    % Main part (arabic page numbers)
 %%%-----------------------------------------------------------------------------
+
 
 \include{chapters/introduction}
 \include{chapters/methods}

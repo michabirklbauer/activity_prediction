@@ -1,0 +1,121 @@
+To evaluate different feature engineering approaches the protein \textit{Acetylcholinesterase} was used.
+The goal of this evaluation is to determine which feature engineering techniques shall be used on the
+protein-ligand compounds. It is also of interest, which feature engineering techniques work best with each machine learning approach.
+The \acrshort*[]{acc} measure is used to score the performance of the feature engineering method.
+The metric is calculated using the validation data.
+
+\subsection*{Neural network}
+The following table is the result of applying the neural network on the datasets that where manipulated using feature engineering.
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Feature engineering validation accuracy \\ neural network}
+        \begin{tabular}{lr}
+            \toprule
+            Name              & Validation Accuracy \\
+            \midrule
+            baseline\_nn      & 0.7801              \\
+            fe\_smote\_nn     & 0.7801              \\
+            fe\_pca\_nn       & 0.7589              \\
+            fe\_rf\_mdi\_nn   & 0.7589              \\
+            fe\_rf\_per\_nn   & 0.7518              \\
+            fe\_nonhydrop\_nn & 0.7376              \\
+            fe\_freq\_nn      & 0.7180              \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+\end{table}
+
+The results state that the neural network approach does not improve greatly when applying the proposed feature engineering methods.
+The \acrshort*[]{smote} method comes close to the performance of the baseline neural network. Therefore, it will be included for the analysis of the five complexes.
+
+\subsection*{K nearest neighbor}
+The following table is the result of applying the \acrshort*[]{knn} algorithm on the datasets that where manipulated using feature engineering.
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Feature engineering validation accuracy \\ k nearest neighbor}
+        \begin{tabular}{lr}
+            \toprule
+            Name               & Validation Accuracy \\
+            \midrule
+            fe\_rf\_mdi\_knn   & 0.7934              \\
+            fe\_rf\_per\_knn   & 0.7778              \\
+            fe\_freq\_knn      & 0.7664              \\
+            fe\_nonhydrop\_knn & 0.7550              \\
+            fe\_pca\_knn       & 0.7550              \\
+            baseline\_knn      & 0.7437              \\
+            fe\_smote\_knn     & 0.7437              \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+\end{table}
+
+The \acrshort*[]{knn} algorithm benefits greatly from the proposed feature engineering methods.
+To contrast the baseline \acrshort*[]{knn} performance best, the feature engineering methods using random forest will be
+evaluated for the protein-ligand complexes, as their performance supersedes the other methods.
+
+\subsection*{Random forest}
+The following table is the result of applying the random forest algorithm on the datasets that where manipulated using feature engineering.
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Feature engineering validation accuracy \\random forest}
+        \begin{tabular}{lr}
+            \toprule
+            Name              & Validation Accuracy \\
+            \midrule
+            fe\_smote\_rf     & 0.8375              \\
+            baseline\_rf      & 0.8362              \\
+            fe\_rf\_mdi\_rf   & 0.8290              \\
+            fe\_rf\_per\_rf   & 0.8221              \\
+            fe\_freq\_rf      & 0.8107              \\
+            fe\_nonhydrop\_rf & 0.8050              \\
+            fe\_pca\_rf       & 0.8005              \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+\end{table}
+
+The random forest algorithm does not benefit greatly from the proposed feature engineering methods.
+Due to the more balanced dataset resulting from the \acrshort*[]{smote} method a slight performance boost can be observed.
+Therefore, the \acrshort*[]{smote} algorithm will be applied to the remaining protein-ligand complexes.
+
+\subsection*{Overall performance projections}
+The following table lists all the feature engineering accuracies for all the machine learning approaches.
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Feature Engineering Validation Accuracy \\ overall}
+        \begin{tabular}{lr}
+            \toprule
+            Name               & Validation Accuracy \\
+            \midrule
+            fe\_smote\_rf      & 0.8375              \\
+            baseline\_rf       & 0.8362              \\
+            fe\_rf\_mdi\_rf    & 0.8290              \\
+            fe\_rf\_per\_rf    & 0.8221              \\
+            fe\_freq\_rf       & 0.8107              \\
+            fe\_nonhydrop\_rf  & 0.8050              \\
+            fe\_pca\_rf        & 0.8005              \\
+            fe\_rf\_mdi\_knn   & 0.7934              \\
+            baseline\_nn       & 0.7801              \\
+            fe\_smote\_nn      & 0.7801              \\
+            fe\_rf\_per\_knn   & 0.7778              \\
+            fe\_freq\_knn      & 0.7664              \\
+            fe\_pca\_nn        & 0.7589              \\
+            fe\_rf\_mdi\_nn    & 0.7589              \\
+            fe\_nonhydrop\_knn & 0.7550              \\
+            fe\_pca\_knn       & 0.7550              \\
+            fe\_rf\_per\_nn    & 0.7518              \\
+            baseline\_knn      & 0.7437              \\
+            fe\_smote\_knn     & 0.7437              \\
+            fe\_nonhydrop\_nn  & 0.7376              \\
+            fe\_freq\_nn       & 0.7180              \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+\end{table}
+
+As seen in the table the random forest approaches tend to yield the best result when applied to the validation portions of the datasets.
+Therefore, this approach is very likely to score better on the test sets as well. 

@@ -1,1 +1,58 @@
-How to measure the quality of a machine learning system.
+In order to make the results from this thesis comparable to the results from the 
+scoring function introduced in \cite[]{Birklbauer2021} by Micha Birklbauer the same quality metrics have been 
+implemented for this thesis. The following will provide an overview for the used metrics.
+\subsection{Terminology} \label{terminology}
+To calculate the metrics that are mentioned within this chapter the following base terms are necessary:
+\begin{description}
+    \item [TP] -- \textbf{T}rue \textbf{P}ositives are active samples, which are classified as such
+    \item [TN] -- \textbf{T}rue \textbf{N}egatives are inactive samples, which are classified as such
+    \item [FP] -- \textbf{F}alse \textbf{P}ositives are inactive samples, which are classified as active
+    \item [FN] -- \textbf{F}alse \textbf{N}egatives are active samples, which are classified as inactive 
+\end{description}
+
+\subsection{Visual metrics}
+For better visualization of the four base metrics mentioned in \href{terminology}{2.4.1}
+this thesis displays the resulting data in a confusion matrix. This metric displays distribution of the results over the four base metrics.
+
+In addition to that, the ROC(receiver operating characteristic) curve will also be displayed for the results.
+The ROC curve is a collection of points in a two-dimensional 
+space, where their location is defined by the FPR \href{fpr}{2.4.4} on the x-axis and the TPR($\frac{\#TP}{\#TP+\#FN}$) on the y-axis. 
+Each point on this line depicts the ratio of FPR to TPR at a certain score cutoff. \cite[]{Lopes2017}
+
+
+\subsection{Accuracy}
+\acrfull*[]{acc} describes which portion of the predicted samples was accurately assigned to the correct class and is defined as follows:
+\begin{equation*}
+    \text{ACC} = \frac{\#TP+\#TN}{\#TP+\#TN+\#FP+\#FN}
+\end{equation*}
+\cite[]{Hossin2015}
+\subsection{False positive Rate}\label{fpr}
+\acrfull*[]{fpr} describes the compounds that were incorrectly classified as active in relation to all inactive compounds dand is defined as follows:
+\begin{equation*}
+    \text{FPR} = \frac{\#FP}{\#TN+\#FP}
+\end{equation*}
+\cite[]{Lopes2017}
+\subsection{Area under the curve}
+\acrfull*[]{auc} is a metric which stems from the ROC curve. 
+The integral of the ROC curve is calculated using the \href{https://scikit-learn.org/stable/index.html}{scikit-learn
+} package and is always between 0 and 1\cite[]{Lopes2017}.
+\subsection{Yield of Actives}
+\acrfull*[]{ya} describes the true positive compounds in relation to all as active labeled compounds and is defined as follows:
+\begin{equation*}
+    \text{Ya} = \frac{\#TP}{\#TP+\#FP}
+\end{equation*}
+\cite[]{Giordano2022}
+\subsection{Enrichment Factor}
+The \acrfull*[]{ef} describes the relation of the truly active compounds among all as active predicted complexes and the relative share of active compounds in the dataset.
+This metric is defined as follows:
+\begin{equation*}
+    \text{EF} = \frac{\frac{\#TP}{\#TP+\#FP}}{\frac{\#TP+\#FN}{\#TP+\#TN+\#FP+\#FN}}
+\end{equation*}
+\cite[]{Lopes2017}  
+\subsection{Relative Enrichment Factor}
+The \acrfull*[]{ref} describes the relation of the EF to the maximum achievable EF. The REF is defined as follows:
+\begin{equation*}
+    \text{REF} = \frac{100 *\#TP}{\min(\#TP + \#FP,\#TP+\#FN)}
+\end{equation*} 
+\cite[]{Lopes2017}  
+
