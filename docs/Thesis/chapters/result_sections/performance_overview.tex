@@ -1,3 +1,22 @@
-Compare performance of overall ml approaches.
+This chapter aims to compare the accumulated results generated in \ref{cha:performance_protein}.
+To achieve the desired results the best performing version of each machine learning algorithm has been selected for each protein.
+In the following step the average for each of the machine learning algorithms is calculated.
+The results of this calculation can be seen in the table below.
 
-Take best version of each machine learning approach (RF;KNN;NN) for each protein and average
+\begin{table}[H]
+    \begin{center}
+        \caption{machine learning algorithms comparison}
+        \begin{tabular}{lrrrrr}
+            \toprule
+            Name & ACC    & FPR    & AUC    & EF     & REF     \\
+            \midrule
+            rf   & 0.7762 & 0.1380 & 0.6916 & 2.3596 & 85.8631 \\
+            knn  & 0.7352 & 0.2292 & 0.6684 & 1.7419 & 69.6539 \\
+            nn   & 0.7246 & 0.1937 & 0.6530 & 1.6647 & 63.6876 \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+\end{table}
+
+In is obvious that the random forest algorithm outperforms the other algorithms. 
+RF achieves noticeably better performance across all metrics.  

@@ -42,23 +42,23 @@
 \contentsline {section}{\numberline {3.2}Performance per Protein-Complex}{11}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Acetylcholinesterase}{12}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Cyclooxygenase 1}{14}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Dipeptidyl peptidase IV}{14}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{14}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Soluble epoxide hydrolase}{14}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches}{14}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Discussion}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusion}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Improvements and outlook}{15}{section.4.2}%
-\contentsline {chapter}{\numberline {A}Technical Details}{16}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Supplementary Materials}{17}{appendix.B}%
-\contentsline {section}{\numberline {B.1}PDF Files}{17}{section.B.1}%
-\contentsline {paragraph}{Path: \nolinkurl {/}}{17}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Media Files}{17}{section.B.2}%
-\contentsline {paragraph}{Path: \nolinkurl {/media}}{17}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Online Sources (PDF Captures)}{17}{section.B.3}%
-\contentsline {paragraph}{Path: \nolinkurl {/online-sources}}{17}{section.B.3}%
-\contentsline {chapter}{\numberline {C}Questionnaire}{18}{appendix.C}%
-\contentsline {chapter}{\numberline {D}La\-TeX\xspace Source Code}{19}{appendix.D}%
-\contentsline {chapter}{References}{20}{appendix*.18}%
-\contentsline {section}{Literature}{20}{section*.19}%
-\contentsline {section}{Online sources}{22}{section*.20}%
+\contentsline {subsection}{\numberline {3.2.3}Dipeptidyl peptidase IV}{17}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{19}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Soluble epoxide hydrolase}{22}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches → maybe use median instead of avg ask MICHA}{24}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusion}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Improvements and outlook}{25}{section.4.2}%
+\contentsline {chapter}{\numberline {A}Technical Details}{26}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Supplementary Materials}{27}{appendix.B}%
+\contentsline {section}{\numberline {B.1}PDF Files}{27}{section.B.1}%
+\contentsline {paragraph}{Path: \nolinkurl {/}}{27}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Media Files}{27}{section.B.2}%
+\contentsline {paragraph}{Path: \nolinkurl {/media}}{27}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Online Sources (PDF Captures)}{27}{section.B.3}%
+\contentsline {paragraph}{Path: \nolinkurl {/online-sources}}{27}{section.B.3}%
+\contentsline {chapter}{\numberline {C}Questionnaire}{28}{appendix.C}%
+\contentsline {chapter}{\numberline {D}La\-TeX\xspace Source Code}{29}{appendix.D}%
+\contentsline {chapter}{References}{30}{appendix*.39}%
+\contentsline {section}{Literature}{30}{section*.40}%
+\contentsline {section}{Online sources}{32}{section*.41}%
