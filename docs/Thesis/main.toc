@@ -38,22 +38,22 @@
 \contentsline {subsection}{\numberline {2.5.3}Principal component analysis}{8}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Balancing classes}{8}{subsection.2.5.4}%
 \contentsline {chapter}{\numberline {3}Results !WIP!}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Feature Engineering Results for ACHE}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Performance per Protein-Complex}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches}{9}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Discussion}{10}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusion}{10}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Improvements and outlook}{10}{section.4.2}%
-\contentsline {chapter}{\numberline {A}Technical Details}{11}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Supplementary Materials}{12}{appendix.B}%
-\contentsline {section}{\numberline {B.1}PDF Files}{12}{section.B.1}%
-\contentsline {paragraph}{Path: \nolinkurl {/}}{12}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Media Files}{12}{section.B.2}%
-\contentsline {paragraph}{Path: \nolinkurl {/media}}{12}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Online Sources (PDF Captures)}{12}{section.B.3}%
-\contentsline {paragraph}{Path: \nolinkurl {/online-sources}}{12}{section.B.3}%
-\contentsline {chapter}{\numberline {C}Questionnaire}{13}{appendix.C}%
-\contentsline {chapter}{\numberline {D}La\-TeX\xspace Source Code}{14}{appendix.D}%
-\contentsline {chapter}{References}{15}{appendix*.9}%
-\contentsline {section}{Literature}{15}{section*.10}%
-\contentsline {section}{Online sources}{17}{section*.11}%
+\contentsline {section}{\numberline {3.1}Feature Engineering Results for \acrshort *[]{ache}}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Performance per Protein-Complex}{11}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches}{12}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusion}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Improvements and outlook}{13}{section.4.2}%
+\contentsline {chapter}{\numberline {A}Technical Details}{14}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Supplementary Materials}{15}{appendix.B}%
+\contentsline {section}{\numberline {B.1}PDF Files}{15}{section.B.1}%
+\contentsline {paragraph}{Path: \nolinkurl {/}}{15}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Media Files}{15}{section.B.2}%
+\contentsline {paragraph}{Path: \nolinkurl {/media}}{15}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Online Sources (PDF Captures)}{15}{section.B.3}%
+\contentsline {paragraph}{Path: \nolinkurl {/online-sources}}{15}{section.B.3}%
+\contentsline {chapter}{\numberline {C}Questionnaire}{16}{appendix.C}%
+\contentsline {chapter}{\numberline {D}La\-TeX\xspace Source Code}{17}{appendix.D}%
+\contentsline {chapter}{References}{18}{appendix*.13}%
+\contentsline {section}{Literature}{18}{section*.14}%
+\contentsline {section}{Online sources}{20}{section*.15}%
