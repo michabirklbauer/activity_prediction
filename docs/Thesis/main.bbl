@@ -1724,6 +1724,260 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9145410/
       \endverb
     \endentry
+    \entry{Karabiber}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=66463bfdd44906d50339bc4a47a218d9}{%
+           family={Karabiber},
+           familyi={K\bibinitperiod},
+           given={Fatih},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{66463bfdd44906d50339bc4a47a218d9}
+      \strng{fullhash}{66463bfdd44906d50339bc4a47a218d9}
+      \strng{bibnamehash}{66463bfdd44906d50339bc4a47a218d9}
+      \strng{authorbibnamehash}{66463bfdd44906d50339bc4a47a218d9}
+      \strng{authornamehash}{66463bfdd44906d50339bc4a47a218d9}
+      \strng{authorfullhash}{66463bfdd44906d50339bc4a47a218d9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gini Impurity}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.learndatasci.com/glossary/gini-impurity/
+      \endverb
+      \verb{url}
+      \verb https://www.learndatasci.com/glossary/gini-impurity/
+      \endverb
+    \endentry
+    \entry{Soman2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9a8f3a87c7d45b8a41a5a69189adb9a1}{%
+           family={Soman},
+           familyi={S\bibinitperiod},
+           given={Aneesha\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
+      \strng{fullhash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
+      \strng{bibnamehash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
+      \strng{authorbibnamehash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
+      \strng{authornamehash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
+      \strng{authorfullhash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gini Impurity}
+      \field{month}{10}
+      \field{title}{Gini {Impurity} vs {Gini} {Importance} vs {Mean} {Decrease} {Impurity}}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@aneesha161994/gini-impurity-vs-gini-importance-vs-mean-decrease-impurity-51408bdd0cf1
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@aneesha161994/gini-impurity-vs-gini-importance-vs-mean-decrease-impurity-51408bdd0cf1
+      \endverb
+    \endentry
+    \entry{permutation_importance}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Permutation feature importance is a model inspection technique that measures the contribution of each feature to a fitted model’s statistical performance on a given tabular dataset. This technique ...}
+      \field{journaltitle}{scikit-learn}
+      \field{title}{4.2. {Permutation} feature importance}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scikit-learn/stable/modules/permutation_importance.html
+      \endverb
+      \verb{url}
+      \verb https://scikit-learn/stable/modules/permutation_importance.html
+      \endverb
+    \endentry
+    \entry{Freitas2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ccea72e02e452e32f765f2ed7f310ccd}{%
+           family={Freitas},
+           familyi={F\bibinitperiod},
+           given={Renato\bibnamedelimb Ferreira\bibnamedelima de},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=bb32711be8765e6609d0c9744180a304}{%
+           family={Schapira},
+           familyi={S\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{604b5cc6811fbf3a2c96464d8e15c999}
+      \strng{fullhash}{604b5cc6811fbf3a2c96464d8e15c999}
+      \strng{bibnamehash}{604b5cc6811fbf3a2c96464d8e15c999}
+      \strng{authorbibnamehash}{604b5cc6811fbf3a2c96464d8e15c999}
+      \strng{authornamehash}{604b5cc6811fbf3a2c96464d8e15c999}
+      \strng{authorfullhash}{604b5cc6811fbf3a2c96464d8e15c999}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As the protein databank (PDB) recently passed the cap of 123 456 structures, it stands more than ever as an important resource not only to analyze structural features of specific biological systems, but also to study the prevalence of structural patterns observed in a large body of unrelated structures, that may reflect rules governing protein folding or molecular recognition. Here, we compiled a list of 11 016 unique structures of small-molecule ligands bound to proteins – 6444 of which have experimental binding affinity – representing 750 873 protein–ligand atomic interactions, and analyzed the frequency, geometry and impact of each interaction type. We find that hydrophobic interactions are generally enriched in high-efficiency ligands, but polar interactions are over-represented in fragment inhibitors. While most observations extracted from the PDB will be familiar to seasoned medicinal chemists, less expected findings, such as the high number of C–H⋯O hydrogen bonds or the relatively frequent amide–π stacking between the backbone amide of proteins and aromatic rings of ligands, uncover underused ligand design strategies.}
+      \field{issn}{2040-2511}
+      \field{journaltitle}{MedChemComm}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{A systematic analysis of atomic protein–ligand interactions in the {PDB}}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1970\bibrangedash 1981}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1039/C7MD00381A
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.rsc.org/en/content/articlepdf/2017/md/c7md00381a:application/pdf;Supplementary Information PDF:https\://www.rsc.org/suppdata/c7/md/c7md00381a/c7md00381a1.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.rsc.org/en/content/articlelanding/2017/md/c7md00381a
+      \endverb
+      \verb{url}
+      \verb https://pubs.rsc.org/en/content/articlelanding/2017/md/c7md00381a
+      \endverb
+    \endentry
+    \entry{Shlens2014}{report}{}
+      \name{author}{1}{}{%
+        {{hash=8f128e70084608a2c29c497ebd794f87}{%
+           family={Shlens},
+           familyi={S\bibinitperiod},
+           given={Jonathon},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8f128e70084608a2c29c497ebd794f87}
+      \strng{fullhash}{8f128e70084608a2c29c497ebd794f87}
+      \strng{bibnamehash}{8f128e70084608a2c29c497ebd794f87}
+      \strng{authorbibnamehash}{8f128e70084608a2c29c497ebd794f87}
+      \strng{authornamehash}{8f128e70084608a2c29c497ebd794f87}
+      \strng{authorfullhash}{8f128e70084608a2c29c497ebd794f87}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Principal component analysis (PCA) is a mainstay of modern data analysis - a black box that is widely used but (sometimes) poorly understood. The goal of this paper is to dispel the magic behind this black box. This manuscript focuses on building a solid intuition for how and why principal component analysis works. This manuscript crystallizes this knowledge by deriving from simple intuitions, the mathematics behind PCA. This tutorial does not shy away from explaining the ideas informally, nor does it shy away from the mathematics. The hope is that by addressing both aspects, readers of all levels will be able to gain a better understanding of PCA as well as the when, the how and the why of applying this technique.}
+      \field{month}{4}
+      \field{note}{arXiv:1404.1100 [cs, stat] type: article}
+      \field{title}{A {Tutorial} on {Principal} {Component} {Analysis}}
+      \field{type}{techreport}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1404.1100
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/1404.1100.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1404.1100
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1404.1100
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
+    \entry{Chawla2002}{article}{}
+      \name{author}{4}{}{%
+        {{hash=517c300d6831b45e817a12c128e0d3c0}{%
+           family={Chawla},
+           familyi={C\bibinitperiod},
+           given={N.\bibnamedelimi V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=8aa8d84745e95ea59fccbcc6d34e77b7}{%
+           family={Bowyer},
+           familyi={B\bibinitperiod},
+           given={K.\bibnamedelimi W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=d767a8acee927fe772fe5ec34f93073f}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={L.\bibnamedelimi O.},
+           giveni={L\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=d66be0948a5085778a35663d6fd6c8cc}{%
+           family={Kegelmeyer},
+           familyi={K\bibinitperiod},
+           given={W.\bibnamedelimi P.},
+           giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{25994a8b1023c628464384a919fac03e}
+      \strng{fullhash}{8c67ad2e38d858dfc32312d1f697f6e2}
+      \strng{bibnamehash}{25994a8b1023c628464384a919fac03e}
+      \strng{authorbibnamehash}{25994a8b1023c628464384a919fac03e}
+      \strng{authornamehash}{25994a8b1023c628464384a919fac03e}
+      \strng{authorfullhash}{8c67ad2e38d858dfc32312d1f697f6e2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{An approach to the construction of classifiers from imbalanced datasets is described. A dataset is imbalanced if the classification categories are not approximately equally represented. Often real-world data sets are predominately composed of "normal" examples with only a small percentage of "abnormal" or "interesting" examples. It is also the case that the cost of misclassifying an abnormal (interesting) example as a normal example is often much higher than the cost of the reverse error. Under-sampling of the majority (normal) class has been proposed as a good means of increasing the sensitivity of a classifier to the minority class. This paper shows that a combination of our method of over-sampling the minority (abnormal) class and under-sampling the majority (normal) class can achieve better classifier performance (in ROC space) than only under-sampling the majority class. This paper also shows that a combination of our method of over-sampling the minority class and under-sampling the majority class can achieve better classifier performance (in ROC space) than varying the loss ratios in Ripper or class priors in Naive Bayes. Our method of over-sampling the minority class involves creating synthetic minority class examples. Experiments are performed using C4.5, Ripper and a Naive Bayes classifier. The method is evaluated using the area under the Receiver Operating Characteristic curve (AUC) and the ROC convex hull strategy.}
+      \field{issn}{1076-9757}
+      \field{journaltitle}{Journal of Artificial Intelligence Research}
+      \field{month}{6}
+      \field{note}{arXiv:1106.1813 [cs]}
+      \field{shorttitle}{{SMOTE}}
+      \field{title}{{SMOTE}: {Synthetic} {Minority} {Over}-sampling {Technique}}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{16}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{321\bibrangedash 357}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1613/jair.953
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/1106.1813.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1106.1813
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1106.1813
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence}
+    \endentry
     \entry{WikiReliquienschrein2022}{online}{}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}

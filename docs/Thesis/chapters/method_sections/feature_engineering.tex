@@ -1,7 +1,102 @@
-Explain concept of feature engineering and possible implications for thesis.(Provide Overview here)
+Feature engineering is the process of manipulating the given features within a dataset with the goal of improving the performance of
+numerous machine learning techniques applied to the manipulated data. The following chapter explains the various methods that have been used
+for this thesis.
 
 \subsection{Feature engineering using random forest}
+Due to the nature of the random forest algorithm, explained in \ref{cha:rf}, it can be used effectively to determine the most important
+features within a dataset.
+This section introduces the two feature engineering components within this thesis that are based on the random forest algorithm.
+\subsubsection*{\acrfull*[]{mdi}}
+The importance of each feature in a random forest is decided by how well a certain feature can divide the samples in to the desired groups.
+The mean decrease in impurity is a measure designed to indicate this importance.
+To calculate it the \textit{Gini}-impurity is needed. The Gini-impurity is a measure of how well a dataset can be divided using a certain feature.
+The Gini-impurity can be calculated at each node of a decision-tree and is ranged from 0 to 0.5.
+Let $k$ be the number of classes and let $\mathrm{p}_{i}$ be the probability of a sample belonging to the class($i$) and the Gini-impurity($Gini(D)$) of the dataset($D$)
+at a certain node within the tree can be defined as follows:
+\begin{equation*}
+    Gini(D) = 1 - \sum_{i=1}^{k} \mathrm{p}_{i}^2
+\end{equation*} \cite[]{Karabiber}
+
+With that in mind the mean decrease in impurity can be calculated with the following steps.
+At first the initial Gini-impurity needs to be calculated using the formula above with the classes \textit{active} and \textit{inactive}.
+In a second step it is necessary to calculate the \textit{weighted Gini} after a split by a feature for each feature.
+This is achieved by multiplying the relative amount of actives with the Gini-impurity of a given feature for an active classification. This is repeated for
+the inactive component. Those two numbers combined equate the weighted Gini for that feature.
+The average of the weighted Gini over all features equates to the mean decrease in impurity.
+Let $\mathrm{g}_{f}$ be the weighted Gini for a feature($f$) and $n$ be the number of features then the mean decrease in impurity($mdi$) can be defined as follows:
+\begin{equation*}
+    mdi = \frac{1}{n} * \sum_{f=1}^{n} \mathrm{g}_{f}
+\end{equation*}
+With this metric the features with larger $\mathrm{g}_{f}$ are deemed the most crucial for classification\cite[]{Soman2023}.
+
+In the following, results with the \textit{fe\_rf\_mdi}-prefix where calculated using this method.
+
+\subsubsection*{Permutation importance}
+Permutation importance is a feature engineering technique used to determine the most important features for classification within a tabular dataset.
+At first a reference score($s$) is calculated using a random forest classifier. In the following step a feature column is randomly permutated.
+After this \textit{corruption} of the source dataset the score is calculated again and compared to the reference score. This step can be repeated $K$ times in order
+to improve its statistical viability. This process is repeated for all features.
+
+Let $j$ be the feature, $K$ the repetitions per feature and $\mathrm{s}_{k,j}$ the score of each corrupted dataset, and the importance of each
+feature($\mathrm{i}_{j}$) can be calculated as follows:
+\begin{equation*}
+    \mathrm{i}_{j} = s -\frac{1}{K}*\sum_{k=1}^{K} \mathrm{s}_{k,j}
+\end{equation*}
+If a feature is of greater significance to the model then the score will deviate greater from the reference value\cite[]{permutation_importance}.
+
+This method is not particularly dependent on the random forest algorithm. The random forest classifier component can be substituted with any other classifier.
+
+In the following, results with the \textit{fe\_rf\_per}-prefix where calculated using this method.
+
 \subsection{Physical properties}
-\subsection{Principal component analysis}
+Feature engineering can also be based on meta-information concerning the provided datasets.
+For this thesis two methods are proposed to enhance the data by removing possible \textit{noise-features} with the use of additional
+knowledge concerning the datasets.
+\subsubsection*{Selection of most frequent interactions}
+To prevent overfitting the forty features(binding-sites) with the most interactions have been selected.
+By removing the less occurring features the overall performance especially on the validation- and test-runs should improve.
+Due to the reduction in the amount of features overfitting can be reduced, and the machine learning models are less distracted by
+"unimportant" features.
+
+In the following, results with the \textit{fe\_freq}-prefix where calculated using this method.
+
+\subsubsection*{Removal of all hydrophobic interactions}
+Of all, for this thesis considered interactions, hydrophobic interactions are generally the most frequent\cite[]{Freitas2017}. Therefore, it is of interest to reduce the overall
+amount of features by removing all the hydrophobic interactions from the datasets in order to achieve more granular results.
+
+In the following, results with the \textit{fe\_nonhydrop}-prefix where calculated using this method.
+
+\subsection{\acrfull*[]{pca}}
+Principal component analysis is a feature engineering method which aims to reduce the noise within a dataset, as well as maximize the amount of variance.
+PCA works by representing the original dataset as through linear uncorrelated variables or components.
+This is done in three steps:
+\begin{enumerate}
+    \item Restructuring of the data so that the data is represented as a $m \times n$ matrix where $m$ is the number of features and $n$ the number of samples.
+    \item Subtract off the mean for each feature.
+    \item Calculation of the principal components using \acrfull*[]{svd}.
+\end{enumerate}
+While the first two steps are quite clear, the third step will be explained in the following.
+
+First the \acrshort*[]{svd} of the dataset needs to be defined.
+\begin{equation*}
+    X = U \cdot \Sigma \cdot V^T
+\end{equation*}
+Where $X$ is the original data matrix, $U$ is the matrix containing the eigenvectors of $X \cdot X^T$, $\Sigma$ contains the square-roots of the
+eigenvectors of $X^T \cdot X$ and $V$ contains the eigenvectors of $X^T \cdot X$.
+
+To get the transformed data it is necessary to multiply the $U$ matrix with $\Sigma$. 
+The resulting projections are sorted according to variance\cite[]{Shlens2014}.
+
+In the following, results with the \textit{fe\_pca}-prefix where calculated using this method.
 \subsection{Balancing classes}
-SMOTE
+The data used for this thesis is not balanced, as there are more \textit{inactive} samples than \textit{inactives}.
+
+Synthetic minority over-sampling(\acrshort*[]{smote}) can be used to balance the provided datasets. The aim of this technique is to synthetically 
+generate samples from the minority class to balance the class distribution.
+The \acrshort*[]{smote} algorithm starts by selecting a sample from the minority class and finding its $k$ nearest neighbors within that class.
+For each of the selected neighbors the difference to the original sample is calculated. The differences are then scaled with a random factor 
+between 0 and 1. Those scaled values are added to the original sample in order to create new samples.
+This whole process is repeated for the unbalanced dataset until all classes are equally represented\cite[]{Chawla2002}.
+
+In the following, results with the \textit{fe\_smote}-prefix where calculated using this method.
+
