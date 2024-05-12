@@ -1,8 +1,52 @@
-Introduction to the ML Approaches used for the thesis.
+The following chapter aims to explain the basic machine learning approaches used for this thesis.
 
 \subsection{K nearest neighbor}
 \label{cha:knn}
+\acrfull*[]{knn} is a very simple classification algorithm for the numerical features used in this thesis.
+First, the source dataset is converted into a vector representation. Each sample of the source dataset is represented as and $n$-dimensional vector, where $n$ is the amount
+of features within that particular dataset. In addition to that vector the class of each sample is also saved.
+The classification is achieved by representing a new sample within the aforementioned vector-space.
+For the new sample the $k$ nearest neighbors are calculated using a distance metric, where $k$ is an odd-number. For this thesis the \textit{euclidean} distance was used.
+The euclidean distance for two vectors($\mathrm{v}_{1},\mathrm{v}_{1}$) in the $n$ dimensional space is defined as follows:
+\begin{equation*}
+    euclidian(\mathrm{v}_{1},\mathrm{v}_{1}) = \sqrt[]{\sum_{i=1}^{n} (\mathrm{v}_{1,i} -\mathrm{v}_{2,i})^2} 
+\end{equation*}
+In the base version of \acrshort*[]{knn} the new sample is put in the same class as the majority of its $k$-neighbors.
+In addition to that the $k$ nearest neighbors can also be weighted using their distance to the new sample\cite[]{Cunningham2022}.  
 \subsection{Random forest}
 \label{cha:rf}
-\subsection{Neural networks}
+In the following the base concept of the random forest algorithm used for this thesis will be explained.
+\\The random forest algorithm is a collection of identically distributed decision trees\cite[]{Breiman2001}.
+The algorithm can be split into the creation of a bootstrapped dataset, the creation of decision trees and the evaluation of said trees.
+
+\subsubsection*{Bootstrapping}
+The goal of this step is to create a new dataset for each decision tree. This happens by randomly selecting 
+samples from the source dataset. It is noteworthy that samples can be selected multiple times when creating such a bootstrapped dataset.
+Furthermore, not all samples are included in each dataset. Those samples, which are not included in any dataset are called \textit{out-of-bag} samples 
+and are later used for further tree enhancement. With those bootstrapped dataset decision trees can be built in the next step.
+
+\subsubsection*{Creation of decision trees}
+For each bootstrapped dataset a new decision tree is created using the following steps. Firstly a number of features is randomly selected.
+For those selected features it is determined, which feature is best for splitting the data, so that the classes are separated very clearly.
+This is usually determined using the \textit{Gini}-impurity.
+The Gini-impurity is a measure of how well a dataset can be divided using a certain feature.
+
+The Gini-impurity can be calculated at each node of a decision-tree and is ranged from 0 to 0.5.
+Let $k$ be the number of classes and let $\mathrm{p}_{i}$ be the probability of a sample belonging to the class($i$) and the Gini-impurity($Gini(D)$) of the dataset($D$)
+at a certain node within the tree can be defined as follows:
+\begin{equation*}
+    Gini(D) = 1 - \sum_{i=1}^{k} \mathrm{p}_{i}^2
+\end{equation*} \cite[]{Karabiber}
+
+After selecting the splitting feature the data is split and the whole process repeats for the newly created nodes.
+When selecting a new splitting feature all features already existing in the tree can be used again. This whole process is 
+repeated until every path of the tree leads to a clear classification result\cite[]{Breiman2001}.
+
+\subsubsection*{Evaluation and optimization}
+After the construction of the forest the performance can be evaluated using the out-of-bag samples.
+This is achieved by classifying the samples from the out-of-bag dataset using the random-forest. Each tree within the forest is provided with the data from the sample
+and votes for a class based on the samples features.
+
+The parameters of a random forest, for example the number of features considered at each node, can be optimized. To achieve that multiple forests with 
+different parameters are generated and the best performing one for the out-of-bag samples is selected\subsection{Neural networks}.
 \label{cha:nn}

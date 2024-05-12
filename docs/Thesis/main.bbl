@@ -1554,6 +1554,141 @@
       \verb https://doi.org/10.1093/bioinformatics/bti499
       \endverb
     \endentry
+    \entry{Cunningham2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=473cbefdfad5417120c3c0880a06e90a}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={Padraig},
+           giveni={P\bibinitperiod}}}%
+        {{hash=acd23d68440c8f218c06e751ece47eda}{%
+           family={Delany},
+           familyi={D\bibinitperiod},
+           given={Sarah\bibnamedelima Jane},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d924c1692ba8cfe148fe077d5fca504}
+      \strng{fullhash}{7d924c1692ba8cfe148fe077d5fca504}
+      \strng{bibnamehash}{7d924c1692ba8cfe148fe077d5fca504}
+      \strng{authorbibnamehash}{7d924c1692ba8cfe148fe077d5fca504}
+      \strng{authornamehash}{7d924c1692ba8cfe148fe077d5fca504}
+      \strng{authorfullhash}{7d924c1692ba8cfe148fe077d5fca504}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Perhaps the most straightforward classifier in the arsenal or machine learning techniques is the Nearest Neighbour Classifier -- classification is achieved by identifying the nearest neighbours to a query example and using those neighbours to determine the class of the query. This approach to classification is of particular importance because issues of poor run-time performance is not such a problem these days with the computational power that is available. This paper presents an overview of techniques for Nearest Neighbour classification focusing on; mechanisms for assessing similarity (distance), computational issues in identifying nearest neighbours and mechanisms for reducing the dimension of the data. This paper is the second edition of a paper previously published as a technical report. Sections on similarity measures for time-series, retrieval speed-up and intrinsic dimensionality have been added. An Appendix is included providing access to Python code for the key methods.}
+      \field{annotation}{Comment: 22 pages, 15 figures: An updated edition of an older tutorial on kNN}
+      \field{issn}{0360-0300, 1557-7341}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{month}{7}
+      \field{note}{arXiv:2004.04523 [cs, stat]}
+      \field{number}{6}
+      \field{shorttitle}{k-{Nearest} {Neighbour} {Classifiers}}
+      \field{title}{k-{Nearest} {Neighbour} {Classifiers}: 2nd {Edition} (with {Python} examples)}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{54}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1145/3459665
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/2004.04523.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2004.04523
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2004.04523
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
+    \entry{Breiman2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=132b7100417675d55d5d4d8b244f7a34}{%
+           family={Breiman},
+           familyi={B\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{bibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorbibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. The generalization error for forests converges a.s. to a limit as the number of trees in the forest becomes large. The generalization error of a forest of tree classifiers depends on the strength of the individual trees in the forest and the correlation between them. Using a random selection of features to split each node yields error rates that compare favorably to Adaboost (Y. Freund \& R. Schapire, Machine Learning: Proceedings of the Thirteenth International conference, ***, 148–156), but are more robust with respect to noise. Internal estimates monitor error, strength, and correlation and these are used to show the response to increasing the number of features used in the splitting. Internal estimates are also used to measure variable importance. These ideas are also applicable to regression.}
+      \field{issn}{1573-0565}
+      \field{journaltitle}{Machine Learning}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{Random {Forests}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{45}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5\bibrangedash 32}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1023/A:1010933404324
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://link.springer.com/content/pdf/10.1023%2FA%3A1010933404324.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1023/A:1010933404324
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1023/A:1010933404324
+      \endverb
+      \keyw{classification,regression,ensemble}
+    \endentry
+    \entry{Karabiber}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=66463bfdd44906d50339bc4a47a218d9}{%
+           family={Karabiber},
+           familyi={K\bibinitperiod},
+           given={Fatih},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{66463bfdd44906d50339bc4a47a218d9}
+      \strng{fullhash}{66463bfdd44906d50339bc4a47a218d9}
+      \strng{bibnamehash}{66463bfdd44906d50339bc4a47a218d9}
+      \strng{authorbibnamehash}{66463bfdd44906d50339bc4a47a218d9}
+      \strng{authornamehash}{66463bfdd44906d50339bc4a47a218d9}
+      \strng{authorfullhash}{66463bfdd44906d50339bc4a47a218d9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gini Impurity}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.learndatasci.com/glossary/gini-impurity/
+      \endverb
+      \verb{url}
+      \verb https://www.learndatasci.com/glossary/gini-impurity/
+      \endverb
+    \endentry
     \entry{Lopes2017}{article}{}
       \name{author}{5}{}{%
         {{hash=f7052306745752c94f30887be2dcac47}{%
@@ -1643,8 +1778,8 @@
       \strng{authorbibnamehash}{6e7d45c8843de3e68d6f3b75338f9992}
       \strng{authornamehash}{6e7d45c8843de3e68d6f3b75338f9992}
       \strng{authorfullhash}{6e7d45c8843de3e68d6f3b75338f9992}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Evaluation metric plays a critical role in achieving the optimal classifier during the classification training. Thus, a selection of suitable evaluation metric is an important key for discriminating and obtaining the optimal classifier. This paper systematically reviewed the related evaluation metrics that are specifically designed as a discriminator for optimizing generative classifier. Generally, many generative classifiers employ accuracy as a measure to discriminate the optimal solution during the classification training. However, the accuracy has several weaknesses which are less distinctiveness, less discriminability, less informativeness and bias to majority class data. This paper also briefly discusses other metrics that are specifically designed for discriminating the optimal solution. The shortcomings of these alternative metrics are also discussed. Finally, this paper suggests five important aspects that must be taken into consideration in constructing a new discriminator metric.}
@@ -1692,8 +1827,8 @@
       \strng{authorbibnamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authornamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authorfullhash}{07c6609b3d047d861806848b749db8a4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Computer-aided drug discovery techniques reduce the time and the costs needed to develop novel drugs. Their relevance becomes more and more evident with the needs due to health emergencies as well as to the diffusion of personalized medicine. Pharmacophore approaches represent one of the most interesting tools developed, by defining the molecular functional features needed for the binding of a molecule to a given receptor, and then directing the virtual screening of large collections of compounds for the selection of optimal candidates. Computational tools to create the pharmacophore model and to perform virtual screening are available and generated successful studies. This article describes the procedure of pharmacophore modelling followed by virtual screening, the most used software, possible limitations of the approach, and some applications reported in the literature.}
@@ -1722,36 +1857,6 @@
       \endverb
       \verb{url}
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9145410/
-      \endverb
-    \endentry
-    \entry{Karabiber}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=66463bfdd44906d50339bc4a47a218d9}{%
-           family={Karabiber},
-           familyi={K\bibinitperiod},
-           given={Fatih},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{66463bfdd44906d50339bc4a47a218d9}
-      \strng{fullhash}{66463bfdd44906d50339bc4a47a218d9}
-      \strng{bibnamehash}{66463bfdd44906d50339bc4a47a218d9}
-      \strng{authorbibnamehash}{66463bfdd44906d50339bc4a47a218d9}
-      \strng{authornamehash}{66463bfdd44906d50339bc4a47a218d9}
-      \strng{authorfullhash}{66463bfdd44906d50339bc4a47a218d9}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Gini Impurity}
-      \field{urlday}{11}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.learndatasci.com/glossary/gini-impurity/
-      \endverb
-      \verb{url}
-      \verb https://www.learndatasci.com/glossary/gini-impurity/
       \endverb
     \endentry
     \entry{Soman2023}{misc}{}
@@ -1944,8 +2049,8 @@
       \strng{authorbibnamehash}{25994a8b1023c628464384a919fac03e}
       \strng{authornamehash}{25994a8b1023c628464384a919fac03e}
       \strng{authorfullhash}{8c67ad2e38d858dfc32312d1f697f6e2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{An approach to the construction of classifiers from imbalanced datasets is described. A dataset is imbalanced if the classification categories are not approximately equally represented. Often real-world data sets are predominately composed of "normal" examples with only a small percentage of "abnormal" or "interesting" examples. It is also the case that the cost of misclassifying an abnormal (interesting) example as a normal example is often much higher than the cost of the reverse error. Under-sampling of the majority (normal) class has been proposed as a good means of increasing the sensitivity of a classifier to the minority class. This paper shows that a combination of our method of over-sampling the minority (abnormal) class and under-sampling the majority (normal) class can achieve better classifier performance (in ROC space) than only under-sampling the majority class. This paper also shows that a combination of our method of over-sampling the minority class and under-sampling the majority class can achieve better classifier performance (in ROC space) than varying the loss ratios in Ripper or class priors in Naive Bayes. Our method of over-sampling the minority class involves creating synthetic minority class examples. Experiments are performed using C4.5, Ripper and a Naive Bayes classifier. The method is evaluated using the area under the Receiver Operating Characteristic curve (AUC) and the ROC convex hull strategy.}
@@ -1979,8 +2084,8 @@
       \keyw{Computer Science - Artificial Intelligence}
     \endentry
     \entry{WikiReliquienschrein2022}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{day}{29}
       \field{langid}{ngerman}

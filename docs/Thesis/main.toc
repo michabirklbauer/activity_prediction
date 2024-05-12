@@ -22,43 +22,43 @@
 \contentsline {section}{\numberline {2.3}Machine-Learning approaches !WIP!}{7}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}K nearest neighbor}{7}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Random forest}{7}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Neural networks}{7}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Quality metrics}{7}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Terminology}{7}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Visual metrics}{7}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Accuracy}{8}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}False positive Rate}{8}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Area under the curve}{8}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}Yield of Actives}{8}{subsection.2.4.6}%
-\contentsline {subsection}{\numberline {2.4.7}Enrichment Factor}{8}{subsection.2.4.7}%
-\contentsline {subsection}{\numberline {2.4.8}Relative Enrichment Factor}{9}{subsection.2.4.8}%
-\contentsline {section}{\numberline {2.5}Feature engineering}{9}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Feature engineering using random forest}{9}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Physical properties}{10}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}\acrfull *[]{pca}}{11}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Balancing classes}{11}{subsection.2.5.4}%
-\contentsline {chapter}{\numberline {3}Results}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Feature Engineering Results for \acrshort *[]{ache}}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Performance per Protein-Complex}{14}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Acetylcholinesterase}{15}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Cyclooxygenase 1}{17}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Dipeptidyl peptidase IV}{20}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{22}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Soluble epoxide hydrolase}{25}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches → maybe use median instead of avg ask MICHA}{27}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Discussion}{28}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusion}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Improvements and outlook}{28}{section.4.2}%
-\contentsline {chapter}{\numberline {A}Technical Details}{29}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Supplementary Materials}{30}{appendix.B}%
-\contentsline {section}{\numberline {B.1}PDF Files}{30}{section.B.1}%
-\contentsline {paragraph}{Path: \nolinkurl {/}}{30}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Media Files}{30}{section.B.2}%
-\contentsline {paragraph}{Path: \nolinkurl {/media}}{30}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Online Sources (PDF Captures)}{30}{section.B.3}%
-\contentsline {paragraph}{Path: \nolinkurl {/online-sources}}{30}{section.B.3}%
-\contentsline {chapter}{\numberline {C}Questionnaire}{31}{appendix.C}%
-\contentsline {chapter}{\numberline {D}La\-TeX\xspace Source Code}{32}{appendix.D}%
-\contentsline {chapter}{References}{33}{appendix*.39}%
-\contentsline {section}{Literature}{33}{section*.40}%
-\contentsline {section}{Online sources}{36}{section*.41}%
+\contentsline {subsection}{\numberline {2.3.3}Neural networks}{8}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Quality metrics}{8}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Terminology}{9}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Visual metrics}{9}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Accuracy}{9}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}False positive Rate}{9}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Area under the curve}{9}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Yield of Actives}{10}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Enrichment Factor}{10}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Relative Enrichment Factor}{10}{subsection.2.4.8}%
+\contentsline {section}{\numberline {2.5}Feature engineering}{10}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Feature engineering using random forest}{10}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Physical properties}{11}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}\acrfull *[]{pca}}{12}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Balancing classes}{12}{subsection.2.5.4}%
+\contentsline {chapter}{\numberline {3}Results}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Feature Engineering Results for \acrshort *[]{ache}}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Performance per Protein-Complex}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Acetylcholinesterase}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Cyclooxygenase 1}{19}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Dipeptidyl peptidase IV}{22}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{24}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Soluble epoxide hydrolase}{27}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches → maybe use median instead of avg ask MICHA}{29}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusion}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Improvements and outlook}{30}{section.4.2}%
+\contentsline {chapter}{\numberline {A}Technical Details}{31}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Supplementary Materials}{32}{appendix.B}%
+\contentsline {section}{\numberline {B.1}PDF Files}{32}{section.B.1}%
+\contentsline {paragraph}{Path: \nolinkurl {/}}{32}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Media Files}{32}{section.B.2}%
+\contentsline {paragraph}{Path: \nolinkurl {/media}}{32}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Online Sources (PDF Captures)}{32}{section.B.3}%
+\contentsline {paragraph}{Path: \nolinkurl {/online-sources}}{32}{section.B.3}%
+\contentsline {chapter}{\numberline {C}Questionnaire}{33}{appendix.C}%
+\contentsline {chapter}{\numberline {D}La\-TeX\xspace Source Code}{34}{appendix.D}%
+\contentsline {chapter}{References}{35}{appendix*.39}%
+\contentsline {section}{Literature}{35}{section*.40}%
+\contentsline {section}{Online sources}{38}{section*.41}%

@@ -9,16 +9,10 @@ This section introduces the two feature engineering components within this thesi
 \subsubsection*{\acrfull*[]{mdi}}
 The importance of each feature in a random forest is decided by how well a certain feature can divide the samples in to the desired groups.
 The mean decrease in impurity is a measure designed to indicate this importance.
-To calculate it the \textit{Gini}-impurity is needed. The Gini-impurity is a measure of how well a dataset can be divided using a certain feature.
-The Gini-impurity can be calculated at each node of a decision-tree and is ranged from 0 to 0.5.
-Let $k$ be the number of classes and let $\mathrm{p}_{i}$ be the probability of a sample belonging to the class($i$) and the Gini-impurity($Gini(D)$) of the dataset($D$)
-at a certain node within the tree can be defined as follows:
-\begin{equation*}
-    Gini(D) = 1 - \sum_{i=1}^{k} \mathrm{p}_{i}^2
-\end{equation*} \cite[]{Karabiber}
+To calculate it the \textit{Gini}-impurity mentioned in \ref*{cha:rf} is needed. 
 
 With that in mind the mean decrease in impurity can be calculated with the following steps.
-At first the initial Gini-impurity needs to be calculated using the formula above with the classes \textit{active} and \textit{inactive}.
+At first the initial Gini-impurity needs to be calculated using the formula from \ref*{cha:rf} with the classes \textit{active} and \textit{inactive}.
 In a second step it is necessary to calculate the \textit{weighted Gini} after a split by a feature for each feature.
 This is achieved by multiplying the relative amount of actives with the Gini-impurity of a given feature for an active classification. This is repeated for
 the inactive component. Those two numbers combined equate the weighted Gini for that feature.
