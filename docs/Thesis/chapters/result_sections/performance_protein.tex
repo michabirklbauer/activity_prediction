@@ -30,36 +30,38 @@ The scoring functions achieved an accuracy score of 81.06\% on the test-set.
     \begin{center}
         \caption[]{Baseline random forest confusion matrix}
         \label{fig:ache_baseline_rf_conf}
-        \includegraphics[height=9cm]{ache/baseline_rf_conf.jpg}
+        \includegraphics[height=8cm]{ache/baseline_rf_conf.jpg}
     \end{center}
 \end{figure}
+The confusion matrix for the baseline random forest model shows that it performs relatively well as the diagonal values(152, 92) are proportionally high
+when compared to the rest of the values. The model is more likely to predict a false positive than it is predicting a false negative.  
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{SMOTE random forest confusion matrix}
         \label{fig:ache_smote_rf_conf}
-        \includegraphics[height=9cm]{ache/fe_smote_rf_conf.jpg}
+        \includegraphics[height=8cm]{ache/fe_smote_rf_conf.jpg}
     \end{center}
-
 \end{figure}
+The matrix shows that the model is a fractionally less likely to predict a false negative when compared to \ref*{fig:ache_baseline_rf_conf}. However, the accuracy is marginally worse.  
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{Baseline random forest ROC curve}
         \label{fig:ache_baseline_rf_roc}
-        \includegraphics[height=9cm]{ache/baseline_rf_roc.jpg}
+        \includegraphics[height=8cm]{ache/baseline_rf_roc.jpg}
     \end{center}
-
 \end{figure}
+The ROC curve leans towards the top left corner, which indicates a good performance. It is closer to a perfect 1.0 than it is to the random threshold of 0.5.
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{SMOTE random forest ROC curve}
         \label{fig:ache_smote_rf_roc}
-        \includegraphics[height=9cm]{ache/fe_smote_rf_roc.jpg}
+        \includegraphics[height=8cm]{ache/fe_smote_rf_roc.jpg}
     \end{center}
 \end{figure}
-
+The appearance of the ROC curve signifies a good discriminative performance, although the AUC score of 0.79 indicates that the performance is not as good as \ref*{fig:ache_baseline_rf_roc}.
 
 \subsection{Cyclooxygenase 1}
 The following table presents the results of the different machine learning algorithms on the various
@@ -90,35 +92,38 @@ The scoring functions achieved an accuracy score of 77.24\% on the test-set.
     \begin{center}
         \caption[]{Baseline random forest confusion matrix}
         \label{fig:cox1_baseline_rf_conf}
-        \includegraphics[height=9cm]{cox1/baseline_rf_conf.jpg}
+        \includegraphics[height=8cm]{cox1/baseline_rf_conf.jpg}
     \end{center}
 \end{figure}
+This test-set contains more inactives than the test-set of the \acrshort*[]{ache} protein. This can be seen as the number of true negatives is far greater.  
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{SMOTE random forest confusion matrix}
         \label{fig:cox1_smote_rf_conf}
-        \includegraphics[height=9cm]{cox1/fe_smote_rf_conf.jpg}
+        \includegraphics[height=8cm]{cox1/fe_smote_rf_conf.jpg}
     \end{center}
-
 \end{figure}
+The matrix shows that the model performed reasonably well with the diagonal values(23,215) being proportionally larger than the values of the other diagonal(3,71).
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{Baseline random forest ROC curve}
         \label{fig:cox1_baseline_rf_roc}
-        \includegraphics[height=9cm]{cox1/baseline_rf_roc.jpg}
+        \includegraphics[height=8cm]{cox1/baseline_rf_roc.jpg}
     \end{center}
 
 \end{figure}
+The ROC curve indicates fair performance, as the AUC value is closer to 0.5 which would be a random estimator than it is to 1.0 which would indicate a perfect classifier.
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{SMOTE random forest ROC curve}
         \label{fig:cox1_smote_rf_roc}
-        \includegraphics[height=9cm]{cox1/fe_smote_rf_roc.jpg}
+        \includegraphics[height=8cm]{cox1/fe_smote_rf_roc.jpg}
     \end{center}
 \end{figure}
+The ROC curve indicates performance close to a random classifier. The AUC value is slightly worse than the value presented in \ref*{fig:ache_baseline_rf_roc}.
 
 \subsection{Dipeptidyl peptidase IV}
 The following table presents the results of the different machine learning algorithms on the various
@@ -149,35 +154,38 @@ The scoring functions achieved an accuracy score of 77.21\% on the test-set.
     \begin{center}
         \caption[]{Baseline random forest confusion matrix}
         \label{fig:dpp4_baseline_rf_conf}
-        \includegraphics[height=9cm]{dpp4/baseline_rf_conf.jpg}
+        \includegraphics[height=8cm]{dpp4/baseline_rf_conf.jpg}
     \end{center}
 \end{figure}
-
+The confusion matrix indicates a very well-balanced dataset as there are nearly the same amount of actives as there are positives. The model is more likely to detect false negatives than it is to predict false positives.
 \begin{figure}[H]
     \begin{center}
         \caption[]{SMOTE random forest confusion matrix}
         \label{fig:dpp4_smote_rf_conf}
-        \includegraphics[height=9cm]{dpp4/fe_smote_rf_conf.jpg}
+        \includegraphics[height=8cm]{dpp4/fe_smote_rf_conf.jpg}
     \end{center}
 
 \end{figure}
+The confusion matrix describes a reasonably good model performance as the values in the diagonal(198, 195) far outweigh the other values.
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{Baseline random forest ROC curve}
         \label{fig:dpp4_baseline_rf_roc}
-        \includegraphics[height=9cm]{dpp4/baseline_rf_roc.jpg}
+        \includegraphics[height=8cm]{dpp4/baseline_rf_roc.jpg}
     \end{center}
-
 \end{figure}
+The model is performing well at classifying between positive and negative classes. The AUC score is 0.77 which further indicates good performance.
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{SMOTE random forest ROC curve}
         \label{fig:dpp4_smote_rf_roc}
-        \includegraphics[height=9cm]{dpp4/fe_smote_rf_roc.jpg}
+        \includegraphics[height=8cm]{dpp4/fe_smote_rf_roc.jpg}
     \end{center}
 \end{figure}
+The ROC curve suggests that the performance of the random forest doesn't change with the introduction of SMOTE.
+
 \subsection{Monoamine oxidase B}
 The following table presents the results of the different machine learning algorithms on the various
 test-sets. The ROC curves for the top two performing configurations can be found at \ref{fig:maob_baseline_rf_roc} and \ref{fig:maob_fe_rf_per_knn_roc}
@@ -207,36 +215,37 @@ The scoring functions achieved an accuracy score of 75.98\% on the test-set.
     \begin{center}
         \caption[]{Baseline random forest confusion matrix}
         \label{fig:maob_baseline_rf_conf}
-        \includegraphics[height=9cm]{maob/baseline_rf_conf.jpg}
+        \includegraphics[height=8cm]{maob/baseline_rf_conf.jpg}
     \end{center}
 \end{figure}
-
+The confusion matrix shows, that the majority of samples in the test-set is inactive. The number of false positives is smaller, than the number of false negatives. 
 \begin{figure}[H]
     \begin{center}
         \caption[]{Feature engineering permutation importance confusion matrix}
         \label{fig:maob_fe_rf_per_knn_conf}
-        \includegraphics[height=9cm]{maob/fe_rf_per_knn_conf.jpg}
+        \includegraphics[height=8cm]{maob/fe_rf_per_knn_conf.jpg}
     \end{center}
 
 \end{figure}
-
+The model is reasonably accurate, as there are 21 true positives and 58 true negatives. Overall it performs slightly worse than the baseline random forest.
 \begin{figure}[H]
     \begin{center}
         \caption[]{Baseline random forest ROC curve}
         \label{fig:maob_baseline_rf_roc}
-        \includegraphics[height=9cm]{maob/baseline_rf_roc.jpg}
+        \includegraphics[height=8cm]{maob/baseline_rf_roc.jpg}
     \end{center}
 
 \end{figure}
+Achieving an AUC of 0.72, the model demonstrates strong ability to distinguish between positive and negative instances.
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{Feature engineering permutation importance ROC curve}
         \label{fig:maob_fe_rf_per_knn_roc}
-        \includegraphics[height=9cm]{maob/fe_rf_per_knn_roc.jpg}
+        \includegraphics[height=8cm]{maob/fe_rf_per_knn_roc.jpg}
     \end{center}
 \end{figure}
-
+The ROC curve suggests good discrimination between classes, but the AUC score of 0.67 indicates that it falls short of the reference value of \ref*{fig:maob_baseline_rf_roc}.
 \subsection{Soluble epoxide hydrolase}
 The following table presents the results of the different machine learning algorithms on the various
 test-sets. The ROC curves for the top two performing configurations can be found at \ref{fig:seh_fe_rf_per_knn_roc} and \ref{fig:seh_baseline_nn_roc}
@@ -264,34 +273,37 @@ The scoring functions achieved an accuracy score of 80.00\% on the test-set.
 
 \begin{figure}[H]
     \begin{center}
-        \caption[]{Feature engineering permutation importance confusion matrix}
+        \caption[]{Feature engineering permutation importance confusion matrix for \acrshort*[]{knn}}
         \label{fig:seh_fe_rf_per_knn_conf}
-        \includegraphics[height=9cm]{seh/fe_rf_per_knn_roc.jpg}
+        \includegraphics[height=8cm]{seh/fe_rf_per_knn_conf.jpg}
     \end{center}
 \end{figure}
+The confusion matrix indicates a very small test-set. In addition to that the dataset is also very imbalanced.
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{Baseline neural network confusion matrix}
         \label{fig:seh_baseline_nn_conf}
-        \includegraphics[height=9cm]{seh/baseline_nn_conf.jpg}
+        \includegraphics[height=8cm]{seh/baseline_nn_conf.jpg}
     \end{center}
 
 \end{figure}
-
+The proportionally high values in the diagonal(5, 42) signify good overall performance. Although the \acrshort*[]{knn} performance of \ref*{fig:seh_fe_rf_per_knn_conf} is marginally better.
 \begin{figure}[H]
     \begin{center}
         \caption[]{Feature engineering permutation importance ROC curve}
         \label{fig:seh_fe_rf_per_knn_roc}
-        \includegraphics[height=9cm]{seh/fe_rf_per_knn_roc.jpg}
+        \includegraphics[height=8cm]{seh/fe_rf_per_knn_roc.jpg}
     \end{center}
 
 \end{figure}
+An AUC of 0.67 demonstrates the model's ability to differentiate between positive and negative examples. Overall the performance is close to a random classifier.
 
 \begin{figure}[H]
     \begin{center}
         \caption[]{Baseline neural network ROC curve}
         \label{fig:seh_baseline_nn_roc}
-        \includegraphics[height=9cm]{seh/baseline_nn_roc.jpg}
+        \includegraphics[height=8cm]{seh/baseline_nn_roc.jpg}
     \end{center}
 \end{figure}
+The ROC curve demonstrates only fair performance as it is much closer to a random classifier than it is to a perfect classifier which would be a 1.0 AUC.

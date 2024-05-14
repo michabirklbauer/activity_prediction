@@ -2483,11 +2483,11 @@ INPUT ./images//maob/fe_rf_per_knn_roc.jpg
 INPUT images//maob/fe_rf_per_knn_roc.jpg
 INPUT ./images//maob/fe_rf_per_knn_roc.jpg
 INPUT ./images//maob/fe_rf_per_knn_roc.jpg
-INPUT ./images//seh/fe_rf_per_knn_roc.jpg
-INPUT ./images//seh/fe_rf_per_knn_roc.jpg
-INPUT images//seh/fe_rf_per_knn_roc.jpg
-INPUT ./images//seh/fe_rf_per_knn_roc.jpg
-INPUT ./images//seh/fe_rf_per_knn_roc.jpg
+INPUT ./images//seh/fe_rf_per_knn_conf.jpg
+INPUT ./images//seh/fe_rf_per_knn_conf.jpg
+INPUT images//seh/fe_rf_per_knn_conf.jpg
+INPUT ./images//seh/fe_rf_per_knn_conf.jpg
+INPUT ./images//seh/fe_rf_per_knn_conf.jpg
 INPUT ./images//seh/baseline_nn_conf.jpg
 INPUT ./images//seh/baseline_nn_conf.jpg
 INPUT images//seh/baseline_nn_conf.jpg
@@ -2496,6 +2496,7 @@ INPUT ./images//seh/baseline_nn_conf.jpg
 INPUT ./images//seh/fe_rf_per_knn_roc.jpg
 INPUT ./images//seh/fe_rf_per_knn_roc.jpg
 INPUT images//seh/fe_rf_per_knn_roc.jpg
+INPUT ./images//seh/fe_rf_per_knn_roc.jpg
 INPUT ./images//seh/fe_rf_per_knn_roc.jpg
 INPUT ./images//seh/baseline_nn_roc.jpg
 INPUT ./images//seh/baseline_nn_roc.jpg

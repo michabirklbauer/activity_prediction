@@ -1,5 +1,26 @@
 The following chapter aims to explain the basic machine learning approaches used for this thesis.
 
+
+\subsection{Neural networks}
+The practical neural network approach of this thesis has been implemented using the Tensorflow\cite[]{Abadi2016} library.
+\label{cha:nn}
+
+\subsection{K nearest neighbor}
+\label{cha:knn}
+\acrfull*[]{knn} is a very simple classification algorithm for the numerical features used in this thesis.
+First, the source dataset is converted into a vector representation. Each sample of the source dataset is represented as and $n$-dimensional vector, where $n$ is the amount
+of features within that particular dataset. In addition to that vector the class of each sample is also saved.
+The classification is achieved by representing a new sample within the aforementioned vector-space.
+For the new sample the $k$ nearest neighbors are calculated using a distance metric, where $k$ is an odd-number. For this thesis the \textit{euclidean} distance was used.
+The euclidean distance for two vectors($\mathrm{v}_{1},\mathrm{v}_{1}$) in the $n$ dimensional space is defined as follows:
+\begin{equation*}
+    euclidian(\mathrm{v}_{1},\mathrm{v}_{1}) = \sqrt[]{\sum_{i=1}^{n} (\mathrm{v}_{1,i} -\mathrm{v}_{2,i})^2} 
+\end{equation*}
+In the base version of \acrshort*[]{knn} the new sample is put in the same class as the majority of its $k$-neighbors.
+In addition to that the $k$ nearest neighbors can also be weighted using their distance to the new sample\cite[]{Cunningham2022}. 
+
+K nearest neighbor for this thesis has been implemented using the \href{https://scikit-learn.org/stable/index.html}{scikit-learn package}. 
+
 \subsection{Random forest}
 \label{cha:rf}
 In the following the base concept of the random forest algorithm used for this thesis will be explained.
@@ -37,20 +58,7 @@ and votes for a class based on the samples features.
 The parameters of a random forest, for example the number of features considered at each node, can be optimized. To achieve that multiple forests with 
 different parameters are generated and the best performing one for the out-of-bag samples is selected\cite[]{Breiman2001}.
 
-\subsection{K nearest neighbor}
-\label{cha:knn}
-\acrfull*[]{knn} is a very simple classification algorithm for the numerical features used in this thesis.
-First, the source dataset is converted into a vector representation. Each sample of the source dataset is represented as and $n$-dimensional vector, where $n$ is the amount
-of features within that particular dataset. In addition to that vector the class of each sample is also saved.
-The classification is achieved by representing a new sample within the aforementioned vector-space.
-For the new sample the $k$ nearest neighbors are calculated using a distance metric, where $k$ is an odd-number. For this thesis the \textit{euclidean} distance was used.
-The euclidean distance for two vectors($\mathrm{v}_{1},\mathrm{v}_{1}$) in the $n$ dimensional space is defined as follows:
-\begin{equation*}
-    euclidian(\mathrm{v}_{1},\mathrm{v}_{1}) = \sqrt[]{\sum_{i=1}^{n} (\mathrm{v}_{1,i} -\mathrm{v}_{2,i})^2} 
-\end{equation*}
-In the base version of \acrshort*[]{knn} the new sample is put in the same class as the majority of its $k$-neighbors.
-In addition to that the $k$ nearest neighbors can also be weighted using their distance to the new sample\cite[]{Cunningham2022}.  
+For this paper the random forest approach has been implemented using the \href{https://scikit-learn.org/stable/index.html}{scikit-learn package}. 
 
 
-\subsection{Neural networks}
-\label{cha:nn}
+

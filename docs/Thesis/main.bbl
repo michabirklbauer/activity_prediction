@@ -1695,6 +1695,214 @@
       \verb https://doi.org/10.1093/bioinformatics/bti499
       \endverb
     \endentry
+    \entry{Abadi2016}{report}{}
+      \name{author}{22}{}{%
+        {{hash=9a04ae935da573a7aa9c83afdf2fd845}{%
+           family={Abadi},
+           familyi={A\bibinitperiod},
+           given={Martín},
+           giveni={M\bibinitperiod}}}%
+        {{hash=08cf514c08137f94d73b590060797f5b}{%
+           family={Barham},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f756003cc97f5981d94995af3bd6862b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jianmin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c0d10aaf985cebf8d0497e1828f9313f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhifeng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a4c859221cc41e2db6d63b486f955ba2}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4aecfb0cc2e1e3b7899129fa2a94e2b8}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bd7f88635b51bc5abb3d5a2cab967724}{%
+           family={Devin},
+           familyi={D\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=193bcec5240237591ad8fb697869f013}{%
+           family={Ghemawat},
+           familyi={G\bibinitperiod},
+           given={Sanjay},
+           giveni={S\bibinitperiod}}}%
+        {{hash=edc6964c6549e1839ca94d3d61e03f76}{%
+           family={Irving},
+           familyi={I\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3b62e7eedeec9f7a7f7f3c3ec88637f1}{%
+           family={Isard},
+           familyi={I\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=73fc2bbbbbe06838174fc0490ee66f67}{%
+           family={Kudlur},
+           familyi={K\bibinitperiod},
+           given={Manjunath},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a1a07ba9db1e853a9dd9623d81e8f26a}{%
+           family={Levenberg},
+           familyi={L\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f34904ef0a6e0864175e4c446f9fcf14}{%
+           family={Monga},
+           familyi={M\bibinitperiod},
+           given={Rajat},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1f07f887fdbaea3ca8281745735256d1}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Sherry},
+           giveni={S\bibinitperiod}}}%
+        {{hash=91c405de67034f52914513222226f873}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Derek\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=0a0b028c6b85c46f368317d0c5bfe3a0}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c7360a7ebeba8420b8c7e0eeb0cb81ac}{%
+           family={Tucker},
+           familyi={T\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bab2011f2b9e7af47ab45308470b9faf}{%
+           family={Vasudevan},
+           familyi={V\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cfc28a19549f0d8ff117cf79be90d213}{%
+           family={Warden},
+           familyi={W\bibinitperiod},
+           given={Pete},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8f71c897f89022a26511a6fbbd6108b6}{%
+           family={Wicke},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b8e2e9f67019f464cefe5db1c822ffd9}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fdfa73146952ceef0abc202cc397781c}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Xiaoqiang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{24b1e0a436b566c814359b41f12b3ce3}
+      \strng{fullhash}{e418e1dcd19d9925a93075ffaf08ebaa}
+      \strng{bibnamehash}{24b1e0a436b566c814359b41f12b3ce3}
+      \strng{authorbibnamehash}{24b1e0a436b566c814359b41f12b3ce3}
+      \strng{authornamehash}{24b1e0a436b566c814359b41f12b3ce3}
+      \strng{authorfullhash}{e418e1dcd19d9925a93075ffaf08ebaa}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. TensorFlow uses dataflow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous "parameter server" designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with particularly strong support for training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research. In this paper, we describe the TensorFlow dataflow model in contrast to existing systems, and demonstrate the compelling performance that TensorFlow achieves for several real-world applications.}
+      \field{annotation}{Comment: 18 pages, 9 figures; v2 has a spelling correction in the metadata}
+      \field{month}{5}
+      \field{note}{arXiv:1605.08695 [cs] type: article}
+      \field{shorttitle}{{TensorFlow}}
+      \field{title}{{TensorFlow}: {A} system for large-scale machine learning}
+      \field{type}{techreport}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1605.08695
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/1605.08695.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1605.08695
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1605.08695
+      \endverb
+      \keyw{Computer Science - Distributed,Parallel,and Cluster Computing,Computer Science - Artificial Intelligence}
+    \endentry
+    \entry{Cunningham2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=473cbefdfad5417120c3c0880a06e90a}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={Padraig},
+           giveni={P\bibinitperiod}}}%
+        {{hash=acd23d68440c8f218c06e751ece47eda}{%
+           family={Delany},
+           familyi={D\bibinitperiod},
+           given={Sarah\bibnamedelima Jane},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d924c1692ba8cfe148fe077d5fca504}
+      \strng{fullhash}{7d924c1692ba8cfe148fe077d5fca504}
+      \strng{bibnamehash}{7d924c1692ba8cfe148fe077d5fca504}
+      \strng{authorbibnamehash}{7d924c1692ba8cfe148fe077d5fca504}
+      \strng{authornamehash}{7d924c1692ba8cfe148fe077d5fca504}
+      \strng{authorfullhash}{7d924c1692ba8cfe148fe077d5fca504}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Perhaps the most straightforward classifier in the arsenal or machine learning techniques is the Nearest Neighbour Classifier -- classification is achieved by identifying the nearest neighbours to a query example and using those neighbours to determine the class of the query. This approach to classification is of particular importance because issues of poor run-time performance is not such a problem these days with the computational power that is available. This paper presents an overview of techniques for Nearest Neighbour classification focusing on; mechanisms for assessing similarity (distance), computational issues in identifying nearest neighbours and mechanisms for reducing the dimension of the data. This paper is the second edition of a paper previously published as a technical report. Sections on similarity measures for time-series, retrieval speed-up and intrinsic dimensionality have been added. An Appendix is included providing access to Python code for the key methods.}
+      \field{annotation}{Comment: 22 pages, 15 figures: An updated edition of an older tutorial on kNN}
+      \field{issn}{0360-0300, 1557-7341}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{month}{7}
+      \field{note}{arXiv:2004.04523 [cs, stat]}
+      \field{number}{6}
+      \field{shorttitle}{k-{Nearest} {Neighbour} {Classifiers}}
+      \field{title}{k-{Nearest} {Neighbour} {Classifiers}: 2nd {Edition} (with {Python} examples)}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{54}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1145/3459665
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/2004.04523.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2004.04523
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2004.04523
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
     \entry{Breiman2001}{article}{}
       \name{author}{1}{}{%
         {{hash=132b7100417675d55d5d4d8b244f7a34}{%
@@ -1774,61 +1982,6 @@
       \verb{url}
       \verb https://www.learndatasci.com/glossary/gini-impurity/
       \endverb
-    \endentry
-    \entry{Cunningham2022}{article}{}
-      \name{author}{2}{}{%
-        {{hash=473cbefdfad5417120c3c0880a06e90a}{%
-           family={Cunningham},
-           familyi={C\bibinitperiod},
-           given={Padraig},
-           giveni={P\bibinitperiod}}}%
-        {{hash=acd23d68440c8f218c06e751ece47eda}{%
-           family={Delany},
-           familyi={D\bibinitperiod},
-           given={Sarah\bibnamedelima Jane},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{7d924c1692ba8cfe148fe077d5fca504}
-      \strng{fullhash}{7d924c1692ba8cfe148fe077d5fca504}
-      \strng{bibnamehash}{7d924c1692ba8cfe148fe077d5fca504}
-      \strng{authorbibnamehash}{7d924c1692ba8cfe148fe077d5fca504}
-      \strng{authornamehash}{7d924c1692ba8cfe148fe077d5fca504}
-      \strng{authorfullhash}{7d924c1692ba8cfe148fe077d5fca504}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Perhaps the most straightforward classifier in the arsenal or machine learning techniques is the Nearest Neighbour Classifier -- classification is achieved by identifying the nearest neighbours to a query example and using those neighbours to determine the class of the query. This approach to classification is of particular importance because issues of poor run-time performance is not such a problem these days with the computational power that is available. This paper presents an overview of techniques for Nearest Neighbour classification focusing on; mechanisms for assessing similarity (distance), computational issues in identifying nearest neighbours and mechanisms for reducing the dimension of the data. This paper is the second edition of a paper previously published as a technical report. Sections on similarity measures for time-series, retrieval speed-up and intrinsic dimensionality have been added. An Appendix is included providing access to Python code for the key methods.}
-      \field{annotation}{Comment: 22 pages, 15 figures: An updated edition of an older tutorial on kNN}
-      \field{issn}{0360-0300, 1557-7341}
-      \field{journaltitle}{ACM Computing Surveys}
-      \field{month}{7}
-      \field{note}{arXiv:2004.04523 [cs, stat]}
-      \field{number}{6}
-      \field{shorttitle}{k-{Nearest} {Neighbour} {Classifiers}}
-      \field{title}{k-{Nearest} {Neighbour} {Classifiers}: 2nd {Edition} (with {Python} examples)}
-      \field{urlday}{12}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
-      \field{volume}{54}
-      \field{year}{2022}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 25}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1145/3459665
-      \endverb
-      \verb{file}
-      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/2004.04523.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2004.04523
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2004.04523
-      \endverb
-      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
     \endentry
     \entry{Soman2023}{misc}{}
       \name{author}{1}{}{%
