@@ -1038,6 +1038,54 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8150105/
       \endverb
     \endentry
+    \entry{Mamidala2023}{report}{}
+      \name{author}{1}{}{%
+        {{hash=4bd0c66ec11b441639fbcd55f634eac3}{%
+           family={Mamidala},
+           familyi={M\bibinitperiod},
+           given={Srilekha},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4bd0c66ec11b441639fbcd55f634eac3}
+      \strng{fullhash}{4bd0c66ec11b441639fbcd55f634eac3}
+      \strng{bibnamehash}{4bd0c66ec11b441639fbcd55f634eac3}
+      \strng{authorbibnamehash}{4bd0c66ec11b441639fbcd55f634eac3}
+      \strng{authornamehash}{4bd0c66ec11b441639fbcd55f634eac3}
+      \strng{authorfullhash}{4bd0c66ec11b441639fbcd55f634eac3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Drug repurposing is an emerging approach for drug discovery involving the reassignment of existing drugs for novel purposes. An alternative to the traditional de novo process of drug development, repurposed drugs are faster, cheaper, and less failure prone than drugs developed from traditional methods. Recently, drug repurposing has been performed in silico, in which databases of drugs and chemical information are used to determine interactions between target proteins and drug molecules to identify potential drug candidates. A proposed algorithm is NeuroCADR, a novel system for drug repurposing via a multi-pronged approach consisting of k-nearest neighbor algorithms (KNN), random forest classification, and decision trees. Data was sourced from several databases consisting of interactions between diseases, symptoms, genes, and affiliated drug molecules, which were then compiled into datasets expressed in binary. The proposed method displayed a high level of accuracy, outperforming nearly all in silico approaches. NeuroCADR was performed on epilepsy, a condition characterized by seizures, periods of time with bursts of uncontrolled electrical activity in brain cells. Existing drugs for epilepsy can be ineffective and expensive, revealing a need for new antiepileptic drugs. NeuroCADR identified novel drug candidates for epilepsy that can be further approved through clinical trials. The algorithm has the potential to determine possible drug combinations to prescribe a patient based on a patient's prior medical history. This project examines NeuroCADR, a novel approach to computational drug repurposing capable of revealing potential drug candidates in neurological diseases such as epilepsy.}
+      \field{annotation}{Comment: 8 pages, 5 figures}
+      \field{month}{9}
+      \field{note}{arXiv:2309.13047 [cs, q-bio] type: article}
+      \field{shorttitle}{{NeuroCADR}}
+      \field{title}{{NeuroCADR}: {Drug} {Repurposing} to {Reveal} {Novel} {Anti}-{Epileptic} {Drug} {Candidates} {Through} an {Integrated} {Computational} {Approach}}
+      \field{type}{techreport}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2309.13047
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/2309.13047.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2309.13047
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2309.13047
+      \endverb
+      \keyw{Quantitative Biology - Biomolecules,Computer Science - Machine Learning,Quantitative Biology - Quantitative Methods}
+    \endentry
     \entry{Kraus2016}{article}{}
       \name{author}{3}{}{%
         {{hash=b2543cb9748e6b901311cdb4014d49e3}{%
@@ -1093,6 +1141,99 @@
       \verb{url}
       \verb https://doi.org/10.1093/bioinformatics/btw252
       \endverb
+    \endentry
+    \entry{Huang2020}{report}{}
+      \name{author}{10}{}{%
+        {{hash=20b2c9f80d5574f01211ed9ecca40a92}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Kexin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e082145dbef1d25c41cbb4104e92fe90}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Tianfan},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c28ed06d7c73ed7e6f63f47f6093b00b}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Dawood},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0664382b86c968d57ffa96e1e20e39fe}{%
+           family={Abid},
+           familyi={A\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=25e6d49893a8530535e36ba8a4a5bd02}{%
+           family={Abdalla},
+           familyi={A\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f6ce32f5939b42eca9663f79f782c920}{%
+           family={Abid},
+           familyi={A\bibinitperiod},
+           given={Abubakar},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1d3841059698b1fc1b9a15c49b2586cd}{%
+           family={Glass},
+           familyi={G\bibinitperiod},
+           given={Lucas\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5f1df07c5fbd5a91d0e32b8697082857}{%
+           family={Zitnik},
+           familyi={Z\bibinitperiod},
+           given={Marinka},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9b4605842899eab30ddb2a73f729b447}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Cao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a1b0869dc74267b9c5cd955132f0ef7d}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jimeng},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{64e1c53dfb0a3c4ddd05e3ab14ae0038}
+      \strng{fullhash}{70c02719400fc9d2db3c7b33f2be2f0e}
+      \strng{bibnamehash}{64e1c53dfb0a3c4ddd05e3ab14ae0038}
+      \strng{authorbibnamehash}{64e1c53dfb0a3c4ddd05e3ab14ae0038}
+      \strng{authornamehash}{64e1c53dfb0a3c4ddd05e3ab14ae0038}
+      \strng{authorfullhash}{70c02719400fc9d2db3c7b33f2be2f0e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The efficacy of a drug depends on its binding affinity to the therapeutic target and pharmacokinetics. Deep learning (DL) has demonstrated remarkable progress in predicting drug efficacy. We develop MolDesigner, a human-in-the-loop web user-interface (UI), to assist drug developers leverage DL predictions to design more effective drugs. A developer can draw a drug molecule in the interface. In the backend, more than 17 state-of-the-art DL models generate predictions on important indices that are crucial for a drug's efficacy. Based on these predictions, drug developers can edit the drug molecule and reiterate until satisfaction. MolDesigner can make predictions in real-time with a latency of less than a second.}
+      \field{annotation}{Comment: NeurIPS 2020 Demonstration Track}
+      \field{month}{10}
+      \field{note}{arXiv:2010.03951 [cs, q-bio] type: article}
+      \field{shorttitle}{{MolDesigner}}
+      \field{title}{{MolDesigner}: {Interactive} {Design} of {Efficacious} {Drugs} with {Deep} {Learning}}
+      \field{type}{techreport}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2010.03951
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/2010.03951.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2010.03951
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2010.03951
+      \endverb
+      \keyw{Quantitative Biology - Quantitative Methods,Computer Science - Human-Computer Interaction,Computer Science - Machine Learning}
     \endentry
     \entry{Morris2022}{article}{}
       \name{author}{5}{}{%
@@ -1653,8 +1794,8 @@
       \strng{authorbibnamehash}{7d924c1692ba8cfe148fe077d5fca504}
       \strng{authornamehash}{7d924c1692ba8cfe148fe077d5fca504}
       \strng{authorfullhash}{7d924c1692ba8cfe148fe077d5fca504}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Perhaps the most straightforward classifier in the arsenal or machine learning techniques is the Nearest Neighbour Classifier -- classification is achieved by identifying the nearest neighbours to a query example and using those neighbours to determine the class of the query. This approach to classification is of particular importance because issues of poor run-time performance is not such a problem these days with the computational power that is available. This paper presents an overview of techniques for Nearest Neighbour classification focusing on; mechanisms for assessing similarity (distance), computational issues in identifying nearest neighbours and mechanisms for reducing the dimension of the data. This paper is the second edition of a paper previously published as a technical report. Sections on similarity measures for time-series, retrieval speed-up and intrinsic dimensionality have been added. An Appendix is included providing access to Python code for the key methods.}
@@ -1706,8 +1847,8 @@
       \strng{authorbibnamehash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
       \strng{authornamehash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
       \strng{authorfullhash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Gini Impurity}
@@ -2051,8 +2192,8 @@
       \strng{authorbibnamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authornamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authorfullhash}{07c6609b3d047d861806848b749db8a4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Computer-aided drug discovery techniques reduce the time and the costs needed to develop novel drugs. Their relevance becomes more and more evident with the needs due to health emergencies as well as to the diffusion of personalized medicine. Pharmacophore approaches represent one of the most interesting tools developed, by defining the molecular functional features needed for the binding of a molecule to a given receptor, and then directing the virtual screening of large collections of compounds for the selection of optimal candidates. Computational tools to create the pharmacophore model and to perform virtual screening are available and generated successful studies. This article describes the procedure of pharmacophore modelling followed by virtual screening, the most used software, possible limitations of the approach, and some applications reported in the literature.}

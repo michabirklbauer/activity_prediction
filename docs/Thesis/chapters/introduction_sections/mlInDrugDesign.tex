@@ -5,15 +5,31 @@ Today there exist a multitude of machine learning approaches in the field of dru
 As a result of various AI breakthroughs in recent years there have been numerous research projects regarding the usability of artificial intelligence
 in various bioinformatic domains.
 One area where machine learning can be applied is quality assessment.
-\textit{SVMQA} utilizes support vector machines to assess the quality of structural protein models\cite{Manavalan2017}.
-Support Vector machines have also been used for the \textit{DeNovo} algorithm to detect protein-protein interactions\cite{Eid2016}.
+\textit{SVMQA} utilizes support vector machines to assess the quality of structural protein models.
+The algorithm works by constructing a feature vector for each prediction based on physical and statistical properties.
+Based on this score the algorithm predicts a numerous quality-assessment scores\cite{Manavalan2017}.
+Support Vector machines have also been used for the \textit{DeNovo} algorithm to detect protein-virus interactions.
+The goal of the DeNovo implementation is to identify protein-protein interactions without any interaction data.
+This is achieved by learning the primary interaction points of the host proteins\cite{Eid2016}.
 AI has also been used to successfully identify drug responsive biomarkers in pre-clinical data using regression algorithms\cite{Li2015}.
 In the field of synthesis-prediction AI has largely replaced the rule- and heuristic-based systems in place since the 1960s\cite{Johansson2019}.
 
 Due to developments in the field of deep learning, this technology has found numerous applications in biochemistry\cite{Chen2018}.
 One of which is \textit{deepDTnet}, which is a deep learning based algorithm used to identify new targets and repurpose existing drugs in a drug-gene-disease environment.
-This is done by embedding already existing interaction profiles into low dimensional vector spaces\cite{Zeng}.
-Deep learning also has its applications in the classification and segmentation of microscopic imagery\cite{Kraus2016}.
+This is done by embedding already existing interaction profiles into low dimensional vector spaces.
+For two potentially interacting proteins a deep learning algorithm is used to determine whether two whether they would interact based on their vector representations \cite{Zeng}.
+\textit{NeuroCADR} is another approach for drug-repurposing, as drug repurposing using machine-learning is cheaper than the traditional drug discovery approaches.
+This paper discusses the use of random-forest and k nearest neighbor as a way to repurpose existing drugs for neurological diseases.
+The software developed for this paper was used to define new possible drugs for the treatment of epilepsy.\cite[]{Mamidala2023}
+Deep learning also has its applications in the classification and segmentation of microscopic imagery.
+With the use of a combination of multiple instance learning and convolutional neural networks it is possible to classify and segment 
+microscopic imagery simultaniously\cite{Kraus2016}.
+\textit{MolDesigner} is a software, which implements a \textit{human-in-loop} strategy. This means that a human expert is designing a drug within a web-interface and the 
+numerous deep-learning networks provide feedback on how well the current design would work as a potential drug.
+The base data for the deep learning networks is sourced from state-of-the-art interaction databases\cite[]{Huang2020}.
 \textit{MILCDock} uses the Output of five traditional Scoring Functions as input for a neural Network. 
 The input for the neural network comes from the tools \textit{LeDock}, \textit{Autodock Vina}, \textit{PLANTS},  \textit{Autodock4}, and \textit{rDock}. 
-This technique has a slight performance benefit when compared to traditional scoring functions \cite[]{Morris2022}.
+This technique has a slight performance benefit when compared to traditional scoring functions.
+The results are achieved by implementing a basic class balancing framework, as the majority of the data provided for the different algorithms is
+very unbalanced\cite[]{Morris2022}.
+\newpage
