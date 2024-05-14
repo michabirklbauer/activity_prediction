@@ -64,10 +64,10 @@ The ROC curve leans towards the top left corner, which indicates a good performa
 The appearance of the ROC curve signifies a good discriminative performance, although the AUC score of 0.79 indicates that the performance is not as good as \ref*{fig:ache_baseline_rf_roc}.
 
 \subsection{Cyclooxygenase 1}
-The following table presents the results of the different machine learning algorithms on the various
-test-sets. The ROC curves for the top two performing configurations can be found at \ref{fig:cox1_baseline_rf_roc} and \ref{fig:cox1_smote_rf_roc}
-respectively. The confusion matrices can be found at \ref{fig:cox1_baseline_rf_conf} and \ref{fig:cox1_smote_rf_conf}.
-The scoring functions achieved an accuracy score of 77.24\% on the test-set.
+This table summarizes the performance of various machine learning algorithms on different test sets.
+The top two performing configurations are visualized in ROC curves (see Figures \ref{fig:cox1_baseline_rf_roc} and \ref{fig:cox1_smote_rf_roc})
+and confusion matrices (see Figures \ref{fig:cox1_baseline_rf_conf} and \ref{fig:cox1_smote_rf_conf}). Additionally, 
+the scoring functions achieved an accuracy of 77.24\% on the test set.
 
 \begin{table}[H]
     \begin{center}
@@ -126,10 +126,10 @@ The ROC curve indicates fair performance, as the AUC value is closer to 0.5 whic
 The ROC curve indicates performance close to a random classifier. The AUC value is slightly worse than the value presented in \ref*{fig:ache_baseline_rf_roc}.
 
 \subsection{Dipeptidyl peptidase IV}
-The following table presents the results of the different machine learning algorithms on the various
-test-sets. The ROC curves for the top two performing configurations can be found at \ref{fig:dpp4_baseline_rf_roc} and \ref{fig:dpp4_smote_rf_roc}
-respectively. The confusion matrices can be found at \ref{fig:dpp4_baseline_rf_conf} and \ref{fig:dpp4_smote_rf_conf}.
-The scoring functions achieved an accuracy score of 77.21\% on the test-set.
+Below the table representing the different results of the machine learning algorithms on the various test-sets can be found.
+The confusion matrices for the top two performing configurations can be found at \ref{fig:dpp4_baseline_rf_roc} and \ref{fig:dpp4_smote_rf_roc}
+respectively. The ROC curves can be found at \ref{fig:dpp4_baseline_rf_conf} and \ref{fig:dpp4_smote_rf_conf}.
+The best scoring function was able to reach an accuracy of 77.21\% on the test-set.
 
 \begin{table}[H]
     \begin{center}
@@ -187,10 +187,10 @@ The model is performing well at classifying between positive and negative classe
 The ROC curve suggests that the performance of the random forest doesn't change with the introduction of SMOTE.
 
 \subsection{Monoamine oxidase B}
-The following table presents the results of the different machine learning algorithms on the various
-test-sets. The ROC curves for the top two performing configurations can be found at \ref{fig:maob_baseline_rf_roc} and \ref{fig:maob_fe_rf_per_knn_roc}
-respectively. The confusion matrices can be found at \ref{fig:maob_baseline_rf_conf} and \ref{fig:maob_fe_rf_per_knn_conf}.
-The scoring functions achieved an accuracy score of 75.98\% on the test-set.
+This table summarizes the performance of various machine learning algorithms across different test sets.
+The top two configurations, visualized in ROC curves (see Figures \ref{fig:maob_baseline_rf_roc} and \ref{fig:maob_fe_rf_per_knn_roc}),
+are further analyzed in confusion matrices (see Figures \ref{fig:maob_baseline_rf_conf} and \ref{fig:maob_fe_rf_per_knn_conf}). 
+The best scoring function achieved an accuracy of 75.98\% on the test set.
 
 \begin{table}[H]
     \begin{center}
@@ -247,10 +247,10 @@ Achieving an AUC of 0.72, the model demonstrates strong ability to distinguish b
 \end{figure}
 The ROC curve suggests good discrimination between classes, but the AUC score of 0.67 indicates that it falls short of the reference value of \ref*{fig:maob_baseline_rf_roc}.
 \subsection{Soluble epoxide hydrolase}
-The following table presents the results of the different machine learning algorithms on the various
-test-sets. The ROC curves for the top two performing configurations can be found at \ref{fig:seh_fe_rf_per_knn_roc} and \ref{fig:seh_baseline_nn_roc}
-respectively. The confusion matrices can be found at \ref{fig:seh_fe_rf_per_knn_conf} and \ref{fig:seh_baseline_nn_conf}.
-The scoring functions achieved an accuracy score of 80.00\% on the test-set.
+This table compares the performance of various machine learning algorithms across different test sets.
+The two most effective configurations (visualized in confusion matrices: figures \ref{fig:maob_baseline_rf_conf} and \ref{fig:maob_fe_rf_per_knn_conf}) 
+are further analyzed in ROC curves (figures \ref{fig:maob_baseline_rf_roc} and \ref{fig:maob_fe_rf_per_knn_roc}). 
+Overall, the scoring functions achieved an accuracy of 80.00\% on the test set.
 
 \begin{table}[H]
     \begin{center}

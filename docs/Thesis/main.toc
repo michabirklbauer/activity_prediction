@@ -43,22 +43,22 @@
 \contentsline {subsection}{\numberline {3.2.1}Acetylcholinesterase}{18}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Cyclooxygenase 1}{20}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Dipeptidyl peptidase IV}{23}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{25}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{26}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Soluble epoxide hydrolase}{28}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches → maybe use median instead of avg ask MICHA}{30}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Discussion}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusion}{31}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Improvements and outlook}{31}{section.4.2}%
-\contentsline {chapter}{\numberline {A}Technical Details}{32}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Supplementary Materials}{33}{appendix.B}%
-\contentsline {section}{\numberline {B.1}PDF Files}{33}{section.B.1}%
-\contentsline {paragraph}{Path: \nolinkurl {/}}{33}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Media Files}{33}{section.B.2}%
-\contentsline {paragraph}{Path: \nolinkurl {/media}}{33}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Online Sources (PDF Captures)}{33}{section.B.3}%
-\contentsline {paragraph}{Path: \nolinkurl {/online-sources}}{33}{section.B.3}%
-\contentsline {chapter}{\numberline {C}Questionnaire}{34}{appendix.C}%
-\contentsline {chapter}{\numberline {D}La\-TeX\xspace Source Code}{35}{appendix.D}%
-\contentsline {chapter}{References}{36}{appendix*.39}%
-\contentsline {section}{Literature}{36}{section*.40}%
-\contentsline {section}{Online sources}{39}{section*.41}%
+\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches → maybe use median instead of avg ask MICHA}{31}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusion}{32}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Improvements and outlook}{32}{section.4.2}%
+\contentsline {chapter}{\numberline {A}Technical Details}{33}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Supplementary Materials}{34}{appendix.B}%
+\contentsline {section}{\numberline {B.1}PDF Files}{34}{section.B.1}%
+\contentsline {paragraph}{Path: \nolinkurl {/}}{34}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Media Files}{34}{section.B.2}%
+\contentsline {paragraph}{Path: \nolinkurl {/media}}{34}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Online Sources (PDF Captures)}{34}{section.B.3}%
+\contentsline {paragraph}{Path: \nolinkurl {/online-sources}}{34}{section.B.3}%
+\contentsline {chapter}{\numberline {C}Questionnaire}{35}{appendix.C}%
+\contentsline {chapter}{\numberline {D}La\-TeX\xspace Source Code}{36}{appendix.D}%
+\contentsline {chapter}{References}{37}{appendix*.39}%
+\contentsline {section}{Literature}{37}{section*.40}%
+\contentsline {section}{Online sources}{40}{section*.41}%
