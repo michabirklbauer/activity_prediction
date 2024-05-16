@@ -2377,27 +2377,6 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9145410/
       \endverb
     \endentry
-    \entry{WikiReliquienschrein2022}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labeltitlesource}{title}
-      \field{day}{29}
-      \field{langid}{ngerman}
-      \field{month}{8}
-      \field{title}{Reliquienschrein}
-      \field{urlday}{11}
-      \field{urlmonth}{2}
-      \field{urlyear}{2023}
-      \field{year}{2022}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://de.wikipedia.org/wiki/Reliquienschrein
-      \endverb
-      \verb{url}
-      \verb https://de.wikipedia.org/wiki/Reliquienschrein
-      \endverb
-    \endentry
   \enddatalist
 \endrefsection
 \endinput
