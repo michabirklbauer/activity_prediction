@@ -1695,6 +1695,425 @@
       \verb https://doi.org/10.1093/bioinformatics/bti499
       \endverb
     \endentry
+    \entry{McCulloch1943}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1ccb147b2b2165266e6ce5900193e687}{%
+           family={McCulloch},
+           familyi={M\bibinitperiod},
+           given={Warren\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c5a56e799cdf785e814246c091d36e73}{%
+           family={Pitts},
+           familyi={P\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{816477c5724040789c6fe02e3968dc62}
+      \strng{fullhash}{816477c5724040789c6fe02e3968dc62}
+      \strng{bibnamehash}{816477c5724040789c6fe02e3968dc62}
+      \strng{authorbibnamehash}{816477c5724040789c6fe02e3968dc62}
+      \strng{authornamehash}{816477c5724040789c6fe02e3968dc62}
+      \strng{authorfullhash}{816477c5724040789c6fe02e3968dc62}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Because of the “all-or-none” character of nervous activity, neural events and the relations among them can be treated by means of propositional logic. It is found that the behavior of every net can be described in these terms, with the addition of more complicated logical means for nets containing circles; and that for any logical expression satisfying certain conditions, one can find a net behaving in the fashion it describes. It is shown that many particular choices among possible neurophysiological assumptions are equivalent, in the sense that for every net behaving under one assumption, there exists another net which behaves under the other and gives the same results, although perhaps not in the same time. Various applications of the calculus are discussed.}
+      \field{issn}{1522-9602}
+      \field{journaltitle}{The bulletin of mathematical biophysics}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{A logical calculus of the ideas immanent in nervous activity}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{5}
+      \field{year}{1943}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{115\bibrangedash 133}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/BF02478259
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://link.springer.com/content/pdf/10.1007%2FBF02478259.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF02478259
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF02478259
+      \endverb
+      \keyw{Nervous Activity,Excitatory Synapse,Inhibitory Synapse,Temporal Summation,Spatial Summation}
+    \endentry
+    \entry{Schmidhuber2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2333709f91a1b22edafa71582c31e391}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={Juergen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2333709f91a1b22edafa71582c31e391}
+      \strng{fullhash}{2333709f91a1b22edafa71582c31e391}
+      \strng{bibnamehash}{2333709f91a1b22edafa71582c31e391}
+      \strng{authorbibnamehash}{2333709f91a1b22edafa71582c31e391}
+      \strng{authornamehash}{2333709f91a1b22edafa71582c31e391}
+      \strng{authorfullhash}{2333709f91a1b22edafa71582c31e391}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In recent years, deep artificial neural networks (including recurrent ones) have won numerous contests in pattern recognition and machine learning. This historical survey compactly summarises relevant work, much of it from the previous millennium. Shallow and deep learners are distinguished by the depth of their credit assignment paths, which are chains of possibly learnable, causal links between actions and effects. I review deep supervised learning (also recapitulating the history of backpropagation), unsupervised learning, reinforcement learning \& evolutionary computation, and indirect search for short programs encoding deep and large networks.}
+      \field{annotation}{Comment: 88 pages, 888 references}
+      \field{issn}{08936080}
+      \field{journaltitle}{Neural Networks}
+      \field{month}{1}
+      \field{note}{arXiv:1404.7828 [cs]}
+      \field{shorttitle}{Deep {Learning} in {Neural} {Networks}}
+      \field{title}{Deep {Learning} in {Neural} {Networks}: {An} {Overview}}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{61}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{85\bibrangedash 117}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1016/j.neunet.2014.09.003
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/1404.7828.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1404.7828
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1404.7828
+      \endverb
+      \keyw{Computer Science - Neural and Evolutionary Computing,Computer Science - Machine Learning}
+    \endentry
+    \entry{Janocha2017}{report}{}
+      \name{author}{2}{}{%
+        {{hash=f6621e033e8db97ddf93b1696e3ec82c}{%
+           family={Janocha},
+           familyi={J\bibinitperiod},
+           given={Katarzyna},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2e540193e28e5b3aa63fef2e515c637b}{%
+           family={Czarnecki},
+           familyi={C\bibinitperiod},
+           given={Wojciech\bibnamedelima Marian},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{6df2d131afc05ac9ef0b6c915ddae0aa}
+      \strng{fullhash}{6df2d131afc05ac9ef0b6c915ddae0aa}
+      \strng{bibnamehash}{6df2d131afc05ac9ef0b6c915ddae0aa}
+      \strng{authorbibnamehash}{6df2d131afc05ac9ef0b6c915ddae0aa}
+      \strng{authornamehash}{6df2d131afc05ac9ef0b6c915ddae0aa}
+      \strng{authorfullhash}{6df2d131afc05ac9ef0b6c915ddae0aa}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Deep neural networks are currently among the most commonly used classifiers. Despite easily achieving very good performance, one of the best selling points of these models is their modular design - one can conveniently adapt their architecture to specific needs, change connectivity patterns, attach specialised layers, experiment with a large amount of activation functions, normalisation schemes and many others. While one can find impressively wide spread of various configurations of almost every aspect of the deep nets, one element is, in authors' opinion, underrepresented - while solving classification problems, vast majority of papers and applications simply use log loss. In this paper we try to investigate how particular choices of loss functions affect deep models and their learning dynamics, as well as resulting classifiers robustness to various effects. We perform experiments on classical datasets, as well as provide some additional, theoretical insights into the problem. In particular we show that L1 and L2 losses are, quite surprisingly, justified classification objectives for deep nets, by providing probabilistic interpretation in terms of expected misclassification. We also introduce two losses which are not typically used as deep nets objectives and show that they are viable alternatives to the existing ones.}
+      \field{annotation}{Comment: Presented at Theoretical Foundations of Machine Learning 2017 (TFML 2017)}
+      \field{month}{2}
+      \field{note}{arXiv:1702.05659 [cs] type: article}
+      \field{title}{On {Loss} {Functions} for {Deep} {Neural} {Networks} in {Classification}}
+      \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1702.05659
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/1702.05659.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1702.05659
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1702.05659
+      \endverb
+      \keyw{Computer Science - Machine Learning}
+    \endentry
+    \entry{Archdeacon1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4e2f7cc9375bf010d55bb7e395a00c2a}{%
+           family={Archdeacon},
+           familyi={A\bibinitperiod},
+           given={Thomas\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Madison, Wis.}%
+      }
+      \list{publisher}{1}{%
+        {University of Wisconsin Press}%
+      }
+      \strng{namehash}{4e2f7cc9375bf010d55bb7e395a00c2a}
+      \strng{fullhash}{4e2f7cc9375bf010d55bb7e395a00c2a}
+      \strng{bibnamehash}{4e2f7cc9375bf010d55bb7e395a00c2a}
+      \strng{authorbibnamehash}{4e2f7cc9375bf010d55bb7e395a00c2a}
+      \strng{authornamehash}{4e2f7cc9375bf010d55bb7e395a00c2a}
+      \strng{authorfullhash}{4e2f7cc9375bf010d55bb7e395a00c2a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This practical introduction to the use of correlation and regression analysis concentrates on the kinds of analysis that form the broad range of methods used in the social sciences. The text introduces statistical techniques and contains practical examples from scholarly works.}
+      \field{isbn}{9780299136505}
+      \field{note}{OCLC: 27266095}
+      \field{shorttitle}{Correlation and regression analysis}
+      \field{title}{Correlation and regression analysis: a historian's guide}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \keyw{Analyse de régression,Canonical correlation (Statistics),Correlation (Statistics),Corrélation (Statistique),Corrélation canonique (Statistique),Geschichte,Geschichtswissenschaft,Histoire Méthodes statistiques,History Statistical methods,Korrelationsanalyse,Regression Analysis,Regression analysis,Regressionsanalyse,Statistik,correlation}
+    \endentry
+    \entry{Zhang2019}{report}{}
+      \name{author}{1}{}{%
+        {{hash=0410cb94d4b4e2a1f4aeeff35360b028}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jiawei},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{0410cb94d4b4e2a1f4aeeff35360b028}
+      \strng{fullhash}{0410cb94d4b4e2a1f4aeeff35360b028}
+      \strng{bibnamehash}{0410cb94d4b4e2a1f4aeeff35360b028}
+      \strng{authorbibnamehash}{0410cb94d4b4e2a1f4aeeff35360b028}
+      \strng{authornamehash}{0410cb94d4b4e2a1f4aeeff35360b028}
+      \strng{authorfullhash}{0410cb94d4b4e2a1f4aeeff35360b028}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we aim at providing an introduction to the gradient descent based optimization algorithms for learning deep neural network models. Deep learning models involving multiple nonlinear projection layers are very challenging to train. Nowadays, most of the deep learning model training still relies on the back propagation algorithm actually. In back propagation, the model variables will be updated iteratively until convergence with gradient descent based optimization algorithms. Besides the conventional vanilla gradient descent algorithm, many gradient descent variants have also been proposed in recent years to improve the learning performance, including Momentum, Adagrad, Adam, Gadam, etc., which will all be introduced in this paper respectively.}
+      \field{annotation}{Comment: arXiv admin note: text overlap with arXiv:1805.07500}
+      \field{month}{3}
+      \field{note}{arXiv:1903.03614 [cs, stat] type: article}
+      \field{title}{Gradient {Descent} based {Optimization} {Algorithms} for {Deep} {Learning} {Models} {Training}}
+      \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1903.03614
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/1903.03614.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1903.03614
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1903.03614
+      \endverb
+      \keyw{Computer Science - Machine Learning,Computer Science - Artificial Intelligence,Statistics - Machine Learning}
+    \endentry
+    \entry{Raschka2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bb679961e3f3f4bba79fc1cf3aa7df1c}{%
+           family={Raschka},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{fullhash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{bibnamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{authorbibnamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{authornamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{authorfullhash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Backpropagation is basically “just” clever trick to compute gradients in multilayer neural networks efficiently. Or in other words, backprop is about computi...}
+      \field{journaltitle}{Sebastian Raschka, PhD}
+      \field{month}{5}
+      \field{title}{How to compute gradients with backpropagation for arbitrary loss and activation functions?}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sebastianraschka.com/faq/docs/backprop-arbitrary.html
+      \endverb
+      \verb{url}
+      \verb https://sebastianraschka.com/faq/docs/backprop-arbitrary.html
+      \endverb
+    \endentry
+    \entry{InternationalWorkshoponArtificialNeuralNetworks1995Torremolinos1995}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ac08041fcbdb3d9faeae2bd36e00a599}{%
+           family={International\bibnamedelimb Workshop\bibnamedelimb on\bibnamedelimb Artificial\bibnamedelimb Neural\bibnamedelimb Networks\bibnamedelimb (1995\bibnamedelimb :\bibnamedelima Torremolinos},
+           familyi={I\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim (\bibinitperiod\bibinitdelim :\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Spain)},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Berlin ; New York : Springer-Verlag}%
+      }
+      \strng{namehash}{ac08041fcbdb3d9faeae2bd36e00a599}
+      \strng{fullhash}{ac08041fcbdb3d9faeae2bd36e00a599}
+      \strng{bibnamehash}{ac08041fcbdb3d9faeae2bd36e00a599}
+      \strng{authorbibnamehash}{ac08041fcbdb3d9faeae2bd36e00a599}
+      \strng{authornamehash}{ac08041fcbdb3d9faeae2bd36e00a599}
+      \strng{authorfullhash}{ac08041fcbdb3d9faeae2bd36e00a599}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{xviii, 1150 pages : 24 cm; Includes bibliographical references and index; Are There Universal Principles of Brain Computation? / S. Grossberg -- Modeling Cortical Networks / L. Menendez de la Prida -- Cooperative Organization of Connectivity Patterns and Receptive Fields in the Visual Pathway: Application to Adaptive Thresholding / J. Mira, A. Manjarres, S. Ros, A.E. Delgado and J.R. Alvarez -- Neurobiological Inspiration for the Architecture and Functioning of Cooperating Neural Networks / F. Alexandre and F. Guyot -- Synaptic Modulation Based Artificial Neural Networks / R.J. Duro, J. Santos and A. Gomez -- Self-Organization of Cortical Receptive Fields and Columnar Structures in a Hebb Trained Neural Network / M. Stetter, M. Kussinger, A. Schels, E. Seeger and E.W. Lang -- An Analytical Solution of the Compartmental Model for Use in Local Learning in Artificial Neural Networks / J. Hoekstra and M. Maouli -- Should ANN be ANGN? / J.G. Wallace and K. Bluff -- Modeling Retinal High and Low Contrast Sensitivity Filters / T. Lourens}
+      \field{isbn}{9783540594970 9780387594972}
+      \field{shorttitle}{From natural to artificial neural computation}
+      \field{title}{From natural to artificial neural computation : {International} {Workshop} on {Artificial} {Neural} {Networks}, {Malaga}-{Torremolinos}, {Spain}, {June} 7-9, 1995 : proceedings}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://archive.org/details/fromnaturaltoart1995inte
+      \endverb
+      \verb{url}
+      \verb http://archive.org/details/fromnaturaltoart1995inte
+      \endverb
+      \keyw{Neural networks (Computer science) -- Congresses}
+    \endentry
+    \entry{Zhang2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3bcfbd935493140de59f26f618828468}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiaoge},
+           giveni={X\bibinitperiod}}}%
+        {{hash=42f3280d692c31360c48462c5f97a4a5}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Prabhakar},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b355b4e41b9afd30080a3e932da41301}{%
+           family={Mahadevan},
+           familyi={M\bibinitperiod},
+           given={Sankaran},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bdb5b2773f1e5c6fde44c3249785b75}
+      \strng{fullhash}{5bdb5b2773f1e5c6fde44c3249785b75}
+      \strng{bibnamehash}{5bdb5b2773f1e5c6fde44c3249785b75}
+      \strng{authorbibnamehash}{5bdb5b2773f1e5c6fde44c3249785b75}
+      \strng{authornamehash}{5bdb5b2773f1e5c6fde44c3249785b75}
+      \strng{authorfullhash}{5bdb5b2773f1e5c6fde44c3249785b75}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we apply a set of data-mining and sequential deep learning techniques to accident investigation reports published by the National Transportation Safety Board (NTSB) in support of the prognosis of adverse events. Our focus is on learning with text data that describes the sequences of events. NTSB creates post-hoc investigation reports which contain raw text narratives of their investigation and their corresponding concise event sequences. Classification models are developed for passenger air carriers, that take either an observed sequence of events or the corresponding raw text narrative as input and make predictions regarding whether an accident or an incident is the likely outcome, whether the aircraft would be damaged or not and whether any fatalities are likely or not. The classification models are developed using Word Embedding and the Long Short-term Memory (LSTM) neural network. The proposed methodology is implemented in two steps: (i) transform the NTSB data extracts into labeled dataset for building supervised machine learning models; and (ii) develop deep learning (DL) models for performing prognosis of adverse events like accidents, aircraft damage or fatalities. We also develop a prototype for an interactive query interface for end-users to test various scenarios including complete or partial event sequences or narratives and get predictions regarding the adverse events. The development of sequential deep learning models facilitates safety professionals in auditing, reviewing, and analyzing accident investigation reports, performing what-if scenario analyses to quantify the contributions of various hazardous events to the occurrence of aviation accidents/incidents.}
+      \field{journaltitle}{Safety Science}
+      \field{month}{6}
+      \field{title}{Sequential {Deep} {Learning} from {NTSB} {Reports} for {Aviation} {Safety} {Prognosis}}
+      \field{volume}{142}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1016/j.ssci.2021.105390
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.researchgate.net/profile/Xiaoge-Zhang-3/publication/352647580_Sequential_Deep_Learning_from_NTSB_Reports_for_Aviation_Safety_Prognosis/links/60d219a945851566d5837ecb/Sequential-Deep-Learning-from-NTSB-Reports-for-Aviation-Safety-Prognosis.pdf:application/pdf;ResearchGate Link:https\://www.researchgate.net/publication/352647580_Sequential_Deep_Learning_from_NTSB_Reports_for_Aviation_Safety_Prognosis:
+      \endverb
+    \endentry
+    \entry{Dubey2022}{report}{}
+      \name{author}{3}{}{%
+        {{hash=422723c10889e09025fbdd6ae3b2559c}{%
+           family={Dubey},
+           familyi={D\bibinitperiod},
+           given={Shiv\bibnamedelima Ram},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=2c68c1374ed7bb2269d600aea9110cb4}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Satish\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=743368b5332faa87b8fa6727a05a6756}{%
+           family={Chaudhuri},
+           familyi={C\bibinitperiod},
+           given={Bidyut\bibnamedelima Baran},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{82262550a40dbc6f066e7d2314dd824e}
+      \strng{fullhash}{82262550a40dbc6f066e7d2314dd824e}
+      \strng{bibnamehash}{82262550a40dbc6f066e7d2314dd824e}
+      \strng{authorbibnamehash}{82262550a40dbc6f066e7d2314dd824e}
+      \strng{authornamehash}{82262550a40dbc6f066e7d2314dd824e}
+      \strng{authorfullhash}{82262550a40dbc6f066e7d2314dd824e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Neural networks have shown tremendous growth in recent years to solve numerous problems. Various types of neural networks have been introduced to deal with different types of problems. However, the main goal of any neural network is to transform the non-linearly separable input data into more linearly separable abstract features using a hierarchy of layers. These layers are combinations of linear and nonlinear functions. The most popular and common non-linearity layers are activation functions (AFs), such as Logistic Sigmoid, Tanh, ReLU, ELU, Swish and Mish. In this paper, a comprehensive overview and survey is presented for AFs in neural networks for deep learning. Different classes of AFs such as Logistic Sigmoid and Tanh based, ReLU based, ELU based, and Learning based are covered. Several characteristics of AFs such as output range, monotonicity, and smoothness are also pointed out. A performance comparison is also performed among 18 state-of-the-art AFs with different networks on different types of data. The insights of AFs are presented to benefit the researchers for doing further research and practitioners to select among different choices. The code used for experimental comparison is released at: {\textbackslash}url\{https://github.com/shivram1987/ActivationFunctions\}.}
+      \field{annotation}{Comment: Accepted in Neurocomputing, Elsevier}
+      \field{month}{6}
+      \field{note}{arXiv:2109.14545 [cs] type: article}
+      \field{shorttitle}{Activation {Functions} in {Deep} {Learning}}
+      \field{title}{Activation {Functions} in {Deep} {Learning}: {A} {Comprehensive} {Survey} and {Benchmark}}
+      \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2109.14545
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:https\://arxiv.org/pdf/2109.14545.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2109.14545
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2109.14545
+      \endverb
+      \keyw{Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing}
+    \endentry
     \entry{Abadi2016}{report}{}
       \name{author}{22}{}{%
         {{hash=9a04ae935da573a7aa9c83afdf2fd845}{%
@@ -1817,8 +2236,8 @@
       \strng{authorbibnamehash}{24b1e0a436b566c814359b41f12b3ce3}
       \strng{authornamehash}{24b1e0a436b566c814359b41f12b3ce3}
       \strng{authorfullhash}{e418e1dcd19d9925a93075ffaf08ebaa}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. TensorFlow uses dataflow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous "parameter server" designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with particularly strong support for training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research. In this paper, we describe the TensorFlow dataflow model in contrast to existing systems, and demonstrate the compelling performance that TensorFlow achieves for several real-world applications.}
@@ -1867,8 +2286,8 @@
       \strng{authorbibnamehash}{7d924c1692ba8cfe148fe077d5fca504}
       \strng{authornamehash}{7d924c1692ba8cfe148fe077d5fca504}
       \strng{authorfullhash}{7d924c1692ba8cfe148fe077d5fca504}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Perhaps the most straightforward classifier in the arsenal or machine learning techniques is the Nearest Neighbour Classifier -- classification is achieved by identifying the nearest neighbours to a query example and using those neighbours to determine the class of the query. This approach to classification is of particular importance because issues of poor run-time performance is not such a problem these days with the computational power that is available. This paper presents an overview of techniques for Nearest Neighbour classification focusing on; mechanisms for assessing similarity (distance), computational issues in identifying nearest neighbours and mechanisms for reducing the dimension of the data. This paper is the second edition of a paper previously published as a technical report. Sections on similarity measures for time-series, retrieval speed-up and intrinsic dimensionality have been added. An Appendix is included providing access to Python code for the key methods.}
@@ -1920,8 +2339,8 @@
       \strng{authorbibnamehash}{132b7100417675d55d5d4d8b244f7a34}
       \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
       \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. The generalization error for forests converges a.s. to a limit as the number of trees in the forest becomes large. The generalization error of a forest of tree classifiers depends on the strength of the individual trees in the forest and the correlation between them. Using a random selection of features to split each node yields error rates that compare favorably to Adaboost (Y. Freund \& R. Schapire, Machine Learning: Proceedings of the Thirteenth International conference, ***, 148–156), but are more robust with respect to noise. Internal estimates monitor error, strength, and correlation and these are used to show the response to increasing the number of features used in the splitting. Internal estimates are also used to measure variable importance. These ideas are also applicable to regression.}
@@ -1967,8 +2386,8 @@
       \strng{authorbibnamehash}{66463bfdd44906d50339bc4a47a218d9}
       \strng{authornamehash}{66463bfdd44906d50339bc4a47a218d9}
       \strng{authorfullhash}{66463bfdd44906d50339bc4a47a218d9}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Gini Impurity}
@@ -2000,8 +2419,8 @@
       \strng{authorbibnamehash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
       \strng{authornamehash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
       \strng{authorfullhash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Gini Impurity}
@@ -2024,8 +2443,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{abstract}{Permutation feature importance is a model inspection technique that measures the contribution of each feature to a fitted model’s statistical performance on a given tabular dataset. This technique ...}
       \field{journaltitle}{scikit-learn}
@@ -2066,8 +2485,8 @@
       \strng{authorbibnamehash}{604b5cc6811fbf3a2c96464d8e15c999}
       \strng{authornamehash}{604b5cc6811fbf3a2c96464d8e15c999}
       \strng{authorfullhash}{604b5cc6811fbf3a2c96464d8e15c999}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As the protein databank (PDB) recently passed the cap of 123 456 structures, it stands more than ever as an important resource not only to analyze structural features of specific biological systems, but also to study the prevalence of structural patterns observed in a large body of unrelated structures, that may reflect rules governing protein folding or molecular recognition. Here, we compiled a list of 11 016 unique structures of small-molecule ligands bound to proteins – 6444 of which have experimental binding affinity – representing 750 873 protein–ligand atomic interactions, and analyzed the frequency, geometry and impact of each interaction type. We find that hydrophobic interactions are generally enriched in high-efficiency ligands, but polar interactions are over-represented in fragment inhibitors. While most observations extracted from the PDB will be familiar to seasoned medicinal chemists, less expected findings, such as the high number of C–H⋯O hydrogen bonds or the relatively frequent amide–π stacking between the backbone amide of proteins and aromatic rings of ligands, uncover underused ligand design strategies.}
@@ -2115,8 +2534,8 @@
       \strng{authorbibnamehash}{8f128e70084608a2c29c497ebd794f87}
       \strng{authornamehash}{8f128e70084608a2c29c497ebd794f87}
       \strng{authorfullhash}{8f128e70084608a2c29c497ebd794f87}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Principal component analysis (PCA) is a mainstay of modern data analysis - a black box that is widely used but (sometimes) poorly understood. The goal of this paper is to dispel the magic behind this black box. This manuscript focuses on building a solid intuition for how and why principal component analysis works. This manuscript crystallizes this knowledge by deriving from simple intuitions, the mathematics behind PCA. This tutorial does not shy away from explaining the ideas informally, nor does it shy away from the mathematics. The hope is that by addressing both aspects, readers of all levels will be able to gain a better understanding of PCA as well as the when, the how and the why of applying this technique.}
@@ -2173,8 +2592,8 @@
       \strng{authorbibnamehash}{25994a8b1023c628464384a919fac03e}
       \strng{authornamehash}{25994a8b1023c628464384a919fac03e}
       \strng{authorfullhash}{8c67ad2e38d858dfc32312d1f697f6e2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{An approach to the construction of classifiers from imbalanced datasets is described. A dataset is imbalanced if the classification categories are not approximately equally represented. Often real-world data sets are predominately composed of "normal" examples with only a small percentage of "abnormal" or "interesting" examples. It is also the case that the cost of misclassifying an abnormal (interesting) example as a normal example is often much higher than the cost of the reverse error. Under-sampling of the majority (normal) class has been proposed as a good means of increasing the sensitivity of a classifier to the minority class. This paper shows that a combination of our method of over-sampling the minority (abnormal) class and under-sampling the majority (normal) class can achieve better classifier performance (in ROC space) than only under-sampling the majority class. This paper also shows that a combination of our method of over-sampling the minority class and under-sampling the majority class can achieve better classifier performance (in ROC space) than varying the loss ratios in Ripper or class priors in Naive Bayes. Our method of over-sampling the minority class involves creating synthetic minority class examples. Experiments are performed using C4.5, Ripper and a Naive Bayes classifier. The method is evaluated using the area under the Receiver Operating Characteristic curve (AUC) and the ROC convex hull strategy.}
@@ -2243,8 +2662,8 @@
       \strng{authorbibnamehash}{d44728042e540f56f5100bcd48238abc}
       \strng{authornamehash}{d44728042e540f56f5100bcd48238abc}
       \strng{authorfullhash}{e40264f45bb9ab151da90f13aa524cc7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{A new metric for the evaluation of model performance in the field of virtual screening and quantitative structure–activity relationship applications is described. This metric has been termed the power metric and is defined as the fraction of the true positive rate divided by the sum of the true positive and false positive rates, for a given cutoff threshold. The performance of this metric is compared with alternative metrics such as the enrichment factor, the relative enrichment factor, the receiver operating curve enrichment factor, the correct classification rate, Matthews correlation coefficient and Cohen’s kappa coefficient. The performance of this new metric is found to be quite robust with respect to variations in the applied cutoff threshold and ratio of the number of active compounds to the total number of compounds, and at the same time being sensitive to variations in model quality. It possesses the correct characteristics for its application in early-recognition virtual screening problems.}
@@ -2296,8 +2715,8 @@
       \strng{authorbibnamehash}{6e7d45c8843de3e68d6f3b75338f9992}
       \strng{authornamehash}{6e7d45c8843de3e68d6f3b75338f9992}
       \strng{authorfullhash}{6e7d45c8843de3e68d6f3b75338f9992}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Evaluation metric plays a critical role in achieving the optimal classifier during the classification training. Thus, a selection of suitable evaluation metric is an important key for discriminating and obtaining the optimal classifier. This paper systematically reviewed the related evaluation metrics that are specifically designed as a discriminator for optimizing generative classifier. Generally, many generative classifiers employ accuracy as a measure to discriminate the optimal solution during the classification training. However, the accuracy has several weaknesses which are less distinctiveness, less discriminability, less informativeness and bias to majority class data. This paper also briefly discusses other metrics that are specifically designed for discriminating the optimal solution. The shortcomings of these alternative metrics are also discussed. Finally, this paper suggests five important aspects that must be taken into consideration in constructing a new discriminator metric.}
@@ -2345,8 +2764,8 @@
       \strng{authorbibnamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authornamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authorfullhash}{07c6609b3d047d861806848b749db8a4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Computer-aided drug discovery techniques reduce the time and the costs needed to develop novel drugs. Their relevance becomes more and more evident with the needs due to health emergencies as well as to the diffusion of personalized medicine. Pharmacophore approaches represent one of the most interesting tools developed, by defining the molecular functional features needed for the binding of a molecule to a given receptor, and then directing the virtual screening of large collections of compounds for the selection of optimal candidates. Computational tools to create the pharmacophore model and to perform virtual screening are available and generated successful studies. This article describes the procedure of pharmacophore modelling followed by virtual screening, the most used software, possible limitations of the approach, and some applications reported in the literature.}

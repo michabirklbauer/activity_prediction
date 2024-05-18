@@ -20,33 +20,33 @@
 \contentsline {section}{\numberline {2.2}Data partitioning}{8}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Machine-Learning approaches !WIP!}{8}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Neural networks}{8}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}K nearest neighbor}{8}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Random forest}{9}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Feature engineering}{10}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Feature engineering using random forest}{10}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Physical properties}{11}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}\acrfull *[]{pca}}{11}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Balancing classes}{12}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Quality metrics}{12}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Terminology}{12}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Visual metrics}{12}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Accuracy}{13}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}False positive Rate}{13}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Area under the curve}{13}{subsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.5.6}Yield of Actives}{13}{subsection.2.5.6}%
-\contentsline {subsection}{\numberline {2.5.7}Enrichment Factor}{13}{subsection.2.5.7}%
-\contentsline {subsection}{\numberline {2.5.8}Relative Enrichment Factor}{14}{subsection.2.5.8}%
-\contentsline {chapter}{\numberline {3}Results}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Feature Engineering Results for \acrshort *[]{ache}}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Performance per Protein-Complex}{17}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Acetylcholinesterase}{18}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Cyclooxygenase 1}{20}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Dipeptidyl peptidase IV}{23}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{26}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Soluble epoxide hydrolase}{28}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches → maybe use median instead of avg ask MICHA}{31}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Discussion}{32}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusion}{32}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Improvements and outlook}{32}{section.4.2}%
-\contentsline {chapter}{References}{33}{appendix*.38}%
-\contentsline {section}{Literature}{33}{section*.39}%
+\contentsline {subsection}{\numberline {2.3.2}K nearest neighbor}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Random forest}{10}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Feature engineering}{11}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Feature engineering using random forest}{11}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Physical properties}{12}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}\acrfull *[]{pca}}{13}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Balancing classes}{13}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Quality metrics}{14}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Terminology}{14}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Visual metrics}{14}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Accuracy}{14}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}False positive Rate}{14}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Area under the curve}{15}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}Yield of Actives}{15}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.7}Enrichment Factor}{15}{subsection.2.5.7}%
+\contentsline {subsection}{\numberline {2.5.8}Relative Enrichment Factor}{15}{subsection.2.5.8}%
+\contentsline {chapter}{\numberline {3}Results}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Feature Engineering Results for \acrshort *[]{ache}}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Performance per Protein-Complex}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Acetylcholinesterase}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Cyclooxygenase 1}{21}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Dipeptidyl peptidase IV}{24}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{27}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Soluble epoxide hydrolase}{29}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches → maybe use median instead of avg ask MICHA}{32}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusion}{33}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Improvements and outlook}{33}{section.4.2}%
+\contentsline {chapter}{References}{34}{appendix*.38}%
+\contentsline {section}{Literature}{34}{section*.39}%

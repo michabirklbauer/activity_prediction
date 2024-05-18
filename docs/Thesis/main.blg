@@ -1,15 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
-[1] Config.pm:310> INFO - Logfile is 'main.blg'
-[131] biber:340> INFO - === Thu May 16, 2024, 20:34:45
-[157] Biber.pm:418> INFO - Reading 'main.bcf'
-[278] Biber.pm:972> INFO - Found 39 citekeys in bib section 0
-[302] Biber.pm:4383> INFO - Processing section 0
-[319] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
-[331] bibtex.pm:1713> INFO - LaTeX decoding ...
-[468] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
-[1075] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1076] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1076] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1076] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[1145] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1202] bbl.pm:757> INFO - Output to main.bbl
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[73] biber:340> INFO - === Sat May 18, 2024, 20:19:01
+[87] Biber.pm:418> INFO - Reading 'main.bcf'
+[155] Biber.pm:972> INFO - Found 48 citekeys in bib section 0
+[168] Biber.pm:4383> INFO - Processing section 0
+[179] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[187] bibtex.pm:1713> INFO - LaTeX decoding ...
+[277] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[697] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[697] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[697] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[697] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[737] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[798] bbl.pm:757> INFO - Output to main.bbl
+[798] Biber.pm:130> WARN - ISBN '9783540594970 9780387594972' in entry 'InternationalWorkshoponArtificialNeuralNetworks1995Torremolinos1995' is invalid - run biber with '--validate_datamodel' for details.
+[798] Biber.pm:132> INFO - WARNINGS: 1

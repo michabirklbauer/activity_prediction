@@ -2,6 +2,57 @@ The following chapter aims to explain the basic machine learning approaches used
 
 
 \subsection{Neural networks}
+The idea to emulate neural system using computers was first discussed in the 1940s by McCulloch and Pitts\cite[]{McCulloch1943}. Since then the technology around neural networks has improved greatly. The following chapter describes the basic
+concepts of \acrlong*[]{nn} and their implementation for this thesis.
+
+The goal of neural networks in general is to process input data through an emulated brain-like structure for a multitude of machine learning tasks.
+In this thesis neural networks are used to determine the activity of protein-ligand interactions using detailed interaction data.
+
+\subsubsection*{Terminology}
+A neural network consists of \textit{neurons} and \textit{synapses}. 
+Neurons are nodes within the neural network that can take one or multiple inputs and transform them into one singular output.
+The neurons are connected through synapses which can further manipulate values given to them by applying \textit{weights} and \textit{biases}\cite[]{Schmidhuber2015}.
+
+A very simple neural network consists of an input neuron layer, where each neuron corresponds to a feature, a singular output neuron for binary classification. 
+The neurons of the input layer are connected to the output neuron through synapses.
+
+\subsubsection*{Classification using neural networks}
+This section is dedicated to demonstrating the classification of a sample within already existing neural network with one hidden layer.
+In a first step the features of the sample are mapped to the input neurons. After that the values are transferred to the hidden layer through the respective 
+synapse. During this process the weight for that synapse is applied (this is usually done through a multiplication). Before the feature gets to the neuron of hidden layer 
+the bias of that synapse is applied to the feature through an addition. Inside the neuron the value is modified using an activation function. Example for activation functions can be found 
+in the \textit{activation functions} section within this chapter. All the modified values from the hidden layer are transported through synapses to the output neuron 
+which calculates the class using an activation function\cite[]{Schmidhuber2015}.
+
+\subsubsection*{Back propagation and gradient descent}
+While the activation functions for the neural network can be set as parameters when creating the network the weights and biases are optimized during training.
+To assess the performance of a set of weights and biases a loss function is used. The loss function determines how well the predicted values compare to the actual values\cite[]{Janocha2017}.
+The \textit{\acrfull*[]{ssr}} is an example for such a loss function and is defined for $n$ samples as follows:
+\begin{equation*}
+    SSR = \sum_{i=1}^{n}(\mathrm{measured}_{i}-\mathrm{predicted}_{i})^2
+\end{equation*}
+\cite[]{Archdeacon1994}
+
+With a loss function it is possible to optimize values using gradient descent. This is achieved by calculating the derivative of the loss function with respect to the parameter.
+Initially the parameter will be initialized with a random value. After that the train set will be evaluated using this particular parameter. Then the derived loss function is applied to the values.
+Using a fixed \textit{learning rate} the \textit{step size} for gradient descent is calculated by multiplying with the result from the derivative loss function. 
+For the next iteration of gradient descent the step size will be subtracted from the value to get a new optimization value\cite[]{Zhang2019}.
+
+Using this concept the \textit{back propagation} algorithm optimizes all the weights and biases within a neural network all at once.
+The loss function is derived for each bias and weight. After that the resulting functions are applied to the values and new weights and biases are calculated using the step size.
+This process is repeated until a certain threshold for the overall loss is reached or the number of iterations has reached its maximum\cite[]{Raschka2024}. 
+
+\subsubsection*{Activation functions}
+Activation functions play a major role in the performance of neural networks. They are specified when creating a new model. For this thesis the \textit{Sigmoid}
+activation function was used. The sigmoid function is defined as follows:
+\begin{equation*}
+    \sigma(x) = \frac{e^x}{1+e^x}
+\end{equation*}
+\cite[]{InternationalWorkshoponArtificialNeuralNetworks1995Torremolinos1995}
+The sigmoid function is very applicable for binary classification, as it provides values between 0 and 1 which can be interpreted as probabilities\cite[]{Zhang2021}.
+Different activation functions work for different datasets, it is therefore crucial to determine which activation function works best for the provided data. Other activation functions include
+\textit{Tanh}, \textit{ReLU} or \textit{APL}\cite[]{Dubey2022}.
+
 The practical neural network approach of this thesis has been implemented using the Tensorflow\cite[]{Abadi2016} library.
 \label{cha:nn}
 
