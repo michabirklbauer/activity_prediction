@@ -35,7 +35,7 @@ The \textit{\acrfull*[]{ssr}} is an example for such a loss function and is defi
 
 With a loss function it is possible to optimize values using gradient descent. This is achieved by calculating the derivative of the loss function with respect to the parameter.
 Initially the parameter will be initialized with a random value. After that the train set will be evaluated using this particular parameter. Then the derived loss function is applied to the values.
-Using a fixed \textit{learning rate} the \textit{step size} for gradient descent is calculated by multiplying with the result from the derivative loss function. 
+Using a fixed \textit{learning rate} the \textit{step size} for gradient descent is calculated by multiplying the learning rate with the result from the derivative loss function. 
 For the next iteration of gradient descent the step size will be subtracted from the value to get a new optimization value\cite[]{Zhang2019}.
 
 Using this concept the \textit{back propagation} algorithm optimizes all the weights and biases within a neural network all at once.
