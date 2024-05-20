@@ -1,14 +1,9 @@
 \babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{v}{chapter*.2}%
+\contentsline {chapter}{Kurzfassung}{vi}{chapter*.3}%
 \babel@toc {ngerman}{}\relax 
 \babel@toc {english}{}\relax 
-\babel@toc {english}{}\relax 
-\contentsline {chapter}{Declaration}{iv}{chapter*.1}%
-\babel@toc {english}{}\relax 
-\contentsline {chapter}{Abstract}{vii}{chapter*.3}%
-\contentsline {chapter}{Kurzfassung}{viii}{chapter*.4}%
-\babel@toc {ngerman}{}\relax 
-\babel@toc {english}{}\relax 
-\contentsline {chapter}{Acronyms}{ix}{section*.5}%
+\contentsline {chapter}{Acronyms}{vii}{section*.4}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Machine Learning in drug design and activity prediction}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Goals}{4}{section.1.2}%
@@ -19,9 +14,9 @@
 \contentsline {subsection}{\numberline {2.1.3}Data origin and structure}{7}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}Data partitioning}{8}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Machine-Learning approaches}{8}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Neural networks}{8}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}K nearest neighbor}{10}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Random forest}{10}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.1}K nearest neighbor}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Random forest}{8}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Neural networks}{9}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Feature engineering}{11}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Feature engineering using random forest}{11}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Physical properties}{12}{subsection.2.4.2}%
@@ -42,11 +37,11 @@
 \contentsline {subsection}{\numberline {3.2.1}Acetylcholinesterase}{19}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Cyclooxygenase 1}{21}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Dipeptidyl peptidase IV}{24}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{27}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{26}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Soluble epoxide hydrolase}{29}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches → maybe use median instead of avg ask MICHA}{32}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Discussion}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusion}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Improvements and outlook}{34}{section.4.2}%
-\contentsline {chapter}{References}{35}{appendix*.40}%
-\contentsline {section}{Literature}{35}{section*.41}%
+\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches}{31}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusion}{32}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Improvements and outlook}{33}{section.4.2}%
+\contentsline {chapter}{References}{34}{appendix*.39}%
+\contentsline {section}{Literature}{34}{section*.40}%
