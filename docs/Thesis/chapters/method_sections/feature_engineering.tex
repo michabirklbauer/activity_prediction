@@ -55,7 +55,7 @@ Due to the reduction in the amount of features overfitting can be reduced, and t
 In the following, results with the \textit{fe\_freq}-prefix where calculated using this method.
 
 \subsubsection*{Removal of all hydrophobic interactions}
-Of all, for this thesis considered interactions, hydrophobic interactions are generally the most frequent\cite[]{Freitas2017}. Therefore, it is of interest to reduce the overall
+Of all, for this thesis considered interactions, hydrophobic interactions are generally the most frequent but also the weakest\cite[]{Freitas2017}. Therefore, it is of interest to reduce the overall
 amount of features by removing all the hydrophobic interactions from the datasets in order to achieve more granular results.
 
 In the following, results with the \textit{fe\_nonhydrop}-prefix where calculated using this method.
@@ -83,7 +83,7 @@ The resulting projections are sorted according to variance\cite[]{Shlens2014}.
 
 In the following, results with the \textit{fe\_pca}-prefix where calculated using this method.
 \subsection{Balancing classes}
-The data used for this thesis is not balanced, as there are more \textit{inactive} samples than \textit{inactives}.
+The data used for this thesis is not balanced, as there are more \textit{inactive} samples than \textit{actives}.
 
 Synthetic minority over-sampling(\acrshort*[]{smote}) can be used to balance the provided datasets. The aim of this technique is to synthetically 
 generate samples from the minority class to balance the class distribution.

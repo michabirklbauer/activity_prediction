@@ -22,7 +22,10 @@
 \logofile{logo}          % Logo file: images/logo.pdf (no logo: \logofile{})
 \bibliography{references} % Biblatex bibliography file (references.bib)
 \usepackage[toc,acronym]{glossaries}
+
 \loadglsentries{glossaries.tex}
+\usepackage{pdfpages}
+
 
 \makenoidxglossaries
 
@@ -54,8 +57,9 @@
 \frontmatter                                   % Front part (roman page numbers)
 %%%-----------------------------------------------------------------------------
 
-\maketitle
-\tableofcontents
+% \maketitle
+% \tableofcontents
+\includepdf[pages=-]{title.pdf}
 
 
 \include{front/abstract}		

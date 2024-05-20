@@ -19,7 +19,7 @@ COX molecules are often targeted by anti-inflammatory drugs. In contrast to COX2
 across the body. In addition to that COX1 is largely attributed with homeostatic functions
 such as hemostasis and gastric cytoprotection\cite[]{Rouzer2009}.
 \subsubsection*{Dipeptidyl peptidase IV}
-\acrfull*[]{dpp4} protein is partially responsible
+\acrfull*[]{dpp4} is partially responsible
 for hydrolysis of a prolyl bond between two residues from the N-terminus.
 DPP4 is present in several processes including metabolism and cancer biology.
 Due to its role within metabolism DPP4 inhibitory drugs have been successfully used in the treatment of diabetes type two.
@@ -39,7 +39,7 @@ completely disable the synthesis of pro-inflammatory compounds but rather balanc
 \subsection{Interactions}
 Interactions define how proteins interact with each other or other types of ligands.
 There are a lot of interactions which can be used for determining whether a certain compound might be considered active.
-The following interactions have been used by the PLIP-Algorithm to produce the base data for this thesis:
+The following interactions have been used by the \textit{PLIP Algorithm}\cite[]{Salentin2015} to produce the base data for this thesis:
 
 \begin{table}[H]
     \centering
@@ -61,7 +61,7 @@ The following interactions have been used by the PLIP-Algorithm to produce the b
     around a halogen atom and a nucleophilic region.\\
     \hline
     hydrophobic interactions& Aggregates formed as a result
-    of a hydrophobic interaction between hydrocarbons in an 
+    of hydrophobicity between hydrocarbons in an 
     aqueous medium are called hydrophobic interactions.\\
     \hline
     pi-stacking   & Interactions between neighboring aromatic 
@@ -90,7 +90,7 @@ The PLIP Algorithm consists of four major stages:
     \item[Functional Characterization] -- \textbf{FC}
     \newline Using the structure of the complex a myriad of functional groups are detected. This includes binding site atoms, hydrophobic atoms and aromatic rings just to name a few.
     \item[Rule Based Matching] -- \textbf{RBM}
-    \newline In the third step the algorithm investigates all interactions between the ligand and the protein, which can be attributed to geometric constraints. Hydrogen bonds are detected here.
+    \newline In the third step the algorithm investigates all interactions between the ligand and the protein, which can be attributed to geometric constraints. For example, hydrogen bonds are detected here.
     \item[Filtering of Interactions] -- \textbf{FoI}
     \newline This is a cleanup step where redundant or overlapping interactions get removed from the dataset. 
 \end{description}
