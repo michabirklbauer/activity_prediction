@@ -19,6 +19,166 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{Birklbauer2021}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=952ef77f6a16111852d2cb1ba808c210}{%
+           family={Birklbauer},
+           familyi={B\bibinitperiod},
+           given={Micha\bibnamedelima Johannes},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {FH Hagenberg}%
+      }
+      \strng{namehash}{952ef77f6a16111852d2cb1ba808c210}
+      \strng{fullhash}{952ef77f6a16111852d2cb1ba808c210}
+      \strng{bibnamehash}{952ef77f6a16111852d2cb1ba808c210}
+      \strng{authorbibnamehash}{952ef77f6a16111852d2cb1ba808c210}
+      \strng{authornamehash}{952ef77f6a16111852d2cb1ba808c210}
+      \strng{authorfullhash}{952ef77f6a16111852d2cb1ba808c210}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{31}
+      \field{month}{8}
+      \field{title}{Automatic identification of important interactionsand interaction-frequency-based scoring inprotein-ligand complexes}
+      \field{type}{mathesis}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Mysinger2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3e8d8f8dee91d7bece1721f99374f3cb}{%
+           family={Mysinger},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c600c5eb05c1ea5e11e7c9fb2b2d86a7}{%
+           family={Carchia},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=88db176c547e9820bd1f9f18333fac66}{%
+           family={Irwin},
+           familyi={I\bibinitperiod},
+           given={John.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=373b12e86f66b6cea22cf7f9c0c34d5c}{%
+           family={Shoichet},
+           familyi={S\bibinitperiod},
+           given={Brian\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{e7210a6e22dfe4ec02edfdcdc666543e}
+      \strng{fullhash}{b5732333df1a3815580e91dc3fa850f5}
+      \strng{bibnamehash}{e7210a6e22dfe4ec02edfdcdc666543e}
+      \strng{authorbibnamehash}{e7210a6e22dfe4ec02edfdcdc666543e}
+      \strng{authornamehash}{e7210a6e22dfe4ec02edfdcdc666543e}
+      \strng{authorfullhash}{b5732333df1a3815580e91dc3fa850f5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A key metric to assess molecular docking remains ligand enrichment against challenging decoys. Whereas the directory of useful decoys (DUD) has been widely used, clear areas for optimization have emerged. Here we describe an improved benchmarking set that includes more diverse targets such as GPCRs and ion channels, totaling 102 proteins with 22886 clustered ligands drawn from ChEMBL, each with 50 property-matched decoys drawn from ZINC. To ensure chemotype diversity, we cluster each target’s ligands by their Bemis–Murcko atomic frameworks. We add net charge to the matched physicochemical properties and include only the most dissimilar decoys, by topology, from the ligands. An online automated tool (http://decoys.docking.org) generates these improved matched decoys for user-supplied ligands. We test this data set by docking all 102 targets, using the results to improve the balance between ligand desolvation and electrostatics in DOCK 3.6. The complete DUD-E benchmarking set is freely available at http://dude.docking.org.}
+      \field{issn}{0022-2623}
+      \field{journaltitle}{Journal of Medicinal Chemistry}
+      \field{month}{7}
+      \field{number}{14}
+      \field{shorttitle}{Directory of {Useful} {Decoys}, {Enhanced} ({DUD}-{E})}
+      \field{title}{Directory of {Useful} {Decoys}, {Enhanced} ({DUD}-{E}): {Better} {Ligands} and {Decoys} for {Better} {Benchmarking}}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{55}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{6582\bibrangedash 6594}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1021/jm300687e
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/jm300687e:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/jm300687e
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/jm300687e
+      \endverb
+    \endentry
+    \entry{Salentin2015}{article}{}
+      \name{author}{5}{}{%
+        {{hash=370e69b0cd903065751d5f15b6867ef0}{%
+           family={Salentin},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a8371d0386357c9dd8170fc2fa86f179}{%
+           family={Schreiber},
+           familyi={S\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=301b1052468218428b8b8fc0760c6911}{%
+           family={Haupt},
+           familyi={H\bibinitperiod},
+           given={V.\bibnamedelimi Joachim},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a6a7bb21019d111e732f52cb0e750e63}{%
+           family={Adasme},
+           familyi={A\bibinitperiod},
+           given={Melissa\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=1b566efc9000396372edc91189b7a7a3}{%
+           family={Schroeder},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{fullhash}{dfb6d72c58863860e2703f3fc86d4292}
+      \strng{bibnamehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{authorbibnamehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{authornamehash}{2dae1b19e634ad52eb12260a97cf7802}
+      \strng{authorfullhash}{dfb6d72c58863860e2703f3fc86d4292}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The characterization of interactions in protein–ligand complexes is essential for research in structural bioinformatics, drug discovery and biology. However, comprehensive tools are not freely available to the research community. Here, we present the protein–ligand interaction profiler (PLIP), a novel web service for fully automated detection and visualization of relevant non-covalent protein–ligand contacts in 3D structures, freely available at projects.biotec.tu-dresden.de/plip-web. The input is either a Protein Data Bank structure, a protein or ligand name, or a custom protein–ligand complex (e.g. from docking). In contrast to other tools, the rule-based PLIP algorithm does not require any structure preparation. It returns a list of detected interactions on single atom level, covering seven interaction types (hydrogen bonds, hydrophobic contacts, pi-stacking, pi-cation interactions, salt bridges, water bridges and halogen bonds). PLIP stands out by offering publication-ready images, PyMOL session files to generate custom images and parsable result files to facilitate successive data processing. The full python source code is available for download on the website. PLIP's command-line mode allows for high-throughput interaction profiling.}
+      \field{issn}{0305-1048}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{7}
+      \field{number}{Web Server issue}
+      \field{shorttitle}{{PLIP}}
+      \field{title}{{PLIP}: fully automated protein–ligand interaction profiler}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{43}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{W443\bibrangedash W447}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkv315
+      \endverb
+      \verb{file}
+      \verb PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/pdf/gkv315.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
+      \endverb
+    \endentry
     \entry{Myers2001}{article}{}
       \name{author}{2}{}{%
         {{hash=63f525e0aae1e484a514832ab225f932}{%
@@ -41,8 +201,8 @@
       \strng{authorbibnamehash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
       \strng{authornamehash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
       \strng{authorfullhash}{c7e15bf6caf20078b67a2cdaa4a1b8de}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1087-0156}
@@ -90,8 +250,8 @@
       \strng{authorbibnamehash}{54f0d89e6f5abb862f5a72b9be8577c6}
       \strng{authornamehash}{54f0d89e6f5abb862f5a72b9be8577c6}
       \strng{authorfullhash}{54f0d89e6f5abb862f5a72b9be8577c6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The research and development costs of 68 randomly selected new drugs were obtained from a survey of 10 pharmaceutical firms. These data were used to estimate the average pre-tax cost of new drug development. The costs of compounds abandoned during testing were linked to the costs of compounds that obtained marketing approval. The estimated average out-of-pocket cost per new drug is 403 million US dollars (2000 dollars). Capitalizing out-of-pocket costs to the point of marketing approval at a real discount rate of 11\% yields a total pre-approval cost estimate of 802 million US dollars (2000 dollars). When compared to the results of an earlier study with a similar methodology, total capitalized costs were shown to have increased at an annual rate of 7.4\% above general price inflation.}
@@ -133,8 +293,8 @@
       \strng{authorbibnamehash}{419a9ba5f1746b20a79038395b50859d}
       \strng{authornamehash}{419a9ba5f1746b20a79038395b50859d}
       \strng{authorfullhash}{419a9ba5f1746b20a79038395b50859d}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{High-throughput screening (HTS) is a well-established process in lead discovery for pharma and biotech companies and is now also being set up for basic and applied research in academia and some research hospitals. Since its first advent in the early to mid-1990s, the field of HTS has seen not only a continuous change in technology and processes but also an adaptation to various needs in lead discovery. HTS has now evolved into a quite mature discipline of modern drug discovery. Whereas in previous years, much emphasis has been put toward a steady increase in capacity (“quantitative increase”) via various strategies in the fields of automation and miniaturization, the past years have seen a steady shift toward higher content and quality (“quality increase”) for these biological test systems. Today, many experts in the field see HTS at the crossroads with the need to decide either toward further increase in throughput or more focus toward relevance of biological data. In this article, the authors describe the development of HTS over the past decade and point out their own ideas for future directions of HTS in biomedical research. They predict that the trend toward further miniaturization will slow down with the implementation of 384-well, 1536-well, and 384 low-volume-well plates. The authors predict that, ultimately, each hit-finding strategy will be much more project related, tailor-made, and better integrated into the broader drug discovery efforts.}
@@ -215,8 +375,8 @@
       \strng{authorbibnamehash}{8fb59a059d54833e191697e5ed578b7d}
       \strng{authornamehash}{8fb59a059d54833e191697e5ed578b7d}
       \strng{authorfullhash}{350d0c0eed26e46142f758638e37ee39}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Virtual screening consists of using computational tools to predict potentially bioactive compounds from files containing large libraries of small molecules. Virtual screening is becoming increasingly popular in the field of drug discovery as in silico techniques are continuously being developed, improved, and made available. As most of these techniques are easy to use, both private and public organizations apply virtual screening methodologies to save resources in the laboratory. However, it is often the case that the techniques implemented in virtual screening workflows are restricted to those that the research team knows. Moreover, although the software is often easy to use, each methodology has a series of drawbacks that should be avoided so that false results or artifacts are not produced. Here, we review the most common methodologies used in virtual screening workflows in order to both introduce the inexperienced researcher to new methodologies and advise the experienced researcher on how to prevent common mistakes and the improper usage of virtual screening methodologies.}
@@ -272,8 +432,8 @@
       \strng{authorbibnamehash}{1a64712a50b590a26e187bbb09f17767}
       \strng{authornamehash}{1a64712a50b590a26e187bbb09f17767}
       \strng{authorfullhash}{1a64712a50b590a26e187bbb09f17767}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Molecular docking methodology explores the behavior of small molecules in the binding site of a target protein. As more protein structures are determined experimentally using X-ray crystallography or nuclear magnetic resonance (NMR) spectroscopy, molecular docking is increasingly used as a tool in drug discovery. Docking against homology-modeled targets also becomes possible for proteins whose structures are not known. With the docking strategies, the druggability of the compounds and their specificity against a particular target can be calculated for further lead optimization processes. Molecular docking programs perform a search algorithm in which the conformation of the ligand is evaluated recursively until the convergence to the minimum energy is reached. Finally, an affinity scoring function, ΔG [U total in kcal/mol], is employed to rank the candidate poses as the sum of the electrostatic and van der Waals energies. The driving forces for these specific interactions in biological systems aim toward complementarities between the shape and electrostatics of the binding site surfaces and the ligand or substrate.}
@@ -327,8 +487,8 @@
       \strng{authorbibnamehash}{625414d1d2c9322b2ed3f00021c10391}
       \strng{authornamehash}{625414d1d2c9322b2ed3f00021c10391}
       \strng{authorfullhash}{625414d1d2c9322b2ed3f00021c10391}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Virtual screening (VS) is a powerful technique for identifying hit molecules as starting points for medicinal chemistry. The number of methods and softwares which use the ligand and target-based VS approaches is increasing at a rapid pace. What, however, are the real advantages and disadvantages of the VS technology and how applicable is it to drug discovery projects? This review provides a comprehensive appraisal of several VS approaches currently available. In the first part of this work, an overview of the recent progress and advances in both ligand-based VS (LBVS) and structure-based VS (SBVS) strategies highlighting current problems and limitations will be provided. Special emphasis will be given to in silico chemogenomics approaches which utilize annotated ligand-target as well as protein-ligand interaction databases and which could predict or reveal promiscuous binding and polypharmacology, the knowledge of which would help medicinal chemists to design more potent clinical candidates with fewer side effects. In the second part, recent case studies (all published in the last two years) will be discussed where the VS technology has been applied successfully. A critical analysis of these case studies provides a good platform in order to estimate the applicability of various VS strategies in the new lead identification and optimization.}
@@ -410,166 +570,6 @@
       \endverb
       \keyw{Molecular docking,Scoring function,Ligand pose,Binding affinity,Protein–ligand interaction}
     \endentry
-    \entry{Birklbauer2021}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=952ef77f6a16111852d2cb1ba808c210}{%
-           family={Birklbauer},
-           familyi={B\bibinitperiod},
-           given={Micha\bibnamedelima Johannes},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {FH Hagenberg}%
-      }
-      \strng{namehash}{952ef77f6a16111852d2cb1ba808c210}
-      \strng{fullhash}{952ef77f6a16111852d2cb1ba808c210}
-      \strng{bibnamehash}{952ef77f6a16111852d2cb1ba808c210}
-      \strng{authorbibnamehash}{952ef77f6a16111852d2cb1ba808c210}
-      \strng{authornamehash}{952ef77f6a16111852d2cb1ba808c210}
-      \strng{authorfullhash}{952ef77f6a16111852d2cb1ba808c210}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{31}
-      \field{month}{8}
-      \field{title}{Automatic identification of important interactionsand interaction-frequency-based scoring inprotein-ligand complexes}
-      \field{type}{mathesis}
-      \field{year}{2021}
-      \field{dateera}{ce}
-    \endentry
-    \entry{Mysinger2012}{article}{}
-      \name{author}{4}{}{%
-        {{hash=3e8d8f8dee91d7bece1721f99374f3cb}{%
-           family={Mysinger},
-           familyi={M\bibinitperiod},
-           given={Michael\bibnamedelima M.},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=c600c5eb05c1ea5e11e7c9fb2b2d86a7}{%
-           family={Carchia},
-           familyi={C\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=88db176c547e9820bd1f9f18333fac66}{%
-           family={Irwin},
-           familyi={I\bibinitperiod},
-           given={John.\bibnamedelimi J.},
-           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=373b12e86f66b6cea22cf7f9c0c34d5c}{%
-           family={Shoichet},
-           familyi={S\bibinitperiod},
-           given={Brian\bibnamedelima K.},
-           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{e7210a6e22dfe4ec02edfdcdc666543e}
-      \strng{fullhash}{b5732333df1a3815580e91dc3fa850f5}
-      \strng{bibnamehash}{e7210a6e22dfe4ec02edfdcdc666543e}
-      \strng{authorbibnamehash}{e7210a6e22dfe4ec02edfdcdc666543e}
-      \strng{authornamehash}{e7210a6e22dfe4ec02edfdcdc666543e}
-      \strng{authorfullhash}{b5732333df1a3815580e91dc3fa850f5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{A key metric to assess molecular docking remains ligand enrichment against challenging decoys. Whereas the directory of useful decoys (DUD) has been widely used, clear areas for optimization have emerged. Here we describe an improved benchmarking set that includes more diverse targets such as GPCRs and ion channels, totaling 102 proteins with 22886 clustered ligands drawn from ChEMBL, each with 50 property-matched decoys drawn from ZINC. To ensure chemotype diversity, we cluster each target’s ligands by their Bemis–Murcko atomic frameworks. We add net charge to the matched physicochemical properties and include only the most dissimilar decoys, by topology, from the ligands. An online automated tool (http://decoys.docking.org) generates these improved matched decoys for user-supplied ligands. We test this data set by docking all 102 targets, using the results to improve the balance between ligand desolvation and electrostatics in DOCK 3.6. The complete DUD-E benchmarking set is freely available at http://dude.docking.org.}
-      \field{issn}{0022-2623}
-      \field{journaltitle}{Journal of Medicinal Chemistry}
-      \field{month}{7}
-      \field{number}{14}
-      \field{shorttitle}{Directory of {Useful} {Decoys}, {Enhanced} ({DUD}-{E})}
-      \field{title}{Directory of {Useful} {Decoys}, {Enhanced} ({DUD}-{E}): {Better} {Ligands} and {Decoys} for {Better} {Benchmarking}}
-      \field{urlday}{30}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{55}
-      \field{year}{2012}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{6582\bibrangedash 6594}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1021/jm300687e
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/jm300687e:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1021/jm300687e
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1021/jm300687e
-      \endverb
-    \endentry
-    \entry{Salentin2015}{article}{}
-      \name{author}{5}{}{%
-        {{hash=370e69b0cd903065751d5f15b6867ef0}{%
-           family={Salentin},
-           familyi={S\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a8371d0386357c9dd8170fc2fa86f179}{%
-           family={Schreiber},
-           familyi={S\bibinitperiod},
-           given={Sven},
-           giveni={S\bibinitperiod}}}%
-        {{hash=301b1052468218428b8b8fc0760c6911}{%
-           family={Haupt},
-           familyi={H\bibinitperiod},
-           given={V.\bibnamedelimi Joachim},
-           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=a6a7bb21019d111e732f52cb0e750e63}{%
-           family={Adasme},
-           familyi={A\bibinitperiod},
-           given={Melissa\bibnamedelima F.},
-           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=1b566efc9000396372edc91189b7a7a3}{%
-           family={Schroeder},
-           familyi={S\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{2dae1b19e634ad52eb12260a97cf7802}
-      \strng{fullhash}{dfb6d72c58863860e2703f3fc86d4292}
-      \strng{bibnamehash}{2dae1b19e634ad52eb12260a97cf7802}
-      \strng{authorbibnamehash}{2dae1b19e634ad52eb12260a97cf7802}
-      \strng{authornamehash}{2dae1b19e634ad52eb12260a97cf7802}
-      \strng{authorfullhash}{dfb6d72c58863860e2703f3fc86d4292}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The characterization of interactions in protein–ligand complexes is essential for research in structural bioinformatics, drug discovery and biology. However, comprehensive tools are not freely available to the research community. Here, we present the protein–ligand interaction profiler (PLIP), a novel web service for fully automated detection and visualization of relevant non-covalent protein–ligand contacts in 3D structures, freely available at projects.biotec.tu-dresden.de/plip-web. The input is either a Protein Data Bank structure, a protein or ligand name, or a custom protein–ligand complex (e.g. from docking). In contrast to other tools, the rule-based PLIP algorithm does not require any structure preparation. It returns a list of detected interactions on single atom level, covering seven interaction types (hydrogen bonds, hydrophobic contacts, pi-stacking, pi-cation interactions, salt bridges, water bridges and halogen bonds). PLIP stands out by offering publication-ready images, PyMOL session files to generate custom images and parsable result files to facilitate successive data processing. The full python source code is available for download on the website. PLIP's command-line mode allows for high-throughput interaction profiling.}
-      \field{issn}{0305-1048}
-      \field{journaltitle}{Nucleic Acids Research}
-      \field{month}{7}
-      \field{number}{Web Server issue}
-      \field{shorttitle}{{PLIP}}
-      \field{title}{{PLIP}: fully automated protein–ligand interaction profiler}
-      \field{urlday}{23}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{43}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{W443\bibrangedash W447}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1093/nar/gkv315
-      \endverb
-      \verb{file}
-      \verb PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/pdf/gkv315.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
-      \endverb
-      \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489249/
-      \endverb
-    \endentry
     \entry{Manavalan2017}{article}{}
       \name{author}{2}{}{%
         {{hash=997024fe07ab0213c79b8fb7b3fd3e6b}{%
@@ -592,8 +592,8 @@
       \strng{authorbibnamehash}{c8849883c32ef313e049ac7c022f875a}
       \strng{authornamehash}{c8849883c32ef313e049ac7c022f875a}
       \strng{authorfullhash}{c8849883c32ef313e049ac7c022f875a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{MOTIVATION: The accurate ranking of predicted structural models and selecting the best model from a given candidate pool remain as open problems in the field of structural bioinformatics. The quality assessment (QA) methods used to address these problems can be grouped into two categories: consensus methods and single-model methods. Consensus methods in general perform better and attain higher correlation between predicted and true quality measures. However, these methods frequently fail to generate proper quality scores for native-like structures which are distinct from the rest of the pool. Conversely, single-model methods do not suffer from this drawback and are better suited for real-life applications where many models from various sources may not be readily available. RESULTS: In this study, we developed a support-vector-machine-based single-model global quality assessment (SVMQA) method. For a given protein model, the SVMQA method predicts TM-score and GDT\_TS score based on a feature vector containing statistical potential energy terms and consistency-based terms between the actual structural features (extracted from the three-dimensional coordinates) and predicted values (from primary sequence). We trained SVMQA using CASP8, CASP9 and CASP10 targets and determined the machine parameters by 10-fold cross-validation. We evaluated the performance of our SVMQA method on various benchmarking datasets. Results show that SVMQA outperformed the existing best single-model QA methods both in ranking provided protein models and in selecting the best model from the pool. According to the CASP12 assessment, SVMQA was the best method in selecting good-quality models from decoys in terms of GDTloss. AVAILABILITY AND IMPLEMENTATION: SVMQA method can be freely downloaded from http://lee.kias.re.kr/SVMQA/SVMQA\_eval.tar.gz. CONTACT: jlee@kias.re.kr. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.}
@@ -640,8 +640,8 @@
       \strng{authorbibnamehash}{351070bf1ec06b4c48ea22ca661d3801}
       \strng{authornamehash}{351070bf1ec06b4c48ea22ca661d3801}
       \strng{authorfullhash}{351070bf1ec06b4c48ea22ca661d3801}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Motivation Can we predict protein–protein interactions (PPIs) of a novel virus with its host? Three major problems arise: the lack of known PPIs for that virus to learn from, the cost of learning about its proteins and the sequence dissimilarity among viral families that makes most methods inapplicable or inefficient. We develop DeNovo, a sequence-based negative sampling and machine learning framework that learns from PPIs of different viruses to predict for a novel one, exploiting the shared host proteins. We tested DeNovo on PPIs from different domains to assess generalization.Results: By solving the challenge of generating less noisy negative interactions, DeNovo achieved accuracy up to 81 and 86\% when predicting PPIs of viral proteins that have no and distant sequence similarity to the ones used for training, receptively. This result is comparable to the best achieved in single virus-host and intra-species PPI prediction cases. Thus, we can now predict PPIs for virtually any virus infecting human. DeNovo generalizes well; it achieved near optimal accuracy when tested on bacteria–human interactions.Availability and implementation: Code, data and additional supplementary materials needed to reproduce this study are available at: https://bioinformatics.cs.vt.edu/{\textasciitilde}alzahraa/denovo.Contact:  alzahraa@vt.eduSupplementary information: Supplementary data are available at Bioinformatics online.}
@@ -742,8 +742,8 @@
       \strng{authorbibnamehash}{98f5304d89d0c43f01575879a08af711}
       \strng{authornamehash}{98f5304d89d0c43f01575879a08af711}
       \strng{authorfullhash}{b95352cb82a3a4fdd21967170aa0208f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Development of drug responsive biomarkers from pre-clinical data is a critical step in drug discovery, as it enables patient stratification in clinical trial design. Such translational biomarkers can be validated in early clinical trial phases and utilized as a patient inclusion parameter in later stage trials. Here we present a study on building accurate and selective drug sensitivity models for Erlotinib or Sorafenib from pre-clinical in vitro data, followed by validation of individual models on corresponding treatment arms from patient data generated in the BATTLE clinical trial. A Partial Least Squares Regression (PLSR) based modeling framework was designed and implemented, using a special splitting strategy and canonical pathways to capture robust information for model building. Erlotinib and Sorafenib predictive models could be used to identify a sub-group of patients that respond better to the corresponding treatment, and these models are specific to the corresponding drugs. The model derived signature genes reflect each drug’s known mechanism of action. Also, the models predict each drug’s potential cancer indications consistent with clinical trial results from a selection of globally normalized GEO expression datasets.}
@@ -833,8 +833,8 @@
       \strng{authorbibnamehash}{aba30c49ea884d4b07a93e88870d0464}
       \strng{authornamehash}{aba30c49ea884d4b07a93e88870d0464}
       \strng{authorfullhash}{9ef542cc044c41df28e054bd534639e2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Application of AI technologies in synthesis prediction has developed very rapidly in recent years. We attempt here to give a comprehensive summary on the latest advancement on retro-synthesis planning, forward synthesis prediction as well as quantum chemistry-based reaction prediction models. Besides an introduction on the AI/ML models for addressing various synthesis related problems, the sources of the reaction datasets used in model building is also covered. In addition to the predictive models, the robotics based high throughput experimentation technology will be another crucial factor for conducting synthesis in an automated fashion. Some state-of-the-art of high throughput experimentation practices carried out in the pharmaceutical industry are highlighted in this chapter to give the reader a sense of how future chemistry will be conducted to make compounds faster and cheaper.}
@@ -902,8 +902,8 @@
       \strng{authorbibnamehash}{e4f25836eaad29cdc732400e21391d12}
       \strng{authornamehash}{e4f25836eaad29cdc732400e21391d12}
       \strng{authorfullhash}{b16f6fa5cc2bc36048cad66366427a86}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Over the past decade, deep learning has achieved remarkable success in various artificial intelligence research areas. Evolved from the previous research on artificial neural networks, this technology has shown superior performance to other machine learning algorithms in areas such as image and voice recognition, natural language processing, among others. The first wave of applications of deep learning in pharmaceutical research has emerged in recent years, and its utility has gone beyond bioactivity predictions and has shown promise in addressing diverse problems in drug discovery. Examples will be discussed covering bioactivity prediction, de novo molecular design, synthesis prediction and biological image analysis.}
@@ -1110,8 +1110,8 @@
       \strng{authorbibnamehash}{488b85cd546b5c0705a6dc6323f73536}
       \strng{authornamehash}{488b85cd546b5c0705a6dc6323f73536}
       \strng{authorfullhash}{488b85cd546b5c0705a6dc6323f73536}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Motivation : High-content screening (HCS) technologies have enabled large scale imaging experiments for studying cell biology and for drug screening. These systems produce hundreds of thousands of microscopy images per day and their utility depends on automated image analysis. Recently, deep learning approaches that learn feature representations directly from pixel intensity values have dominated object recognition challenges. These tasks typically have a single centered object per image and existing models are not directly applicable to microscopy datasets. Here we develop an approach that combines deep convolutional neural networks (CNNs) with multiple instance learning (MIL) in order to classify and segment microscopy images using only whole image level annotations. Results : We introduce a new neural network architecture that uses MIL to simultaneously classify and segment microscopy images with populations of cells. We base our approach on the similarity between the aggregation function used in MIL and pooling layers used in CNNs. To facilitate aggregating across large numbers of instances in CNN feature maps we present the Noisy-AND pooling function, a new MIL operator that is robust to outliers. Combining CNNs with MIL enables training CNNs using whole microscopy images with image level labels. We show that training end-to-end MIL CNNs outperforms several previous methods on both mammalian and yeast datasets without requiring any segmentation steps. Availability and implementation : Torch7 implementation available upon request. Contact : oren.kraus@mail.utoronto.ca}
@@ -1204,8 +1204,8 @@
       \strng{authorbibnamehash}{64e1c53dfb0a3c4ddd05e3ab14ae0038}
       \strng{authornamehash}{64e1c53dfb0a3c4ddd05e3ab14ae0038}
       \strng{authorfullhash}{70c02719400fc9d2db3c7b33f2be2f0e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The efficacy of a drug depends on its binding affinity to the therapeutic target and pharmacokinetics. Deep learning (DL) has demonstrated remarkable progress in predicting drug efficacy. We develop MolDesigner, a human-in-the-loop web user-interface (UI), to assist drug developers leverage DL predictions to design more effective drugs. A developer can draw a drug molecule in the interface. In the backend, more than 17 state-of-the-art DL models generate predictions on important indices that are crucial for a drug's efficacy. Based on these predictions, drug developers can edit the drug molecule and reiterate until satisfaction. MolDesigner can make predictions in real-time with a latency of less than a second.}
@@ -1269,8 +1269,8 @@
       \strng{authorbibnamehash}{553039d752572651c4044c390364e521}
       \strng{authornamehash}{553039d752572651c4044c390364e521}
       \strng{authorfullhash}{86d9d3b74981a3adf493207be0031017}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Molecular docking tools are regularly used to computationally identify new molecules in virtual screening for drug discovery. However, docking tools suffer from inaccurate scoring functions with widely varying performance on different proteins. To enable more accurate ranking of active over inactive ligands in virtual screening, we created a machine learning consensus docking tool, MILCDock, that uses predictions from five traditional molecular docking tools to predict the probability a ligand binds to a protein. MILCDock was trained and tested on data from both the DUD-E and LIT-PCBA docking datasets and shows improved performance over traditional molecular docking tools and other consensus docking methods on the DUD-E dataset. LIT-PCBA targets proved to be difficult for all methods tested. We also find that DUD-E data, although biased, can be effective in training machine learning tools if care is taken to avoid DUD-E's biases during training.}
@@ -1307,8 +1307,8 @@
       \strng{authorbibnamehash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
       \strng{authornamehash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
       \strng{authorfullhash}{d099b77fa45d4134a3a5ebd1f97e3fdb}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Acetylcholinesterase (AChE) terminates the neurotransmission at cholinergic synapses by splitting the neurotransmitter acetylcholine. The nature and didtribution of the enzyme has extensively been studied in many invertebrates and vertebrates including human, histochemically and biochemically. The enzyme demonstrates a high degree of variability in distribution with its notable presense in nonneuronal tissues also, which provides pertinent theme to investigate its nonclassical role. Recently a lot of information has come out regarding its dynamic structure, gene expression, its role in neuronal morphogenesis and synaptogenesis. The significance of AChE stems from the fact that it is the target of drugs designed to treat myasthenia gravis, glaucoma, alzheimer's disease etc. Keeping in view, above mentioned facts a thorough review has been made in the present article regarding its biochemistry, structural dynamics, wide distribution, isoforms and its implications in neurodegenerative disorders. doi: 10.5214/ans.0972.7531.2008.150403   Competing interests: None.     Source of Funding: None Received Date: 08 Sept 2008      Revised Date: 13 Oct 2008      Accepted Date: 22 Oct 2008}
@@ -1359,8 +1359,8 @@
       \strng{authorbibnamehash}{e2afac71589f30e7c80a0942749322ce}
       \strng{authornamehash}{e2afac71589f30e7c80a0942749322ce}
       \strng{authorfullhash}{e2afac71589f30e7c80a0942749322ce}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Cyclooxygenase (COX; prostaglandin G/H synthase, EC 1.14.99.1) catalyzes the first two steps in the biosynthesis of prostaglandins (PGs). The two COX isoforms COX-1 and COX-2 are the targets of the widely used nonsteroidal anti-inflammatory drugs, indicating a role for these enzymes in pain, fever, inflammation, and tumorigenesis. The ubiquitous constitutive expression of COX-1 and inducible expression of COX-2 have led to the widely held belief that COX-1 produces homeostatic PGs, while PGs produced by COX-2 are primarily pathophysiological. However, recent discoveries call this paradigm into question and reveal as yet underappreciated functions for both enzymes. This review focuses on some of these new insights.}
@@ -1444,8 +1444,8 @@
       \strng{authorbibnamehash}{113bd487cce0157b5fce2d2b67741886}
       \strng{authornamehash}{113bd487cce0157b5fce2d2b67741886}
       \strng{authorfullhash}{e406cdb2e82efbcc0898d151bc6e53eb}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Of the 600+ known proteases identified to date in mammals, a significant percentage is involved or implicated in pathogenic and cancer processes. The dipeptidyl peptidase IV (DPIV) gene family, comprising four enzyme members [DPIV (EC 3.4.14.5), fibroblast activation protein, DP8 and DP9] and two nonenzyme members [DP6 (DPL1) and DP10 (DPL2)], are interesting in this regard because of their multiple diverse functions, varying patterns of distribution/localization and subtle, but significant, differences in structure/substrate recognition. In addition, their engagement in cell biological processes involves both enzymatic and nonenzymatic capabilities. This article examines, in detail, our current understanding of the biological involvement of this unique enzyme family and their overall potential as therapeutic targets.}
@@ -1490,8 +1490,8 @@
       \strng{authorbibnamehash}{cf0238806cfeaae072d359ee23de4a67}
       \strng{authornamehash}{cf0238806cfeaae072d359ee23de4a67}
       \strng{authorfullhash}{cf0238806cfeaae072d359ee23de4a67}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Monoamine oxidases (MAO) influence the monoamine levels in brain by virtue of their role in neurotransmitter breakdown. MAO B is the predominant form in glial cells and in platelets. MAO B structure, function and kinetics are described as a background for the effect of alterations in its activity on behavior. The need to inhibit MAO B to combat decreased brain amines continues to drive the search for new drugs. Reversible and irreversible inhibitors are now designed using data-mining, computational screening, docking and molecular dynamics. Multi-target ligands designed to combat the elevated activity of MAO B in Alzheimer's and Parkinson's Diseases incorporate MAO inhibition (usually irreversible) as well as iron chelation, antioxidant or neuroprotective properties. The main focus of drug design is the catalytic activity of MAO, but the imidazoline I2 site in the entrance cavity of MAO B is also a pharmacological target. Endogenous regulation of MAO B expression is discussed briefly in light of new studies measuring mRNA, protein, or activity in healthy and degenerative samples, including the effect of DNA methylation on the expression. Overall, this review focuses on examples of recent research on the molecular aspects of the expression, activity, and inhibition of MAO B.}
@@ -1564,8 +1564,8 @@
       \strng{authorbibnamehash}{2bc52456db2d9956c9f997bf49961bab}
       \strng{authornamehash}{2bc52456db2d9956c9f997bf49961bab}
       \strng{authorfullhash}{358d8fabd6e06f5b858c4c81dadd3be4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As of 2004, {>}73 million people were prescribed antiinflammatory medication. Despite the extensive number of current products, many people still suffer from their diseases or the pharmacological properties (side effects) of the medications. Therefore, developing therapeutic strategies to treat inflammation remains an important endeavor. Here, we demonstrate that the soluble epoxide hydrolase (sEH) is a key pharmacologic target for treating acute systemic inflammation. Lipopolysaccharide-induced mortality, systemic hypotension, and histologically evaluated tissue injury were substantially diminished by administration of urea-based, small-molecule inhibitors of sEH to C57BL/6 mice. Moreover, sEH inhibitors decreased plasma levels of proinflammatory cytokines and nitric oxide metabolites while promoting the formation of lipoxins, thus supporting inflammatory resolution. These data suggest that sEH inhibitors have therapeutic efficacy in the treatment and management of acute inflammatory diseases.}
@@ -1609,8 +1609,8 @@
       \strng{authorbibnamehash}{4c54e609c18f1706c0d0316a9b0e4a78}
       \strng{authornamehash}{4c54e609c18f1706c0d0316a9b0e4a78}
       \strng{authorfullhash}{4c54e609c18f1706c0d0316a9b0e4a78}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Model validation is the most important part of building a supervised model. For building a model with good generalization performance one must have a sensible data splitting strategy, and this is crucial for model validation. In this study, we conducted a comparative study on various reported data splitting methods. The MixSim model was employed to generate nine simulated datasets with different probabilities of mis-classification and variable sample sizes. Then partial least squares for discriminant analysis and support vector machines for classification were applied to these datasets. Data splitting methods tested included variants of cross-validation, bootstrapping, bootstrapped Latin partition, Kennard-Stone algorithm (K-S) and sample set partitioning based on joint X–Y distances algorithm (SPXY). These methods were employed to split the data into training and validation sets. The estimated generalization performances from the validation sets were then compared with the ones obtained from the blind test sets which were generated from the same distribution but were unseen by the training/validation procedure used in model construction. The results showed that the size of the data is the deciding factor for the qualities of the generalization performance estimated from the validation set. We found that there was a significant gap between the performance estimated from the validation set and the one from the test set for the all the data splitting methods employed on small datasets. Such disparity decreased when more samples were available for training/validation, and this is because the models were then moving towards approximations of the central limit theory for the simulated datasets used. We also found that having too many or too few samples in the training set had a negative effect on the estimated model performance, suggesting that it is necessary to have a good balance between the sizes of training set and validation set to have a reliable estimation of model performance. We also found that systematic sampling method such as K-S and SPXY generally had very poor estimation of the model performance, most likely due to the fact that they are designed to take the most representative samples first and thus left a rather poorly representative sample set for model performance estimation.}
@@ -1667,8 +1667,8 @@
       \strng{authorbibnamehash}{e00c9c9054a41eef18611e4fa20c0f17}
       \strng{authornamehash}{e00c9c9054a41eef18611e4fa20c0f17}
       \strng{authorfullhash}{e00c9c9054a41eef18611e4fa20c0f17}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{Motivation: In genomic studies, thousands of features are collected on relatively few samples. One of the goals of these studies is to build classifiers to predict the outcome of future observations. There are three inherent steps to this process: feature selection, model selection and prediction assessment. With a focus on prediction assessment, we compare several methods for estimating the ‘true’ prediction error of a prediction model in the presence of feature selection.Results: For small studies where features are selected from thousands of candidates, the resubstitution and simple split-sample estimates are seriously biased. In these small samples, leave-one-out cross-validation (LOOCV), 10-fold cross-validation (CV) and the .632+ bootstrap have the smallest bias for diagonal discriminant analysis, nearest neighbor and classification trees. LOOCV and 10-fold CV have the smallest bias for linear discriminant analysis. Additionally, LOOCV, 5- and 10-fold CV, and the .632+ bootstrap have the lowest mean square error. The .632+ bootstrap is quite biased in small sample sizes with strong signal-to-noise ratios. Differences in performance among resampling methods are reduced as the number of specimens available increase.Contact:  annette.molinaro@yale.eduSupplementary Information: A complete compilation of results and R code for simulations and analyses are available in Molinaro et al. (2005) (http://linus.nci.nih.gov/brb/TechReport.htm).}}
@@ -1717,8 +1717,8 @@
       \strng{authorbibnamehash}{816477c5724040789c6fe02e3968dc62}
       \strng{authornamehash}{816477c5724040789c6fe02e3968dc62}
       \strng{authorfullhash}{816477c5724040789c6fe02e3968dc62}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Because of the “all-or-none” character of nervous activity, neural events and the relations among them can be treated by means of propositional logic. It is found that the behavior of every net can be described in these terms, with the addition of more complicated logical means for nets containing circles; and that for any logical expression satisfying certain conditions, one can find a net behaving in the fashion it describes. It is shown that many particular choices among possible neurophysiological assumptions are equivalent, in the sense that for every net behaving under one assumption, there exists another net which behaves under the other and gives the same results, although perhaps not in the same time. Various applications of the calculus are discussed.}
@@ -1764,8 +1764,8 @@
       \strng{authorbibnamehash}{2333709f91a1b22edafa71582c31e391}
       \strng{authornamehash}{2333709f91a1b22edafa71582c31e391}
       \strng{authorfullhash}{2333709f91a1b22edafa71582c31e391}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In recent years, deep artificial neural networks (including recurrent ones) have won numerous contests in pattern recognition and machine learning. This historical survey compactly summarises relevant work, much of it from the previous millennium. Shallow and deep learners are distinguished by the depth of their credit assignment paths, which are chains of possibly learnable, causal links between actions and effects. I review deep supervised learning (also recapitulating the history of backpropagation), unsupervised learning, reinforcement learning \& evolutionary computation, and indirect search for short programs encoding deep and large networks.}
@@ -1821,8 +1821,8 @@
       \strng{authorbibnamehash}{6df2d131afc05ac9ef0b6c915ddae0aa}
       \strng{authornamehash}{6df2d131afc05ac9ef0b6c915ddae0aa}
       \strng{authorfullhash}{6df2d131afc05ac9ef0b6c915ddae0aa}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Deep neural networks are currently among the most commonly used classifiers. Despite easily achieving very good performance, one of the best selling points of these models is their modular design - one can conveniently adapt their architecture to specific needs, change connectivity patterns, attach specialised layers, experiment with a large amount of activation functions, normalisation schemes and many others. While one can find impressively wide spread of various configurations of almost every aspect of the deep nets, one element is, in authors' opinion, underrepresented - while solving classification problems, vast majority of papers and applications simply use log loss. In this paper we try to investigate how particular choices of loss functions affect deep models and their learning dynamics, as well as resulting classifiers robustness to various effects. We perform experiments on classical datasets, as well as provide some additional, theoretical insights into the problem. In particular we show that L1 and L2 losses are, quite surprisingly, justified classification objectives for deep nets, by providing probabilistic interpretation in terms of expected misclassification. We also introduce two losses which are not typically used as deep nets objectives and show that they are viable alternatives to the existing ones.}
@@ -1951,8 +1951,8 @@
       \strng{authorbibnamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
       \strng{authornamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
       \strng{authorfullhash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Backpropagation is basically “just” clever trick to compute gradients in multilayer neural networks efficiently. Or in other words, backprop is about computi...}
@@ -1992,8 +1992,8 @@
       \strng{authorbibnamehash}{ac08041fcbdb3d9faeae2bd36e00a599}
       \strng{authornamehash}{ac08041fcbdb3d9faeae2bd36e00a599}
       \strng{authorfullhash}{ac08041fcbdb3d9faeae2bd36e00a599}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{xviii, 1150 pages : 24 cm; Includes bibliographical references and index; Are There Universal Principles of Brain Computation? / S. Grossberg -- Modeling Cortical Networks / L. Menendez de la Prida -- Cooperative Organization of Connectivity Patterns and Receptive Fields in the Visual Pathway: Application to Adaptive Thresholding / J. Mira, A. Manjarres, S. Ros, A.E. Delgado and J.R. Alvarez -- Neurobiological Inspiration for the Architecture and Functioning of Cooperating Neural Networks / F. Alexandre and F. Guyot -- Synaptic Modulation Based Artificial Neural Networks / R.J. Duro, J. Santos and A. Gomez -- Self-Organization of Cortical Receptive Fields and Columnar Structures in a Hebb Trained Neural Network / M. Stetter, M. Kussinger, A. Schels, E. Seeger and E.W. Lang -- An Analytical Solution of the Compartmental Model for Use in Local Learning in Artificial Neural Networks / J. Hoekstra and M. Maouli -- Should ANN be ANGN? / J.G. Wallace and K. Bluff -- Modeling Retinal High and Low Contrast Sensitivity Filters / T. Lourens}
@@ -2038,8 +2038,8 @@
       \strng{authorbibnamehash}{5bdb5b2773f1e5c6fde44c3249785b75}
       \strng{authornamehash}{5bdb5b2773f1e5c6fde44c3249785b75}
       \strng{authorfullhash}{5bdb5b2773f1e5c6fde44c3249785b75}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, we apply a set of data-mining and sequential deep learning techniques to accident investigation reports published by the National Transportation Safety Board (NTSB) in support of the prognosis of adverse events. Our focus is on learning with text data that describes the sequences of events. NTSB creates post-hoc investigation reports which contain raw text narratives of their investigation and their corresponding concise event sequences. Classification models are developed for passenger air carriers, that take either an observed sequence of events or the corresponding raw text narrative as input and make predictions regarding whether an accident or an incident is the likely outcome, whether the aircraft would be damaged or not and whether any fatalities are likely or not. The classification models are developed using Word Embedding and the Long Short-term Memory (LSTM) neural network. The proposed methodology is implemented in two steps: (i) transform the NTSB data extracts into labeled dataset for building supervised machine learning models; and (ii) develop deep learning (DL) models for performing prognosis of adverse events like accidents, aircraft damage or fatalities. We also develop a prototype for an interactive query interface for end-users to test various scenarios including complete or partial event sequences or narratives and get predictions regarding the adverse events. The development of sequential deep learning models facilitates safety professionals in auditing, reviewing, and analyzing accident investigation reports, performing what-if scenario analyses to quantify the contributions of various hazardous events to the occurrence of aviation accidents/incidents.}
@@ -2083,8 +2083,8 @@
       \strng{authorbibnamehash}{82262550a40dbc6f066e7d2314dd824e}
       \strng{authornamehash}{82262550a40dbc6f066e7d2314dd824e}
       \strng{authorfullhash}{82262550a40dbc6f066e7d2314dd824e}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Neural networks have shown tremendous growth in recent years to solve numerous problems. Various types of neural networks have been introduced to deal with different types of problems. However, the main goal of any neural network is to transform the non-linearly separable input data into more linearly separable abstract features using a hierarchy of layers. These layers are combinations of linear and nonlinear functions. The most popular and common non-linearity layers are activation functions (AFs), such as Logistic Sigmoid, Tanh, ReLU, ELU, Swish and Mish. In this paper, a comprehensive overview and survey is presented for AFs in neural networks for deep learning. Different classes of AFs such as Logistic Sigmoid and Tanh based, ReLU based, ELU based, and Learning based are covered. Several characteristics of AFs such as output range, monotonicity, and smoothness are also pointed out. A performance comparison is also performed among 18 state-of-the-art AFs with different networks on different types of data. The insights of AFs are presented to benefit the researchers for doing further research and practitioners to select among different choices. The code used for experimental comparison is released at: {\textbackslash}url\{https://github.com/shivram1987/ActivationFunctions\}.}
@@ -2236,8 +2236,8 @@
       \strng{authorbibnamehash}{24b1e0a436b566c814359b41f12b3ce3}
       \strng{authornamehash}{24b1e0a436b566c814359b41f12b3ce3}
       \strng{authorfullhash}{e418e1dcd19d9925a93075ffaf08ebaa}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. TensorFlow uses dataflow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous "parameter server" designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with particularly strong support for training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research. In this paper, we describe the TensorFlow dataflow model in contrast to existing systems, and demonstrate the compelling performance that TensorFlow achieves for several real-world applications.}
@@ -2286,8 +2286,8 @@
       \strng{authorbibnamehash}{7d924c1692ba8cfe148fe077d5fca504}
       \strng{authornamehash}{7d924c1692ba8cfe148fe077d5fca504}
       \strng{authorfullhash}{7d924c1692ba8cfe148fe077d5fca504}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Perhaps the most straightforward classifier in the arsenal or machine learning techniques is the Nearest Neighbour Classifier -- classification is achieved by identifying the nearest neighbours to a query example and using those neighbours to determine the class of the query. This approach to classification is of particular importance because issues of poor run-time performance is not such a problem these days with the computational power that is available. This paper presents an overview of techniques for Nearest Neighbour classification focusing on; mechanisms for assessing similarity (distance), computational issues in identifying nearest neighbours and mechanisms for reducing the dimension of the data. This paper is the second edition of a paper previously published as a technical report. Sections on similarity measures for time-series, retrieval speed-up and intrinsic dimensionality have been added. An Appendix is included providing access to Python code for the key methods.}
@@ -2339,8 +2339,8 @@
       \strng{authorbibnamehash}{132b7100417675d55d5d4d8b244f7a34}
       \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
       \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. The generalization error for forests converges a.s. to a limit as the number of trees in the forest becomes large. The generalization error of a forest of tree classifiers depends on the strength of the individual trees in the forest and the correlation between them. Using a random selection of features to split each node yields error rates that compare favorably to Adaboost (Y. Freund \& R. Schapire, Machine Learning: Proceedings of the Thirteenth International conference, ***, 148–156), but are more robust with respect to noise. Internal estimates monitor error, strength, and correlation and these are used to show the response to increasing the number of features used in the splitting. Internal estimates are also used to measure variable importance. These ideas are also applicable to regression.}
@@ -2386,8 +2386,8 @@
       \strng{authorbibnamehash}{66463bfdd44906d50339bc4a47a218d9}
       \strng{authornamehash}{66463bfdd44906d50339bc4a47a218d9}
       \strng{authorfullhash}{66463bfdd44906d50339bc4a47a218d9}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Gini Impurity}
@@ -2419,8 +2419,8 @@
       \strng{authorbibnamehash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
       \strng{authornamehash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
       \strng{authorfullhash}{9a8f3a87c7d45b8a41a5a69189adb9a1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Gini Impurity}
@@ -2443,8 +2443,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{abstract}{Permutation feature importance is a model inspection technique that measures the contribution of each feature to a fitted model’s statistical performance on a given tabular dataset. This technique ...}
       \field{journaltitle}{scikit-learn}
@@ -2485,8 +2485,8 @@
       \strng{authorbibnamehash}{604b5cc6811fbf3a2c96464d8e15c999}
       \strng{authornamehash}{604b5cc6811fbf3a2c96464d8e15c999}
       \strng{authorfullhash}{604b5cc6811fbf3a2c96464d8e15c999}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As the protein databank (PDB) recently passed the cap of 123 456 structures, it stands more than ever as an important resource not only to analyze structural features of specific biological systems, but also to study the prevalence of structural patterns observed in a large body of unrelated structures, that may reflect rules governing protein folding or molecular recognition. Here, we compiled a list of 11 016 unique structures of small-molecule ligands bound to proteins – 6444 of which have experimental binding affinity – representing 750 873 protein–ligand atomic interactions, and analyzed the frequency, geometry and impact of each interaction type. We find that hydrophobic interactions are generally enriched in high-efficiency ligands, but polar interactions are over-represented in fragment inhibitors. While most observations extracted from the PDB will be familiar to seasoned medicinal chemists, less expected findings, such as the high number of C–H⋯O hydrogen bonds or the relatively frequent amide–π stacking between the backbone amide of proteins and aromatic rings of ligands, uncover underused ligand design strategies.}
@@ -2534,8 +2534,8 @@
       \strng{authorbibnamehash}{8f128e70084608a2c29c497ebd794f87}
       \strng{authornamehash}{8f128e70084608a2c29c497ebd794f87}
       \strng{authorfullhash}{8f128e70084608a2c29c497ebd794f87}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Principal component analysis (PCA) is a mainstay of modern data analysis - a black box that is widely used but (sometimes) poorly understood. The goal of this paper is to dispel the magic behind this black box. This manuscript focuses on building a solid intuition for how and why principal component analysis works. This manuscript crystallizes this knowledge by deriving from simple intuitions, the mathematics behind PCA. This tutorial does not shy away from explaining the ideas informally, nor does it shy away from the mathematics. The hope is that by addressing both aspects, readers of all levels will be able to gain a better understanding of PCA as well as the when, the how and the why of applying this technique.}
@@ -2592,8 +2592,8 @@
       \strng{authorbibnamehash}{25994a8b1023c628464384a919fac03e}
       \strng{authornamehash}{25994a8b1023c628464384a919fac03e}
       \strng{authorfullhash}{8c67ad2e38d858dfc32312d1f697f6e2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{An approach to the construction of classifiers from imbalanced datasets is described. A dataset is imbalanced if the classification categories are not approximately equally represented. Often real-world data sets are predominately composed of "normal" examples with only a small percentage of "abnormal" or "interesting" examples. It is also the case that the cost of misclassifying an abnormal (interesting) example as a normal example is often much higher than the cost of the reverse error. Under-sampling of the majority (normal) class has been proposed as a good means of increasing the sensitivity of a classifier to the minority class. This paper shows that a combination of our method of over-sampling the minority (abnormal) class and under-sampling the majority (normal) class can achieve better classifier performance (in ROC space) than only under-sampling the majority class. This paper also shows that a combination of our method of over-sampling the minority class and under-sampling the majority class can achieve better classifier performance (in ROC space) than varying the loss ratios in Ripper or class priors in Naive Bayes. Our method of over-sampling the minority class involves creating synthetic minority class examples. Experiments are performed using C4.5, Ripper and a Naive Bayes classifier. The method is evaluated using the area under the Receiver Operating Characteristic curve (AUC) and the ROC convex hull strategy.}
@@ -2662,8 +2662,8 @@
       \strng{authorbibnamehash}{d44728042e540f56f5100bcd48238abc}
       \strng{authornamehash}{d44728042e540f56f5100bcd48238abc}
       \strng{authorfullhash}{e40264f45bb9ab151da90f13aa524cc7}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{A new metric for the evaluation of model performance in the field of virtual screening and quantitative structure–activity relationship applications is described. This metric has been termed the power metric and is defined as the fraction of the true positive rate divided by the sum of the true positive and false positive rates, for a given cutoff threshold. The performance of this metric is compared with alternative metrics such as the enrichment factor, the relative enrichment factor, the receiver operating curve enrichment factor, the correct classification rate, Matthews correlation coefficient and Cohen’s kappa coefficient. The performance of this new metric is found to be quite robust with respect to variations in the applied cutoff threshold and ratio of the number of active compounds to the total number of compounds, and at the same time being sensitive to variations in model quality. It possesses the correct characteristics for its application in early-recognition virtual screening problems.}
@@ -2715,8 +2715,8 @@
       \strng{authorbibnamehash}{6e7d45c8843de3e68d6f3b75338f9992}
       \strng{authornamehash}{6e7d45c8843de3e68d6f3b75338f9992}
       \strng{authorfullhash}{6e7d45c8843de3e68d6f3b75338f9992}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Evaluation metric plays a critical role in achieving the optimal classifier during the classification training. Thus, a selection of suitable evaluation metric is an important key for discriminating and obtaining the optimal classifier. This paper systematically reviewed the related evaluation metrics that are specifically designed as a discriminator for optimizing generative classifier. Generally, many generative classifiers employ accuracy as a measure to discriminate the optimal solution during the classification training. However, the accuracy has several weaknesses which are less distinctiveness, less discriminability, less informativeness and bias to majority class data. This paper also briefly discusses other metrics that are specifically designed for discriminating the optimal solution. The shortcomings of these alternative metrics are also discussed. Finally, this paper suggests five important aspects that must be taken into consideration in constructing a new discriminator metric.}
@@ -2764,8 +2764,8 @@
       \strng{authorbibnamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authornamehash}{09e6034a29bab9a73548c87443e94c9c}
       \strng{authorfullhash}{07c6609b3d047d861806848b749db8a4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Computer-aided drug discovery techniques reduce the time and the costs needed to develop novel drugs. Their relevance becomes more and more evident with the needs due to health emergencies as well as to the diffusion of personalized medicine. Pharmacophore approaches represent one of the most interesting tools developed, by defining the molecular functional features needed for the binding of a molecule to a given receptor, and then directing the virtual screening of large collections of compounds for the selection of optimal candidates. Computational tools to create the pharmacophore model and to perform virtual screening are available and generated successful studies. This article describes the procedure of pharmacophore modelling followed by virtual screening, the most used software, possible limitations of the approach, and some applications reported in the literature.}

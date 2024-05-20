@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {2.1.2}Interactions}{6}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Data origin and structure}{7}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}Data partitioning}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Machine-Learning approaches !WIP!}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Machine-Learning approaches}{8}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Neural networks}{8}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}K nearest neighbor}{10}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Random forest}{10}{subsection.2.3.3}%
@@ -47,6 +47,6 @@
 \contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches → maybe use median instead of avg ask MICHA}{32}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Discussion}{33}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Conclusion}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Improvements and outlook}{33}{section.4.2}%
-\contentsline {chapter}{References}{34}{appendix*.38}%
-\contentsline {section}{Literature}{34}{section*.39}%
+\contentsline {section}{\numberline {4.2}Improvements and outlook}{34}{section.4.2}%
+\contentsline {chapter}{References}{35}{appendix*.40}%
+\contentsline {section}{Literature}{35}{section*.41}%

@@ -2497,6 +2497,11 @@ INPUT ./chapters/discussion_sections/conclusion.tex
 INPUT chapters/discussion_sections/conclusion.tex
 INPUT ./chapters/discussion_sections/conclusion.tex
 INPUT chapters/discussion_sections/conclusion.tex
+INPUT ./images//discussion/Birklbauer_ACHE.png
+INPUT ./images//discussion/Birklbauer_ACHE.png
+INPUT images//discussion/Birklbauer_ACHE.png
+INPUT ./images//discussion/Birklbauer_ACHE.png
+INPUT ./images//discussion/Birklbauer_ACHE.png
 INPUT ./chapters/discussion_sections/improvements_outlook.tex
 INPUT chapters/discussion_sections/improvements_outlook.tex
 INPUT ./chapters/discussion_sections/improvements_outlook.tex
