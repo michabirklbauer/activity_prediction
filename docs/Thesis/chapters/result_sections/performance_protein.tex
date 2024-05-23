@@ -6,7 +6,7 @@ the target compounds. For each protein the top two approaches are evaluated furt
 The following table presents the results of the different machine learning algorithms on the various
 test-sets. The ROC curves for the top two performing configurations can be found at \ref{fig:ache_baseline_rf_roc} and \ref{fig:ache_smote_rf_roc}
 respectively. The confusion matrices can be found at \ref{fig:ache_baseline_rf_conf} and \ref{fig:ache_smote_rf_conf}.
-The scoring functions achieved an accuracy score of 81.06\% on the test-set.
+The scoring functions achieved an accuracy score of 81.06\% on the test-set. Additionally, the enrichment factor is high which indicates good performance.
 \begin{table}[H]
     \begin{center}
         \caption{Acetylcholinesterase performance test-set}
@@ -68,7 +68,7 @@ The scoring functions achieved an accuracy score of 81.06\% on the test-set.
 This table summarizes the performance of various machine learning algorithms on different test sets.
 The top two performing configurations are visualized in ROC curves (see Figures \ref{fig:cox1_baseline_rf_roc} and \ref{fig:cox1_smote_rf_roc})
 and confusion matrices (see Figures \ref{fig:cox1_baseline_rf_conf} and \ref{fig:cox1_smote_rf_conf}). Additionally,
-the scoring functions achieved an accuracy of 77.24\% on the test set.
+the scoring functions achieved an accuracy of 77.24\% on the test set. The models where able to achieve a low FPR of 1.8\%.
 
 \begin{table}[H]
     \begin{center}
@@ -138,7 +138,7 @@ the scoring functions achieved an accuracy of 77.24\% on the test set.
 Below the table representing the different results of the machine learning algorithms on the various test-sets can be found.
 The confusion matrices for the top two performing configurations can be found at \ref{fig:dpp4_baseline_rf_roc} and \ref{fig:dpp4_smote_rf_roc}
 respectively. The ROC curves can be found at \ref{fig:dpp4_baseline_rf_conf} and \ref{fig:dpp4_smote_rf_conf}.
-The best scoring function was able to reach an accuracy of 77.21\% on the test-set.
+The best scoring function was able to reach an accuracy of 77.21\% on the test-set. The models were able achieve 0.773 AUC and 0.798 yield of active scores.
 
 \begin{table}[H]
     \begin{center}
@@ -207,7 +207,7 @@ The best scoring function was able to reach an accuracy of 77.21\% on the test-s
 This table summarizes the performance of various machine learning algorithms across different test sets.
 The top two configurations, visualized in ROC curves (see Figures \ref{fig:maob_baseline_rf_roc} and \ref{fig:maob_fe_rf_per_knn_roc}),
 are further analyzed in confusion matrices (see Figures \ref{fig:maob_baseline_rf_conf} and \ref{fig:maob_fe_rf_per_knn_conf}).
-The best scoring function achieved an accuracy of 75.98\% on the test set.
+The best scoring function achieved an accuracy of 75.98\% on the test set. Furthermore, this result is accompanied by a low FPR of 13.89\% and a fair REF of 69.697\%.
 
 \begin{table}[H]
     \begin{center}
@@ -275,7 +275,7 @@ The best scoring function achieved an accuracy of 75.98\% on the test set.
 This table compares the performance of various machine learning algorithms across different test sets.
 The two most effective configurations (visualized in confusion matrices: figures \ref{fig:maob_baseline_rf_conf} and \ref{fig:maob_fe_rf_per_knn_conf})
 are further analyzed in ROC curves (figures \ref{fig:maob_baseline_rf_roc} and \ref{fig:maob_fe_rf_per_knn_roc}).
-Overall, the scoring functions achieved an accuracy of 80.00\% on the test set.
+Overall, the scoring functions achieved an accuracy of 80.00\% on the test set. Additionally, the random forest models did not classify a single inactive compound as active.
 
 \begin{table}[H]
     \begin{center}
