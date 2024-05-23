@@ -80,6 +80,13 @@ synapse. During this process the weight for that synapse is applied (this is usu
 the bias of that synapse is applied to the feature through an addition. Inside the neuron the value is modified using an activation function. Example for activation functions can be found 
 in the \textit{activation functions} section within this chapter. All the modified values from the hidden layer are transported through synapses to the output neuron 
 which calculates the class using an activation function\cite[]{Schmidhuber2015}.
+\begin{figure}[H]
+    \begin{center}
+        \caption[]{neural network representation}
+        \label{fig:nn_rep}
+        \includegraphics[width=9cm]{NN/feedforward.png}
+    \end{center}
+\end{figure}
 
 \subsubsection*{Back propagation and gradient descent}
 While the activation functions for the neural network can be set as parameters when creating the network the weights and biases are optimized during training.
@@ -93,7 +100,16 @@ The \textit{\acrfull*[]{bce}} is an example for such a loss function and is defi
 With a loss function it is possible to optimize values using gradient descent. This is achieved by calculating the derivative of the loss function with respect to the parameter.
 Initially the parameter will be initialized with a random value. After that the train set will be evaluated using this particular parameter. Then the derived loss function is applied to the values.
 Using a fixed \textit{learning rate} the \textit{step size} for gradient descent is calculated by multiplying the learning rate with the result from the derivative loss function. 
-For the next iteration of gradient descent the step size will be subtracted from the value to get a new optimization value\cite[]{Zhang2019}.
+For the next iteration of gradient descent the step size will be subtracted from the value to get a new optimization value.
+Using this technique not every possible value of the variable needs to be examined. With a smaller proximity to the minimum the step size decreases \cite[]{Zhang2019}.
+The following graph displays a loss function with the points demonstrating the variable values investigated by gradient descent.
+\begin{figure}[H]
+    \begin{center}
+        \caption[]{gradient descent representation}
+        \label{fig:gd_rep}
+        \includegraphics[width=9cm]{NN/gradient_descent.png}
+    \end{center}
+\end{figure}
 
 Using this concept the \textit{back propagation} algorithm optimizes all the weights and biases within a neural network all at once.
 The loss function is derived for each bias and weight. After that the resulting functions are applied to the values and new weights and biases are calculated using the step size.

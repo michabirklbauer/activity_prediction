@@ -17,31 +17,31 @@
 \contentsline {subsection}{\numberline {2.3.1}K nearest neighbor}{8}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Random forest}{8}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Neural networks}{9}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Feature engineering}{11}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Feature engineering using random forest}{11}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.4}Feature engineering}{12}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Feature engineering using random forest}{12}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Physical properties}{13}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}\acrfull *[]{pca}}{13}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.3}\acrfull *[]{pca}}{14}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}Balancing classes}{14}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Quality metrics}{14}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Terminology}{14}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Visual metrics}{14}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Accuracy}{14}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.5}Quality metrics}{15}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Terminology}{15}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Visual metrics}{15}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Accuracy}{15}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}False positive Rate}{15}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Area under the curve}{15}{subsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.5.6}Yield of Actives}{15}{subsection.2.5.6}%
-\contentsline {subsection}{\numberline {2.5.7}Enrichment Factor}{15}{subsection.2.5.7}%
-\contentsline {subsection}{\numberline {2.5.8}Relative Enrichment Factor}{15}{subsection.2.5.8}%
-\contentsline {chapter}{\numberline {3}Results}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Feature Engineering Results for \acrshort *[]{ache}}{16}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Performance per Protein-Complex}{18}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Acetylcholinesterase}{19}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Cyclooxygenase 1}{21}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Dipeptidyl peptidase IV}{24}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{26}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Soluble epoxide hydrolase}{29}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches}{31}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Discussion}{32}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusion}{32}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Improvements and outlook}{33}{section.4.2}%
-\contentsline {chapter}{References}{34}{appendix*.39}%
-\contentsline {section}{Literature}{34}{section*.40}%
+\contentsline {subsection}{\numberline {2.5.5}Area under the curve}{16}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}Yield of Actives}{16}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.7}Enrichment Factor}{16}{subsection.2.5.7}%
+\contentsline {subsection}{\numberline {2.5.8}Relative Enrichment Factor}{16}{subsection.2.5.8}%
+\contentsline {chapter}{\numberline {3}Results}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Feature Engineering Results for \acrshort *[]{ache}}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Performance per Protein-Complex}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Acetylcholinesterase}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Cyclooxygenase 1}{22}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Dipeptidyl peptidase IV}{25}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Monoamine oxidase B}{27}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Soluble epoxide hydrolase}{30}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Performance Overview -- Comparing ML-approaches}{32}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusion}{33}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Improvements and outlook}{34}{section.4.2}%
+\contentsline {chapter}{References}{35}{appendix*.41}%
+\contentsline {section}{Literature}{35}{section*.42}%

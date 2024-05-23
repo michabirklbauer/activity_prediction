@@ -2381,6 +2381,16 @@ INPUT ./chapters/method_sections/ml_approaches.tex
 INPUT chapters/method_sections/ml_approaches.tex
 INPUT ./chapters/method_sections/ml_approaches.tex
 INPUT chapters/method_sections/ml_approaches.tex
+INPUT ./images//NN/feedforward.png
+INPUT ./images//NN/feedforward.png
+INPUT images//NN/feedforward.png
+INPUT ./images//NN/feedforward.png
+INPUT ./images//NN/feedforward.png
+INPUT ./images//NN/gradient_descent.png
+INPUT ./images//NN/gradient_descent.png
+INPUT images//NN/gradient_descent.png
+INPUT ./images//NN/gradient_descent.png
+INPUT ./images//NN/gradient_descent.png
 INPUT ./chapters/method_sections/feature_engineering.tex
 INPUT chapters/method_sections/feature_engineering.tex
 INPUT ./chapters/method_sections/feature_engineering.tex
