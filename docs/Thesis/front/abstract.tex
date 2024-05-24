@@ -4,14 +4,13 @@ The process of discovering drugs or any chemically active compounds is time-cons
 For this reason it is of general interest to improve the efficiency of drug discovery and reduce the overall cost of this process.
 The identification of new protein targets or leads can be achieved using an \textit{in-vitro} approach called high-throughput screening or a computational 
 approach called virtual screening. 
-This thesis is based on "Automatic identification of important interaction-
-sand interaction-frequency-based scoring in protein-ligand complexes" by Micha Birklbauer\cite[]{Birklbauer2021} and
+This thesis is based on "Automatic identification of important interactions and interaction-frequency-based scoring in protein-ligand complexes" by Micha Birklbauer\cite[]{Birklbauer2021} and
 proposes a novel virtual screening approach to protein docking for drug design using various machine learning methods.
 \\
-For this purpose the algorithms \textit{k nearest neighbor} and \textit{random forest}, and a \textit{neural network} approach have been implemented.
-The underlying data for the algorithm consists of five unique protein-ligand complexes sourced from the \textit{DUD-E} database\cite[]{Mysinger2012}.
-To extract the interaction data the \textit{PLIP Algorithm} \cite[]{Salentin2015} was used.
-In addition to the machine learning algorithms various feature engineering methods also have been implemented.
+For this purpose the algorithms \textit{k nearest neighbor}, \textit{random forest}, and an artificial \textit{neural network} approach have been implemented.
+The underlying data for the algorithm consists of protein-ligand complexes of five unique proteins sourced from molecules of interest and the \textit{DUD-E} database\cite[]{Mysinger2012}.
+To extract the interaction data the \textit{PLIP Algorithm}\cite[]{Salentin2015} was used.
+In addition to the machine learning algorithms various feature engineering methods also have been implemented and tested.
 \\
 When comparing the performance of the three algorithms across a multitude of feature engineering techniques the random forest classifier performs 
 best with respect to all the metrics implemented.
@@ -19,5 +18,8 @@ The implemented algorithms are able to achieve more accurate classification resu
 are capable of producing 5-10\% more accurate results. Furthermore, the algorithms also where able to detect less false positives. This is a very important gain, as there is less time spent 
 investigating false leads in the laboratory.
 \\
-Machine learning defiantly works for virtually screening protein ligand databases. This thesis serves as a proof of concept for its applicability.
-The performance of the mentioned methods may even be improved by using more problem-tailored algorithms.
+Machine learning definitely works for virtually screening protein ligand databases based on interaction data. This thesis serves as a proof of concept for its applicability.
+The performance of the mentioned methods may even be improved by using more problem-tailored algorithms. 
+The source code for this thesis can be found on
+
+\href{https://github.com/michabirklbauer/activity_prediction}{https://github.com/michabirklbauer/activity\_prediction}. 

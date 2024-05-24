@@ -4,27 +4,30 @@
 Der Prozess der Entdeckung von Medikamenten oder chemisch aktiven Verbindungen ist zeitaufwendig
 und daher auch sehr teuer. Aus diesem Grund ist es von allgemeinem Interesse, die Effizienz der
 Medikamentenforschung zu verbessern und die Gesamtkosten dieses Prozesses zu senken. Die Identifizierung
-neuer Proteinziele oder Wirkstoffkandidaten kann mit einem \textit{in-vitro} Ansatz, dem sogenannten \textit{high-throughput screening},
+neuer Medikamente oder Wirkstoffkandidaten kann mit einem \textit{in-vitro} Ansatz, dem sogenannten \textit{high-throughput screening},
 oder mit einem computergestützten Ansatz, dem \textit{virtual screening}, erreicht werden. Diese Arbeit basiert auf
 "Automatic identification of important interaction-
 sand interaction-frequency-based scoring in protein-ligand complexes"
-von Micha Birklbauer \cite[]{Birklbauer2021} und schlägt einen neuartigen \textit{virtual screening}-Ansatz
-für das Protein-Docking im Meikamentendesign unter Verwendung verschiedener Machine-Learning-Methoden vor.
+von Micha Birklbauer\cite[]{Birklbauer2021} und schlägt einen neuartigen \textit{virtual screening}-Ansatz
+zur Evaluierung von Protein-Docking im Medikamentendesign unter Verwendung verschiedener Machine-Learning-Methoden vor.
 
-Zu diesem Zweck wurden die Algorithmen \textit{k nearest neighbor}, \textit{random forest} und ein neuronales Netzwerk implementiert.
-Die zugrunde liegenden Daten für die Algorithmen bestehen aus fünf Protein-Liganden-Komplexen aus
-der \textit{DUD-E}-Datenbank \cite[]{Mysinger2012}. Zur Extraktion der Interactionsdaten wurde der \textit{PLIP}-Algorithmus \cite[]{Salentin2015} verwendet.
+Zu diesem Zweck wurden die Algorithmen \textit{k nearest neighbor}, \textit{random forest} und ein künstliches neuronales Netzwerk implementiert.
+Die zugrunde liegenden Daten für die Algorithmen bestehen aus Protein-Liganden-Komplexen von fünf medizinisch relevanten Proteinen mit Wirkstoffen 
+und Molekülen aus der \textit{DUD-E}-Datenbank\cite[]{Mysinger2012}. Zur Extraktion der Interaktionsdaten wurde der \textit{PLIP}-Algorithmus\cite[]{Salentin2015} verwendet.
 Zusätzlich zu den Machine-Learning-Algorithmen wurden auch verschiedene Feature-Engineering-Methoden implementiert.
 
 Beim Vergleich der Leistung der drei Algorithmen unter der Verwendung verschiedener Feature-Engineering-Techniken
 schneidet der Random-Forest-Klassifikator in Bezug auf alle implementierten Metriken am besten ab.
-Die implementierten Algorithmen können genauere Klassifikationsergebnisse erzielen als \cite[text]{Birklbauer2021}.
+Die implementierten Algorithmen können genauere Klassifikationsergebnisse erzielen als \cite[]{Birklbauer2021}.
 Die Ergebnisse der Machine-Learning-Algorithmen, welche im Rahmen dieser Arbeit entwickelt wurden, liefern im Durchschnitt
 um 5-10\% genauere Ergebnisse. Darüber hinaus erkennen die Algorithmen auch weniger falsch positive Proteinkomplexe.
 Dies ist ein entscheidender Vorteil, da weniger Zeit mit der Untersuchung inaktiver Protein-Ligand Komplexe
 im Labor verbracht wird.
 
-Machine Learning eignet sich nachweislich für das virtuelle Screening von Protein-Liganden-Komplexen.
-Diese Arbeit dient als Nachweis für seine Anwendbarkeit. Die Leistung der genannten Methoden
+Diese Arbeit zeigt die Anwendbarkeit von Machine Learning für das interaktions-basierte virtuelle Screening von Protein-Liganden-Komplexen.
+Die Qualität der genannten Methoden
 kann eventuell durch das weitere Anpassen der Algorithmen noch verbessert werden.
+
+Der Quellcode, welcher für diese Arbeit implementiert wurde, ist auf \\\href{https://github.com/michabirklbauer/activity_prediction}{https://github.com/michabirklbauer/activity\_prediction} 
+zu finden.
 \end{german}
