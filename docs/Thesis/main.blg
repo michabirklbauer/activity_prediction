@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[39] biber:340> INFO - === Sun May 26, 2024, 11:06:53
-[46] Biber.pm:418> INFO - Reading 'main.bcf'
-[83] Biber.pm:972> INFO - Found 58 citekeys in bib section 0
-[90] Biber.pm:4383> INFO - Processing section 0
-[95] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
-[101] bibtex.pm:1713> INFO - LaTeX decoding ...
-[160] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
-[507] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[507] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[507] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[507] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[535] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[603] bbl.pm:757> INFO - Output to main.bbl
-[604] Biber.pm:130> WARN - ISBN '9783540594970 9780387594972' in entry 'InternationalWorkshoponArtificialNeuralNetworks1995Torremolinos1995' is invalid - run biber with '--validate_datamodel' for details.
-[604] Biber.pm:132> INFO - WARNINGS: 1
+[39] biber:340> INFO - === Sun May 26, 2024, 13:00:53
+[47] Biber.pm:418> INFO - Reading 'main.bcf'
+[84] Biber.pm:972> INFO - Found 58 citekeys in bib section 0
+[91] Biber.pm:4383> INFO - Processing section 0
+[97] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[102] bibtex.pm:1713> INFO - LaTeX decoding ...
+[161] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[510] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[510] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[510] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[511] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[538] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[606] bbl.pm:757> INFO - Output to main.bbl
+[606] Biber.pm:130> WARN - ISBN '9783540594970 9780387594972' in entry 'InternationalWorkshoponArtificialNeuralNetworks1995Torremolinos1995' is invalid - run biber with '--validate_datamodel' for details.
+[606] Biber.pm:132> INFO - WARNINGS: 1
