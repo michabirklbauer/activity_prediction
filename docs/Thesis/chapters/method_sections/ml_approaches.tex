@@ -94,7 +94,10 @@ in the \textit{activation functions} section within this chapter. All the modifi
 which calculates the class using an activation function\cite[]{Schmidhuber2015}.
 \begin{figure}[H]
     \begin{center}
-        \caption[]{feedforward neural network representation}
+        \captionsetup{justification=centering}
+        \caption[]{
+        This image depicts a standard feedforward artificial neural network with one input, a hidden layer with two nodes and an output-layer 
+        with a sigmoid function.}
         \label{fig:nn_rep}
         \includegraphics[width=9cm]{NN/feedforward.png}
     \end{center}
@@ -115,10 +118,11 @@ Initially the weights and biases will be initialized with a random value. After 
 Using a fixed \textit{learning rate} the \textit{step size} for gradient descent is calculated by multiplying the learning rate with the result from the derivative loss function. 
 For the next iteration of gradient descent the step size will be subtracted from the value to get a new optimization value.
 Using this technique not every possible value of the variable needs to be examined. With a smaller proximity to the minimum the step size decreases \cite[]{Zhang2019}.
-The following graph displays a loss function with the points demonstrating the variable values investigated by gradient descent.
 \begin{figure}[H]
     \begin{center}
-        \caption[]{gradient descent representation}
+        \captionsetup{justification=centering}
+        \caption[]{This graph displays a loss function with the points demonstrating the variable values investigated by gradient descent.
+        }
         \label{fig:gd_rep}
         \includegraphics[width=9cm]{NN/gradient_descent.png}
     \end{center}
