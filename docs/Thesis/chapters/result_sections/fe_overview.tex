@@ -1,33 +1,8 @@
 To evaluate different feature engineering approaches the protein \textit{Acetylcholinesterase} was used.
 The goal of this evaluation is to determine which feature engineering techniques shall be used on the
-protein-ligand compounds. It is also of interest, which feature engineering techniques work best with each machine learning approach.
+protein-ligand complexes. It is also of interest, which feature engineering techniques work best with each machine learning approach.
 The \acrshort*[]{acc} measure is used to score the performance of the feature engineering method.
 The metric is calculated using the validation data.
-
-\subsection*{Neural network}
-The following table is the result of applying the neural network on the datasets that where manipulated using feature engineering.
-
-\begin{table}[H]
-    \begin{center}
-        \caption{Feature engineering validation accuracy \\ neural network}
-        \begin{tabular}{lr}
-            \toprule
-            Name              & Validation Accuracy \\
-            \midrule
-            baseline\_nn      & 0.7801              \\
-            fe\_smote\_nn     & 0.7801              \\
-            fe\_pca\_nn       & 0.7589              \\
-            fe\_rf\_mdi\_nn   & 0.7589              \\
-            fe\_rf\_per\_nn   & 0.7518              \\
-            fe\_nonhydrop\_nn & 0.7376              \\
-            fe\_freq\_nn      & 0.7180              \\
-            \bottomrule
-        \end{tabular}
-    \end{center}
-\end{table}
-
-The results state that the neural network approach does not improve when applying the proposed feature engineering methods.
-The \acrshort*[]{smote} method comes close to the performance of the baseline neural network. Therefore, it will be included for the analysis of the five complexes.
 
 \subsection*{K nearest neighbor}
 The following table is the result of applying the \acrshort*[]{knn} algorithm on the datasets that where manipulated using feature engineering.
@@ -78,7 +53,8 @@ The following table is the result of applying the random forest algorithm on the
 \end{table}
 
 The random forest algorithm does not benefit greatly from the proposed feature engineering methods.
-Due to the more balanced dataset resulting from the \acrshort*[]{smote} method a slight performance boost can be observed.
+Due to the more balanced dataset resulting from the \acrshort*[]{smote} method a slight performance boost can be observed. This 
+might be because it simply produces another forest randomly.
 Therefore, the \acrshort*[]{smote} algorithm will be applied to the remaining protein-ligand complexes.
 
 \subsection*{Overall performance projections}
@@ -119,3 +95,28 @@ The following table lists all the feature engineering accuracies for all the mac
 
 As seen in the table the random forest approaches tend to yield the best result when applied to the validation portions of the datasets.
 Therefore, this approach is very likely to score better on the test sets as well. 
+
+\subsection*{Artificial Neural network}
+The following table is the result of applying the neural network on the datasets that where manipulated using feature engineering.
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Feature engineering validation accuracy \\ neural network}
+        \begin{tabular}{lr}
+            \toprule
+            Name              & Validation Accuracy \\
+            \midrule
+            baseline\_nn      & 0.7801              \\
+            fe\_smote\_nn     & 0.7801              \\
+            fe\_pca\_nn       & 0.7589              \\
+            fe\_rf\_mdi\_nn   & 0.7589              \\
+            fe\_rf\_per\_nn   & 0.7518              \\
+            fe\_nonhydrop\_nn & 0.7376              \\
+            fe\_freq\_nn      & 0.7180              \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+\end{table}
+
+The results state that the neural network approach does not improve when applying the proposed feature engineering methods.
+The \acrshort*[]{smote} method comes close to the performance of the baseline neural network. Therefore, it will be included for the analysis of the five complexes.

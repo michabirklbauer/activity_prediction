@@ -1,4 +1,4 @@
-The following chapter aims to explain the basic machine learning approaches used for this thesis.
+The following chapter aims to explain the machine learning approaches used for this thesis.
 
 \subsection{K nearest neighbor}
 \label{cha:knn}
@@ -14,27 +14,32 @@ The euclidean distance for two vectors($\mathrm{v}_{1},\mathrm{v}_{1}$) in the $
 In the base version of \acrshort*[]{knn} the new sample is put in the same class as the majority of its $k$-neighbors.
 In addition to that the $k$ nearest neighbors can also be weighted using their distance to the new sample\cite[]{Cunningham2022}. 
 
-K nearest neighbor for this thesis has been implemented using the \href{https://scikit-learn.org/stable/index.html}{scikit-learn package}. 
+K nearest neighbor for this thesis has been implemented using the \href{https://scikit-learn.org/stable/index.html}{scikit-learn package}\cite[]{scikit-learn}.
+The $k$ parameter for each protein complex has been optimized using \textit{grid-search} within a range from 1 to 20. 
 
 \subsection{Random forest}
 \label{cha:rf}
-In the following the base concept of the random forest algorithm used for this thesis will be explained.
-\\The random forest algorithm is a collection of identically distributed decision trees\cite[]{Breiman2001}.
-The algorithm can be split into the creation of a bootstrapped dataset, the creation of decision trees and the evaluation of said trees.
+The random forest algorithm is a collection of identically distributed decision trees\cite[]{Breiman2001}.
+The algorithm can be split into 
+\begin{enumerate}
+    \item the creation of a bootstrapped dataset
+    \item the creation of decision trees
+    \item the evaluation of said trees
+\end{enumerate}
 
 \subsubsection*{Bootstrapping}
 The goal of this step is to create a new dataset for each decision tree. This happens by randomly selecting 
 samples from the source dataset. It is noteworthy that samples can be selected multiple times when creating such a bootstrapped dataset.
 Furthermore, not all samples are included in each dataset. Those samples, which are not included in any dataset are called \textit{out-of-bag} samples 
-and are later used for further tree enhancement. With those bootstrapped dataset decision trees can be built in the next step.
+and are later used for further tree enhancement. With those bootstrapped datasets decision trees can be built in the next step.
 
 \subsubsection*{Creation of decision trees}
-For each bootstrapped dataset a new decision tree is created using the following steps. Firstly a number of features is randomly selected.
-For those selected features it is determined, which feature is best for splitting the data, so that the classes are separated very clearly.
+For each bootstrapped dataset a new decision tree is created using the following steps. Firstly, a number of features is randomly selected.
+For those selected features it is determined, which feature is best for splitting the data, so that the classes are separated most clearly.
 This is usually determined using the \textit{Gini}-impurity.
 The Gini-impurity is a measure of how well a dataset can be divided using a certain feature.
 
-The Gini-impurity can be calculated at each node of a decision-tree and is ranged from 0 to 0.5.
+The Gini-impurity can be calculated at each node of a decision-tree and ranges from 0 to 0.5.
 Let $k$ be the number of classes and let $\mathrm{p}_{i}$ be the probability of a sample belonging to the class($i$) and the Gini-impurity($Gini(D)$) of the dataset($D$)
 at a certain node within the tree can be defined as follows:
 \begin{equation*}
@@ -53,7 +58,8 @@ and votes for a class based on the samples features.
 The parameters of a random forest, for example the number of features considered at each node, can be optimized. To achieve that multiple forests with 
 different parameters are generated and the best performing one for the out-of-bag samples is selected\cite[]{Breiman2001}.
 
-For this paper the random forest approach has been implemented using the \href{https://scikit-learn.org/stable/index.html}{scikit-learn package}. 
+For this paper the random forest approach has been implemented using the \href{https://scikit-learn.org/stable/index.html}{scikit-learn package}\cite[]{scikit-learn}. 
+The forest implemented for this thesis consist of 1000 trees and the $tree-depth$ parameter for each protein complex has been optimized using \textit{grid-search} within a range from 3 to 30. 
 
 
 \subsection{Neural networks}

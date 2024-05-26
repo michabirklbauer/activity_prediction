@@ -2424,6 +2424,7 @@ INPUT ./images//ache/baseline_rf_conf.jpg
 INPUT images//ache/baseline_rf_conf.jpg
 INPUT ./images//ache/baseline_rf_conf.jpg
 INPUT ./images//ache/baseline_rf_conf.jpg
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT ./images//ache/fe_smote_rf_conf.jpg
 INPUT ./images//ache/fe_smote_rf_conf.jpg
 INPUT images//ache/fe_smote_rf_conf.jpg

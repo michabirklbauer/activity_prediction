@@ -66,7 +66,7 @@ PCA works by representing the original dataset as through linear uncorrelated va
 This is done in three steps:
 \begin{enumerate}
     \item Restructuring of the data so that the data is represented as a $m \times n$ matrix where $m$ is the number of features and $n$ the number of samples.
-    \item Subtract off the mean for each feature.
+    \item Subtraction off the mean for each feature.
     \item Calculation of the principal components using \acrfull*[]{svd}.
 \end{enumerate}
 While the first two steps are quite clear, the third step will be explained in the following.
@@ -87,7 +87,7 @@ The data used for this thesis is not balanced, as there are more \textit{inactiv
 
 Synthetic minority over-sampling(\acrshort*[]{smote}) can be used to balance the provided datasets. The aim of this technique is to synthetically 
 generate samples from the minority class to balance the class distribution.
-The \acrshort*[]{smote} algorithm starts by selecting a sample from the minority class and finding its $k$ nearest neighbors within that class.
+The \acrshort*[]{smote} algorithm starts by selecting a sample from the minority class and finding its $k$ nearest neighbors within that class as discussed in \ref*{cha:knn}.
 For each of the selected neighbors the difference to the original sample is calculated. The differences are then scaled with a random factor 
 between 0 and 1. Those scaled values are added to the original sample in order to create new samples.
 This whole process is repeated for the unbalanced dataset until all classes are equally represented\cite[]{Chawla2002}.
