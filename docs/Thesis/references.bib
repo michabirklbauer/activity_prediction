@@ -1014,5 +1014,74 @@
   year={2011}
 }
 
+ 
+@Article{Hornik1989,
+  author       = {Hornik, Kurt and Stinchcombe, Maxwell and White, Halbert},
+  date         = {1989-01},
+  journaltitle = {Neural Networks},
+  title        = {Multilayer feedforward networks are universal approximators},
+  doi          = {10.1016/0893-6080(89)90020-8},
+  issn         = {0893-6080},
+  number       = {5},
+  pages        = {359--366},
+  url          = {https://www.sciencedirect.com/science/article/pii/0893608089900208},
+  urldate      = {2024-05-26},
+  volume       = {2},
+  abstract     = {This paper rigorously establishes that standard multilayer feedforward networks with as few as one hidden layer using arbitrary squashing functions are capable of approximating any Borel measurable function from one finite dimensional space to another to any desired degree of accuracy, provided sufficiently many hidden units are available. In this sense, multilayer feedforward networks are a class of universal approximators.},
+  file         = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/abs/pii/0893608089900208/pdfft?isDTMRedir=true&download=true:application/pdf},
+  keywords     = {Feedforward networks, Universal approximation, Mapping networks, Network representation capability, Stone-Weierstrass Theorem, Squashing functions, Sigma-Pi networks, Back-propagation networks},
+}
+
+ 
+@TechReport{Jouppi2017,
+  author      = {Jouppi, Norman P. and Young, Cliff and Patil, Nishant and Patterson, David and Agrawal, Gaurav and Bajwa, Raminder and Bates, Sarah and Bhatia, Suresh and Boden, Nan and Borchers, Al and Boyle, Rick and Cantin, Pierre-luc and Chao, Clifford and Clark, Chris and Coriell, Jeremy and Daley, Mike and Dau, Matt and Dean, Jeffrey and Gelb, Ben and Ghaemmaghami, Tara Vazir and Gottipati, Rajendra and Gulland, William and Hagmann, Robert and Ho, C. Richard and Hogberg, Doug and Hu, John and Hundt, Robert and Hurt, Dan and Ibarz, Julian and Jaffey, Aaron and Jaworski, Alek and Kaplan, Alexander and Khaitan, Harshit and Koch, Andy and Kumar, Naveen and Lacy, Steve and Laudon, James and Law, James and Le, Diemthu and Leary, Chris and Liu, Zhuyuan and Lucke, Kyle and Lundin, Alan and MacKean, Gordon and Maggiore, Adriana and Mahony, Maire and Miller, Kieran and Nagarajan, Rahul and Narayanaswami, Ravi and Ni, Ray and Nix, Kathy and Norrie, Thomas and Omernick, Mark and Penukonda, Narayana and Phelps, Andy and Ross, Jonathan and Ross, Matt and Salek, Amir and Samadiani, Emad and Severn, Chris and Sizikov, Gregory and Snelham, Matthew and Souter, Jed and Steinberg, Dan and Swing, Andy and Tan, Mercedes and Thorson, Gregory and Tian, Bo and Toma, Horia and Tuttle, Erick and Vasudevan, Vijay and Walter, Richard and Wang, Walter and Wilcox, Eric and Yoon, Doe Hyun},
+  date        = {2017-04},
+  institution = {arXiv},
+  title       = {In-{Datacenter} {Performance} {Analysis} of a {Tensor} {Processing} {Unit}},
+  doi         = {10.48550/arXiv.1704.04760},
+  note        = {arXiv:1704.04760 [cs] type: article},
+  url         = {http://arxiv.org/abs/1704.04760},
+  urldate     = {2024-05-26},
+  abstract    = {Many architects believe that major improvements in cost-energy-performance must now come from domain-specific hardware. This paper evaluates a custom ASIC---called a Tensor Processing Unit (TPU)---deployed in datacenters since 2015 that accelerates the inference phase of neural networks (NN). The heart of the TPU is a 65,536 8-bit MAC matrix multiply unit that offers a peak throughput of 92 TeraOps/second (TOPS) and a large (28 MiB) software-managed on-chip memory. The TPU's deterministic execution model is a better match to the 99th-percentile response-time requirement of our NN applications than are the time-varying optimizations of CPUs and GPUs (caches, out-of-order execution, multithreading, multiprocessing, prefetching, ...) that help average throughput more than guaranteed latency. The lack of such features helps explain why, despite having myriad MACs and a big memory, the TPU is relatively small and low power. We compare the TPU to a server-class Intel Haswell CPU and an Nvidia K80 GPU, which are contemporaries deployed in the same datacenters. Our workload, written in the high-level TensorFlow framework, uses production NN applications (MLPs, CNNs, and LSTMs) that represent 95\% of our datacenters' NN inference demand. Despite low utilization for some applications, the TPU is on average about 15X - 30X faster than its contemporary GPU or CPU, with TOPS/Watt about 30X - 80X higher. Moreover, using the GPU's GDDR5 memory in the TPU would triple achieved TOPS and raise TOPS/Watt to nearly 70X the GPU and 200X the CPU.},
+  annotation  = {Comment: 17 pages, 11 figures, 8 tables. To appear at the 44th International Symposium on Computer Architecture (ISCA), Toronto, Canada, June 24-28, 2017},
+  file        = {arXiv Fulltext PDF:https\://arxiv.org/pdf/1704.04760.pdf:application/pdf},
+  keywords    = {Computer Science - Hardware Architecture, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing},
+}
+
+ 
+@TechReport{OShea2015,
+  author      = {O'Shea, Keiron and Nash, Ryan},
+  date        = {2015-12},
+  institution = {arXiv},
+  title       = {An {Introduction} to {Convolutional} {Neural} {Networks}},
+  doi         = {10.48550/arXiv.1511.08458},
+  note        = {arXiv:1511.08458 [cs] type: article},
+  url         = {http://arxiv.org/abs/1511.08458},
+  urldate     = {2024-05-26},
+  abstract    = {The field of machine learning has taken a dramatic twist in recent times, with the rise of the Artificial Neural Network (ANN). These biologically inspired computational models are able to far exceed the performance of previous forms of artificial intelligence in common machine learning tasks. One of the most impressive forms of ANN architecture is that of the Convolutional Neural Network (CNN). CNNs are primarily used to solve difficult image-driven pattern recognition tasks and with their precise yet simple architecture, offers a simplified method of getting started with ANNs. This document provides a brief introduction to CNNs, discussing recently published papers and newly formed techniques in developing these brilliantly fantastic image recognition models. This introduction assumes you are familiar with the fundamentals of ANNs and machine learning.},
+  annotation  = {Comment: 10 pages, 5 figures},
+  file        = {arXiv Fulltext PDF:https\://arxiv.org/pdf/1511.08458.pdf:application/pdf},
+  keywords    = {Computer Science - Neural and Evolutionary Computing, Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning},
+}
+
+ 
+@Article{Abiodun2018,
+  author       = {Abiodun, Oludare Isaac and Jantan, Aman and Omolara, Abiodun Esther and Dada, Kemi Victoria and Mohamed, Nachaat AbdElatif and Arshad, Humaira},
+  date         = {2018-11},
+  journaltitle = {Heliyon},
+  title        = {State-of-the-art in artificial neural network applications: {A} survey},
+  doi          = {10.1016/j.heliyon.2018.e00938},
+  issn         = {2405-8440},
+  number       = {11},
+  pages        = {e00938},
+  url          = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6260436/},
+  urldate      = {2024-05-26},
+  volume       = {4},
+  abstract     = {This is a survey of neural network applications in the real-world scenario. It provides a taxonomy of artificial neural networks (ANNs) and furnish the reader with knowledge of current and emerging trends in ANN applications research and area of focus for researchers. Additionally, the study presents ANN application challenges, contributions, compare performances and critiques methods. The study covers many applications of ANN techniques in various disciplines which include computing, science, engineering, medicine, environmental, agriculture, mining, technology, climate, business, arts, and nanotechnology, etc. The study assesses ANN contributions, compare performances and critiques methods. The study found that neural-network models such as feedforward and feedback propagation artificial neural networks are performing better in its application to human problems. Therefore, we proposed feedforward and feedback propagation ANN models for research focus based on data analysis factors like accuracy, processing speed, latency, fault tolerance, volume, scalability, convergence, and performance. Moreover, we recommend that instead of applying a single method, future research can focus on combining ANN models into one network-wide application.},
+  file         = {PubMed Central Link:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC6260436/:text/html;PubMed Central Full Text PDF:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC6260436/pdf/main.pdf:application/pdf},
+  pmcid        = {PMC6260436},
+  pmid         = {30519653},
+  shorttitle   = {State-of-the-art in artificial neural network applications},
+}
 
 @Comment{jabref-meta: databaseType:biblatex;}

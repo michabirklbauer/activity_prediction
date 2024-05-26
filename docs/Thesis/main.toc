@@ -24,12 +24,12 @@
 \contentsline {subsection}{\numberline {2.4.4}Balancing classes}{15}{subsection.2.4.4}%
 \contentsline {section}{\numberline {2.5}Quality metrics}{15}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Terminology}{15}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Visual metrics}{15}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.2}Visual metrics}{16}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Accuracy}{16}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}False positive Rate}{16}{subsection.2.5.4}%
 \contentsline {subsection}{\numberline {2.5.5}Area under the curve}{16}{subsection.2.5.5}%
 \contentsline {subsection}{\numberline {2.5.6}Yield of Actives}{16}{subsection.2.5.6}%
-\contentsline {subsection}{\numberline {2.5.7}Enrichment Factor}{16}{subsection.2.5.7}%
+\contentsline {subsection}{\numberline {2.5.7}Enrichment Factor}{17}{subsection.2.5.7}%
 \contentsline {subsection}{\numberline {2.5.8}Relative Enrichment Factor}{17}{subsection.2.5.8}%
 \contentsline {chapter}{\numberline {3}Results}{18}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Feature Engineering Results for \acrshort *[]{ache}}{18}{section.3.1}%

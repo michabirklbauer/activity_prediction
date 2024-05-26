@@ -63,13 +63,19 @@ The forest implemented for this thesis consist of 1000 trees and the $tree-depth
 
 
 \subsection{Neural networks}
-The idea to emulate neural system using computers was first discussed in the 1940s by McCulloch and Pitts\cite[]{McCulloch1943}. Since then the technology around neural networks has improved greatly. The following chapter describes the basic
-concepts of \acrlong*[]{nn} and their implementation for this thesis.
+The idea to emulate a neural system using computers was first discussed in the 1940s by McCulloch and Pitts\cite[]{McCulloch1943}. Since then the technology around artificial neural networks has improved greatly. The following chapter describes the basic
+concepts of artificial \acrlong*[]{nn} and their implementation for this thesis.
 
-The goal of neural networks in general is to process input data through an emulated brain-like structure for a multitude of machine learning tasks.
-Neural networks are universally appliable algorithms due to their ability to resemble any given function through combining multiple smaller functions.
-Furthermore, neural networks can be computed using matrix calculations, which are typically carried out on the graphics card of a system, as it is optimized for such operations\cite[]{Jain}.  
-In this thesis neural networks are used to determine the activity of protein-ligand interactions using detailed interaction data.
+The goal of artificial neural networks in general is to process input data through a network, conceptually inspired by the human nervous system, for a multitude of machine learning tasks.
+The popularity of artificial neural networks can be mainly attributed to two reasons:
+\begin{enumerate}
+    \item Artificial neural networks are universal function approximators, meaning they can represent any decision boundary arbitrary well\cite[]{Hornik1989}.
+    \item Training and inference of an ANN comes down to a set of matrix multiplication, which can be efficiently computed dedicated hardware like GPUs and TPUs\cite[]{Jouppi2017}.  
+\end{enumerate}
+
+There are multiple kinds of artificial neural networks like convolutional neural networks, which aim to improve the approximation performance by augmenting the base data within the network\cite[]{OShea2015},
+or recurrent neural networks, which allow the output of a node to be considered as input for the same node\cite[]{Abiodun2018}. In this thesis neural networks are implemented as \textit{feedforward} artificial neural networks\cite[]{Abiodun2018}.
+The network is used to determine the activity of protein-ligand interactions using detailed interaction data.
 
 \subsubsection*{Terminology}
 A neural network consists of \textit{neurons} and \textit{synapses}. 
@@ -88,7 +94,7 @@ in the \textit{activation functions} section within this chapter. All the modifi
 which calculates the class using an activation function\cite[]{Schmidhuber2015}.
 \begin{figure}[H]
     \begin{center}
-        \caption[]{neural network representation}
+        \caption[]{feedforward neural network representation}
         \label{fig:nn_rep}
         \includegraphics[width=9cm]{NN/feedforward.png}
     \end{center}
@@ -97,14 +103,15 @@ which calculates the class using an activation function\cite[]{Schmidhuber2015}.
 \subsubsection*{Back propagation and gradient descent}
 While the activation functions for the neural network can be set as parameters when creating the network the weights and biases are optimized during training.
 To assess the performance of a set of weights and biases a loss function is used. The loss function determines how well the predicted values compare to the actual values\cite[]{Janocha2017}.
-The \textit{\acrfull*[]{bce}} is an example for such a loss function and is defined for $n$ samples as follows:
+The \textit{\acrfull*[]{bce}} is an example for such a loss function and is defined for $N$ samples, with $target_i$ representing the actual value of sample $i$ and $predicted_i$
+the probability of the predicted class for sample $i$, as follows:
 \begin{equation*}
     BCE = \frac{1}{N}\sum_{i=1}^{N}target_i*log(predicted_i)+(1-target_i)*log(1-predicted_i)
 \end{equation*}
 \cite[]{Archdeacon1994}
 
-With a loss function it is possible to optimize values using gradient descent. This is achieved by calculating the derivative of the loss function with respect to the parameter.
-Initially the parameter will be initialized with a random value. After that the train set will be evaluated using this particular parameter. Then the derived loss function is applied to the values.
+With a loss function it is possible to optimize weights and biases using gradient descent. This is achieved by calculating the derivative of the loss function with respect to the parameter.
+Initially the weights and biases will be initialized with a random value. After that the train set will be evaluated using this particular parameter-set. Then the derived loss function is applied to the values.
 Using a fixed \textit{learning rate} the \textit{step size} for gradient descent is calculated by multiplying the learning rate with the result from the derivative loss function. 
 For the next iteration of gradient descent the step size will be subtracted from the value to get a new optimization value.
 Using this technique not every possible value of the variable needs to be examined. With a smaller proximity to the minimum the step size decreases \cite[]{Zhang2019}.
@@ -128,7 +135,7 @@ activation function was used for the output-layer. The sigmoid function is defin
     \sigma(x) = \frac{e^x}{1+e^x}
 \end{equation*}
 \cite[]{InternationalWorkshoponArtificialNeuralNetworks1995Torremolinos1995}
-The sigmoid function is very applicable for binary classification, as it provides values between 0 and 1 which can be interpreted as probabilities\cite[]{Zhang2021}.
+The sigmoid function is very applicable for binary classification, as it provides values between 0 and 1 which can be interpreted as probabilities for the two classes\cite[]{Zhang2021}.
 The \textit{\acrfull*[]{relu}} activation function has been proven to improve performance when used in hidden layers\cite[]{Dubey2022}. Therefore, this function is used for the hidden layers within the neural network
 implementation. \acrshort*[]{relu} is defined as follows:
 \begin{equation}
@@ -138,7 +145,9 @@ implementation. \acrshort*[]{relu} is defined as follows:
 Different activation functions work for different datasets, it is therefore crucial to determine which activation function works best for the provided data. Other activation functions include
 \textit{Tanh} or \textit{APL}\cite[]{Dubey2022}.
 
-The practical neural network approach of this thesis has been implemented using the Tensorflow\cite[]{Abadi2016} library. The model definitions where optimized manually using the validation accuracy.
+The practical neural network approach of this thesis has been implemented using the Tensorflow\cite[]{Abadi2016} library. The model architectures were optimized manually using the validation accuracy.
+Multiple architectures were tested with 0-1 hidden layers and a variety of nodes within that layer. The most effective architecture for this thesis was achieved by connecting the 
+input nodes(one node per feature) directly to the output node. Architectures with hidden layers overfitted the training data.  
 \label{cha:nn}
 
 
