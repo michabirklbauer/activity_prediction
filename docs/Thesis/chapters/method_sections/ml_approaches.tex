@@ -70,7 +70,7 @@ The goal of artificial neural networks in general is to process input data throu
 The popularity of artificial neural networks can be mainly attributed to two reasons:
 \begin{enumerate}
     \item Artificial neural networks are universal function approximators, meaning they can represent any decision boundary arbitrary well\cite[]{Hornik1989}.
-    \item Training and inference of an ANN comes down to a set of matrix multiplication, which can be efficiently computed dedicated hardware like GPUs and TPUs\cite[]{Jouppi2017}.  
+    \item Training and inference of an artificial neural network comes down to a set of matrix multiplications, which can be efficiently computed with dedicated hardware like GPUs and TPUs\cite[]{Jouppi2017}.  
 \end{enumerate}
 
 There are multiple kinds of artificial neural networks like convolutional neural networks, which aim to improve the approximation performance by augmenting the base data within the network\cite[]{OShea2015},
@@ -82,14 +82,14 @@ A neural network consists of \textit{neurons} and \textit{synapses}.
 Neurons are nodes within the neural network that can take one or multiple inputs and transform them into one singular output.
 The neurons are connected through synapses which can further manipulate values given to them by applying \textit{weights} and \textit{biases}\cite[]{Schmidhuber2015}.
 
-A very simple neural network consists of an input neuron layer, where each neuron corresponds to a feature, a singular output neuron for binary classification. 
+A very simple neural network consists of an input neuron layer, where each neuron corresponds to a feature and a singular output neuron for binary classification. 
 The neurons of the input layer are connected to the output neuron through synapses.
 
 \subsubsection*{Classification using neural networks}
-This section is dedicated to demonstrating the classification of a sample within already existing neural network with one hidden layer.
+This section is dedicated to demonstrating the classification of a sample with an already existing neural network with one hidden layer.
 In a first step the features of the sample are mapped to the input neurons. After that the values are transferred to the hidden layer through the respective 
-synapse. During this process the weight for that synapse is applied (this is usually done through a multiplication). Before the feature gets to the neuron of hidden layer 
-the bias of that synapse is applied to the feature through an addition. Inside the neuron the value is modified using an activation function. Example for activation functions can be found 
+synapse. During this process the weight for that synapse is applied (this is usually done through a multiplication). Before the feature gets to the neuron of the hidden layer 
+the bias of that synapse is applied to the feature through an addition. Inside the neuron the value is modified using an activation function. Examples for activation functions can be found 
 in the \textit{activation functions} section within this chapter. All the modified values from the hidden layer are transported through synapses to the output neuron 
 which calculates the class using an activation function\cite[]{Schmidhuber2015}.
 \begin{figure}[H]
@@ -114,7 +114,7 @@ the probability of the predicted class for sample $i$, as follows:
 \cite[]{Archdeacon1994}
 
 With a loss function it is possible to optimize weights and biases using gradient descent. This is achieved by calculating the derivative of the loss function with respect to the parameter.
-Initially the weights and biases will be initialized with a random value. After that the train set will be evaluated using this particular parameter-set. Then the derived loss function is applied to the values.
+Initially the weights and biases will be initialized with a random value. After that, the train set will be evaluated using this particular parameter-set. Then the derived loss function is applied to the values.
 Using a fixed \textit{learning rate} the \textit{step size} for gradient descent is calculated by multiplying the learning rate with the result from the derivative loss function. 
 For the next iteration of gradient descent the step size will be subtracted from the value to get a new optimization value.
 Using this technique not every possible value of the variable needs to be examined. With a smaller proximity to the minimum the step size decreases \cite[]{Zhang2019}.
@@ -128,7 +128,7 @@ Using this technique not every possible value of the variable needs to be examin
     \end{center}
 \end{figure}
 
-Using this concept the \textit{back propagation} algorithm optimizes all the weights and biases within a neural network all at once.
+Using this concept, the \textit{back propagation} algorithm optimizes all the weights and biases within a neural network all at once.
 The loss function is derived for each bias and weight. After that the resulting functions are applied to the values and new weights and biases are calculated using the step size.
 This process is repeated until a certain threshold for the overall loss is reached or the number of iterations has reached its maximum\cite[]{Raschka2024}. 
 
@@ -146,7 +146,7 @@ implementation. \acrshort*[]{relu} is defined as follows:
     f(x)=max(0,x)
 \end{equation}\cite[]{Dubey2022}
 
-Different activation functions work for different datasets, it is therefore crucial to determine which activation function works best for the provided data. Other activation functions include
+Different activation functions work for different datasets. It is therefore crucial to determine which activation function works best for the provided data. Other activation functions include
 \textit{Tanh} or \textit{APL}\cite[]{Dubey2022}.
 
 The practical neural network approach of this thesis has been implemented using the Tensorflow\cite[]{Abadi2016} library. The model architectures were optimized manually using the validation accuracy.

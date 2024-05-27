@@ -1,7 +1,7 @@
 The discovery of new drugs or any chemically active compound for that matter is an expensive and 
 time-consuming process. It has been estimated, that it takes about 14 years from the initial
 discovery of a promising new compound to the release of a marketable drug\cite{Myers2001}. In 
-addition to that the price of this drug-discovery circle ranges up to 800 million dollars\cite{DiMasi2003}.
+addition to that, the price of this drug-discovery circle ranges up to 800 million dollars\cite{DiMasi2003}.
 All techniques which aim to improve the efficiency of drug discovery can generally be categorized as one of two methods. 
 These two are called \acrfull[]{hts} and \acrfull[]{vs}\cite[]{Myers2001}.
 \\
@@ -10,13 +10,13 @@ against some type of target protein. Target proteins are usually proteins which 
 a certain compound biochemically interacts with a protein. Those interacting combinations 
 are considered active and are marked by researchers as hits. To improve the performance of HTS there are a number of
 factors to consider. Through miniaturization, it is possible to investigate more compounds at the same time. 
-With a higher throughput quality-control is more time-consuming and leads to an overall more expensive process.
+A higher throughput quality-control is more time-consuming and leads to an overall more expensive process.
 For this reason HTS is most efficient, when analyzing a small set of compounds as the technology is not 
 suitable for large datasets\cite{Mayr2008}.
 \\
 In contrast to the in vitro approach of HTS, VS is a theoretical in silico approach. To save resources in the laboratory 
 the activity of certain compounds is predicted using a preexisting library of small molecules. 
-The activity can be predicted using the ligands of a compound and their respective binding sites or the 3D structure of a compound.
+The activity can be predicted using ligands of a compound and their respective binding sites or the 3D structure of a compound.
 The key idea behind the ligand based approach (\acrshort*[]{lbvs}) is that similar compounds have similar chemical properties.
 Therefore, the goal of LBVS is to find molecules which have similar or identical chemical properties as the sample compound\cite{Gimeno2019}.
 Structure-based VS uses the 3D structure of a compound to predict which molecules from the dataset will bind to the provided sample.
@@ -40,7 +40,7 @@ Regardless of the docking type the score should reflect which pose between a pro
 In addition to that, the score also should reflect whether a protein-ligand complex is considered active. 
 There are a lot of different scoring functions which can be grouped into four categories:  physics-based, empirical, knowledge-based, and machine learning-based\cite{Li2019}.
 \\
-The focus of this work is on implementing a machine-learning based scoring approach.
+This work focuses on implementing a machine-learning based scoring approach.
 Machine-learning based scoring functions work by training on labeled data and finding the best model for predicting future data.
 To accurately and efficiently train a model crucial binding sites need to be identified beforehand.
 The basis of this thesis is the master thesis of Birklbauer Micha\cite{Birklbauer2021}.

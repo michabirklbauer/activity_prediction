@@ -49,13 +49,13 @@ knowledge concerning the datasets.
 \subsubsection*{Selection of most frequent interactions}
 To prevent overfitting the forty features(binding-sites) with the most interactions have been selected.
 By removing the less occurring features the overall performance especially on the validation- and test-runs should improve.
-Due to the reduction in the amount of features overfitting can be reduced, and the machine learning models are less distracted by
+Due to the reduction in the amount of features, overfitting can be reduced, and the machine learning models are less distracted by
 "unimportant" features.
 
 In the following, results with the \textit{fe\_freq}-prefix where calculated using this method.
 
 \subsubsection*{Removal of all hydrophobic interactions}
-Of all, for this thesis considered interactions, hydrophobic interactions are generally the most frequent but also the weakest\cite[]{Freitas2017}. Therefore, it is of interest to reduce the overall
+Out of all interactions considered for this thesis, hydrophobic interactions are generally the most frequent but also the weakest\cite[]{Freitas2017}. Therefore, it is of interest to reduce the overall
 amount of features by removing all the hydrophobic interactions from the datasets in order to achieve more granular results.
 
 In the following, results with the \textit{fe\_nonhydrop}-prefix where calculated using this method.
